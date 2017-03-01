@@ -1,0 +1,3321 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>12.0.21005.1</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{794327CE-DC0A-4381-89EE-4C00AFB08D5A}</ProjectGuid>
+    <ProjectType>Local</ProjectType>
+	<TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <OutputType>Library</OutputType>
+    <ApplicationIcon>
+	</ApplicationIcon>
+    <AssemblyKeyContainerName>
+	</AssemblyKeyContainerName>
+    <AssemblyName>PMS.Services</AssemblyName>
+    <AssemblyOriginatorKeyFile>..\PMS.snk</AssemblyOriginatorKeyFile>
+	<SignAssembly>false</SignAssembly>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <RootNamespace>PMS.Services</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject></StartupObject>
+    <FileUpgradeFlags></FileUpgradeFlags>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>PMS.Services.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>PMS.Services.xml</DocumentationFile>
+	 <DebugType>pdbonly</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'GenerateDebug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>PMS.Services.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System"/>
+	<Reference Include="System.Core">
+		<RequiredTargetFramework>4.5</RequiredTargetFramework>
+	</Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations"/>
+    <Reference Include="System.Web"/>
+    <Reference Include="System.Data"/>
+    <Reference Include="System.Design"/>
+    <Reference Include="System.Xml"/>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Drawing" />
+	<Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>    
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Microsoft.Practices.EnterpriseLibrary.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>    
+	<Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+		<SpecificVersion>False</SpecificVersion>
+		<HintPath>..\References\Microsoft.Practices.EnterpriseLibrary.Logging.dll</HintPath>
+	</Reference>
+	<Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging.Database, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+		<SpecificVersion>False</SpecificVersion>
+		<HintPath>..\References\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll</HintPath>
+	</Reference>
+	<Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+		<SpecificVersion>False</SpecificVersion>
+		<HintPath>..\References\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll</HintPath>
+	</Reference>
+	<Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+		<SpecificVersion>False</SpecificVersion>
+		<HintPath>..\References\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll</HintPath>
+	</Reference>	
+	<Reference Include="Microsoft.Practices.EnterpriseLibrary.Security, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+		<SpecificVersion>False</SpecificVersion>
+		<HintPath>..\References\Microsoft.Practices.EnterpriseLibrary.Security.dll</HintPath>
+	</Reference>	
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Security.Cache.CachingStore.dll, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+		<SpecificVersion>False</SpecificVersion>
+		<HintPath>..\References\Microsoft.Practices.EnterpriseLibrary.Security.Cache.CachingStore.dll</HintPath>
+	</Reference>	
+	<Reference Include="Microsoft.Practices.EnterpriseLibrary.Security.Cryptography, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+		<SpecificVersion>False</SpecificVersion>
+		<HintPath>..\References\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll</HintPath>
+	</Reference>
+     
+	<ProjectReference Include="..\PMS.Entities\PMS.Entities.csproj">
+      <Name>PMS.Entities</Name>
+      <Project>{20E43088-4618-4F4A-B8AD-FC31B50D94CD}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+	
+	
+    <ProjectReference Include="..\PMS.Data\PMS.Data.csproj">
+        <Name>PMS.Data</Name>
+        <Project>{041C1BBE-0BFB-4D45-8125-9AB0BBC09A92}</Project>
+        <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"</Package>
+    </ProjectReference>
+	
+	
+    
+    	
+	
+	
+	
+	</ItemGroup>
+	
+		
+	<!-- Custom code folder: D:\Source PMS\PMS_CHUNG\PMS\PMS.Services\App_Code -->
+	<ItemGroup>	
+		<Folder Include="App_Code\" />
+        <Compile Include="App_Code\**\*.cs">
+          <SubType>Code</SubType>
+        </Compile>		
+	</ItemGroup>
+
+	<!-- Include any user files -->
+	<ItemGroup>	
+		<Compile Include="**\*.user.*" Exclude="**\*.csproj.user;**\.svn\**" >
+          <SubType>Code</SubType>
+        </Compile>		
+	</ItemGroup>
+	
+	<ItemGroup>
+		<Compile Include="BangPhuTroiGioDayGiangVienService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="BangPhuTroiGioDayGiangVienServiceBase.generated.cs">
+		  <DependentUpon>BangPhuTroiGioDayGiangVienService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="DanhMucGioGiangService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="DanhMucGioGiangServiceBase.generated.cs">
+		  <DependentUpon>DanhMucGioGiangService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="TcbKetQuaQuyDoiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="TcbKetQuaQuyDoiServiceBase.generated.cs">
+		  <DependentUpon>TcbKetQuaQuyDoiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="MucDoHoanThanhNckhService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="MucDoHoanThanhNckhServiceBase.generated.cs">
+		  <DependentUpon>MucDoHoanThanhNckhService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="MonKhongTinhService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="MonKhongTinhServiceBase.generated.cs">
+		  <DependentUpon>MonKhongTinhService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="QuyDinhTienCanTrenService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="QuyDinhTienCanTrenServiceBase.generated.cs">
+		  <DependentUpon>QuyDinhTienCanTrenService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="NamHocService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="NamHocServiceBase.generated.cs">
+		  <DependentUpon>NamHocService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="NgonNguGiangDayService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="NgonNguGiangDayServiceBase.generated.cs">
+		  <DependentUpon>NgonNguGiangDayService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="MonHocKhongTinhKhoiLuongService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="MonHocKhongTinhKhoiLuongServiceBase.generated.cs">
+		  <DependentUpon>MonHocKhongTinhKhoiLuongService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="NghienCuuKhoaHocService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="NghienCuuKhoaHocServiceBase.generated.cs">
+		  <DependentUpon>NghienCuuKhoaHocService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="PhanLoaiGiangVienService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="PhanLoaiGiangVienServiceBase.generated.cs">
+		  <DependentUpon>PhanLoaiGiangVienService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="NhomChucNangService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="NhomChucNangServiceBase.generated.cs">
+		  <DependentUpon>NhomChucNangService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="MonHocCoNganHangDeThiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="MonHocCoNganHangDeThiServiceBase.generated.cs">
+		  <DependentUpon>MonHocCoNganHangDeThiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="NhomKhoiLuongService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="NhomKhoiLuongServiceBase.generated.cs">
+		  <DependentUpon>NhomKhoiLuongService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="MonThucTapTotNghiepService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="MonThucTapTotNghiepServiceBase.generated.cs">
+		  <DependentUpon>MonThucTapTotNghiepService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="NhomHoatDongNgoaiGiangDayService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="NhomHoatDongNgoaiGiangDayServiceBase.generated.cs">
+		  <DependentUpon>NhomHoatDongNgoaiGiangDayService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="NamHocHienThiThuLaoLenWebService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="NamHocHienThiThuLaoLenWebServiceBase.generated.cs">
+		  <DependentUpon>NamHocHienThiThuLaoLenWebService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="MonXepLichChuNhatKhongTinhHeSoService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="MonXepLichChuNhatKhongTinhHeSoServiceBase.generated.cs">
+		  <DependentUpon>MonXepLichChuNhatKhongTinhHeSoService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="PhuCapHanhChinhService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="PhuCapHanhChinhServiceBase.generated.cs">
+		  <DependentUpon>PhuCapHanhChinhService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="PhanCongDoAnTotNghiepService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="PhanCongDoAnTotNghiepServiceBase.generated.cs">
+		  <DependentUpon>PhanCongDoAnTotNghiepService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="NoiDungDanhGiaService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="NoiDungDanhGiaServiceBase.generated.cs">
+		  <DependentUpon>NoiDungDanhGiaService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="NhomQuyenService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="NhomQuyenServiceBase.generated.cs">
+		  <DependentUpon>NhomQuyenService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThuLaoRaDeThiVhuexService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThuLaoRaDeThiVhuexServiceBase.generated.cs">
+		  <DependentUpon>ThuLaoRaDeThiVhuexService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="TrinhDoChinhTriService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="TrinhDoChinhTriServiceBase.generated.cs">
+		  <DependentUpon>TrinhDoChinhTriService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="NhomMonHocService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="NhomMonHocServiceBase.generated.cs">
+		  <DependentUpon>NhomMonHocService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="PscUserConfigApplicationService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="PscUserConfigApplicationServiceBase.generated.cs">
+		  <DependentUpon>PscUserConfigApplicationService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="TrinhDoNgoaiNguService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="TrinhDoNgoaiNguServiceBase.generated.cs">
+		  <DependentUpon>TrinhDoNgoaiNguService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="PscDotThanhToanCoiThiChamThiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="PscDotThanhToanCoiThiChamThiServiceBase.generated.cs">
+		  <DependentUpon>PscDotThanhToanCoiThiChamThiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="MonHocTinhHeSoKhoiNganhService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="MonHocTinhHeSoKhoiNganhServiceBase.generated.cs">
+		  <DependentUpon>MonHocTinhHeSoKhoiNganhService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="QuocTichService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="QuocTichServiceBase.generated.cs">
+		  <DependentUpon>QuocTichService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="PscExBarCodesService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="PscExBarCodesServiceBase.generated.cs">
+		  <DependentUpon>PscExBarCodesService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThuLaoCoiThiVhuexService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThuLaoCoiThiVhuexServiceBase.generated.cs">
+		  <DependentUpon>ThuLaoCoiThiVhuexService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="PhanBienLuanAnService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="PhanBienLuanAnServiceBase.generated.cs">
+		  <DependentUpon>PhanBienLuanAnService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="PhanNhomMonHocService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="PhanNhomMonHocServiceBase.generated.cs">
+		  <DependentUpon>PhanNhomMonHocService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="MonTieuLuanService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="MonTieuLuanServiceBase.generated.cs">
+		  <DependentUpon>MonTieuLuanService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="NoiDungCongViecQuanLyService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="NoiDungCongViecQuanLyServiceBase.generated.cs">
+		  <DependentUpon>NoiDungCongViecQuanLyService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KhoiLuongGiangDayChiTietService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KhoiLuongGiangDayChiTietServiceBase.generated.cs">
+		  <DependentUpon>KhoiLuongGiangDayChiTietService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="LoaiKhoiLuongService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="LoaiKhoiLuongServiceBase.generated.cs">
+		  <DependentUpon>LoaiKhoiLuongService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="MonTinhTheoQuyCheMoiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="MonTinhTheoQuyCheMoiServiceBase.generated.cs">
+		  <DependentUpon>MonTinhTheoQuyCheMoiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="MonGiangMoiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="MonGiangMoiServiceBase.generated.cs">
+		  <DependentUpon>MonGiangMoiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KhoiLuongHuongDanThucTapService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KhoiLuongHuongDanThucTapServiceBase.generated.cs">
+		  <DependentUpon>KhoiLuongHuongDanThucTapService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="LoaiNghienCuuKhoaHocService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="LoaiNghienCuuKhoaHocServiceBase.generated.cs">
+		  <DependentUpon>LoaiNghienCuuKhoaHocService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KhoiLuongQuyDoiCaoDangService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KhoiLuongQuyDoiCaoDangServiceBase.generated.cs">
+		  <DependentUpon>KhoiLuongQuyDoiCaoDangService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KhoiLuongTamUngService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KhoiLuongTamUngServiceBase.generated.cs">
+		  <DependentUpon>KhoiLuongTamUngService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KhoiLuongGiangDayTungTuanService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KhoiLuongGiangDayTungTuanServiceBase.generated.cs">
+		  <DependentUpon>KhoiLuongGiangDayTungTuanService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KhoiLuongQuyDoiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KhoiLuongQuyDoiServiceBase.generated.cs">
+		  <DependentUpon>KhoiLuongQuyDoiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="LopHocPhanChuyenNganhService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="LopHocPhanChuyenNganhServiceBase.generated.cs">
+		  <DependentUpon>LopHocPhanChuyenNganhService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KhoiLuongGiangDayDoAnTotNghiepService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KhoiLuongGiangDayDoAnTotNghiepServiceBase.generated.cs">
+		  <DependentUpon>KhoiLuongGiangDayDoAnTotNghiepService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThangHeService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThangHeServiceBase.generated.cs">
+		  <DependentUpon>ThangHeService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KyTinhLuongService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KyTinhLuongServiceBase.generated.cs">
+		  <DependentUpon>KyTinhLuongService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KetQuaDanhGiaVuotGioService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KetQuaDanhGiaVuotGioServiceBase.generated.cs">
+		  <DependentUpon>KetQuaDanhGiaVuotGioService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KhoiLuongDoAnTotNghiepChiTietService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KhoiLuongDoAnTotNghiepChiTietServiceBase.generated.cs">
+		  <DependentUpon>KhoiLuongDoAnTotNghiepChiTietService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="MonPhanCongNhieuGiangVienService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="MonPhanCongNhieuGiangVienServiceBase.generated.cs">
+		  <DependentUpon>MonPhanCongNhieuGiangVienService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KetQuaTinhTheoTuanService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KetQuaTinhTheoTuanServiceBase.generated.cs">
+		  <DependentUpon>KetQuaTinhTheoTuanService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="LopHocPhanBacDaoTaoService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="LopHocPhanBacDaoTaoServiceBase.generated.cs">
+		  <DependentUpon>LopHocPhanBacDaoTaoService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KyThiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KyThiServiceBase.generated.cs">
+		  <DependentUpon>KyThiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="LyDoTamNghiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="LyDoTamNghiServiceBase.generated.cs">
+		  <DependentUpon>LyDoTamNghiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="LopHocPhanKhongTinhGioGiangService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="LopHocPhanKhongTinhGioGiangServiceBase.generated.cs">
+		  <DependentUpon>LopHocPhanKhongTinhGioGiangService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="LopChatLuongCaoService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="LopChatLuongCaoServiceBase.generated.cs">
+		  <DependentUpon>LopChatLuongCaoService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KhoiLuongGiangDayCaoDangService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KhoiLuongGiangDayCaoDangServiceBase.generated.cs">
+		  <DependentUpon>KhoiLuongGiangDayCaoDangService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="PhanLoaiHocPhanService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="PhanLoaiHocPhanServiceBase.generated.cs">
+		  <DependentUpon>PhanLoaiHocPhanService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KhoiLuongGiangDayDoAnService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KhoiLuongGiangDayDoAnServiceBase.generated.cs">
+		  <DependentUpon>KhoiLuongGiangDayDoAnService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="LopHocPhanGiangBangTiengNuocNgoaiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="LopHocPhanGiangBangTiengNuocNgoaiServiceBase.generated.cs">
+		  <DependentUpon>LopHocPhanGiangBangTiengNuocNgoaiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="LoaiLopService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="LoaiLopServiceBase.generated.cs">
+		  <DependentUpon>LoaiLopService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ReportManagermentsService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ReportManagermentsServiceBase.generated.cs">
+		  <DependentUpon>ReportManagermentsService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="LopHocPhanGhepThoiKhoaBieuService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="LopHocPhanGhepThoiKhoaBieuServiceBase.generated.cs">
+		  <DependentUpon>LopHocPhanGhepThoiKhoaBieuService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="LopHocPhanClcAufCjlService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="LopHocPhanClcAufCjlServiceBase.generated.cs">
+		  <DependentUpon>LopHocPhanClcAufCjlService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="QuyUocDatTenLopHocPhanService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="QuyUocDatTenLopHocPhanServiceBase.generated.cs">
+		  <DependentUpon>QuyUocDatTenLopHocPhanService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="LoaiNhanVienService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="LoaiNhanVienServiceBase.generated.cs">
+		  <DependentUpon>LoaiNhanVienService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="LoaiGiangVienService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="LoaiGiangVienServiceBase.generated.cs">
+		  <DependentUpon>LoaiGiangVienService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="PhanQuyenControlTrenFormService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="PhanQuyenControlTrenFormServiceBase.generated.cs">
+		  <DependentUpon>PhanQuyenControlTrenFormService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="QuyDoiGioChuanService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="QuyDoiGioChuanServiceBase.generated.cs">
+		  <DependentUpon>QuyDoiGioChuanService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="UteKhoiLuongGiangDayService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="UteKhoiLuongGiangDayServiceBase.generated.cs">
+		  <DependentUpon>UteKhoiLuongGiangDayService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="SoTietCoiThiTieuChuanCuaGiangVienService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="SoTietCoiThiTieuChuanCuaGiangVienServiceBase.generated.cs">
+		  <DependentUpon>SoTietCoiThiTieuChuanCuaGiangVienService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThuLaoCoiThiChamBaiImportService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThuLaoCoiThiChamBaiImportServiceBase.generated.cs">
+		  <DependentUpon>ThuLaoCoiThiChamBaiImportService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="TrinhDoQuanLyNhaNuocService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="TrinhDoQuanLyNhaNuocServiceBase.generated.cs">
+		  <DependentUpon>TrinhDoQuanLyNhaNuocService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="QuyDoiKhoiLuongTamUngService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="QuyDoiKhoiLuongTamUngServiceBase.generated.cs">
+		  <DependentUpon>QuyDoiKhoiLuongTamUngService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="TinhTrangService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="TinhTrangServiceBase.generated.cs">
+		  <DependentUpon>TinhTrangService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="TrinhDoSuPhamService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="TrinhDoSuPhamServiceBase.generated.cs">
+		  <DependentUpon>TrinhDoSuPhamService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThuLaoCoiThiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThuLaoCoiThiServiceBase.generated.cs">
+		  <DependentUpon>ThuLaoCoiThiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThuLaoCoiThiVhuService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThuLaoCoiThiVhuServiceBase.generated.cs">
+		  <DependentUpon>ThuLaoCoiThiVhuService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThuLaoImportService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThuLaoImportServiceBase.generated.cs">
+		  <DependentUpon>ThuLaoImportService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThuMoiGiangHopDongThinhGiangService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThuMoiGiangHopDongThinhGiangServiceBase.generated.cs">
+		  <DependentUpon>ThuMoiGiangHopDongThinhGiangService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="TrinhDoTinHocService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="TrinhDoTinHocServiceBase.generated.cs">
+		  <DependentUpon>TrinhDoTinHocService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThuLaoRaDeVhuService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThuLaoRaDeVhuServiceBase.generated.cs">
+		  <DependentUpon>ThuLaoRaDeVhuService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="DonViTinhService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="DonViTinhServiceBase.generated.cs">
+		  <DependentUpon>DonViTinhService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThuLaoChamThiVhuexService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThuLaoChamThiVhuexServiceBase.generated.cs">
+		  <DependentUpon>ThuLaoChamThiVhuexService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThuLaoHuongDanCuoiKhoaService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThuLaoHuongDanCuoiKhoaServiceBase.generated.cs">
+		  <DependentUpon>ThuLaoHuongDanCuoiKhoaService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KetQuaTinhService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KetQuaTinhServiceBase.generated.cs">
+		  <DependentUpon>KetQuaTinhService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="TienCongTacPhiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="TienCongTacPhiServiceBase.generated.cs">
+		  <DependentUpon>TienCongTacPhiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThuLaoGiangDayDaiHocLopClcService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThuLaoGiangDayDaiHocLopClcServiceBase.generated.cs">
+		  <DependentUpon>ThuLaoGiangDayDaiHocLopClcService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="VaiTroService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="VaiTroServiceBase.generated.cs">
+		  <DependentUpon>VaiTroService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KhoiLuongGiangDayService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KhoiLuongGiangDayServiceBase.generated.cs">
+		  <DependentUpon>KhoiLuongGiangDayService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KhoiLuongKhacService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KhoiLuongKhacServiceBase.generated.cs">
+		  <DependentUpon>KhoiLuongKhacService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoThuLaoService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoThuLaoServiceBase.generated.cs">
+		  <DependentUpon>HeSoThuLaoService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoTroCapTheoKhoaService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoTroCapTheoKhoaServiceBase.generated.cs">
+		  <DependentUpon>HeSoTroCapTheoKhoaService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="TinhTrangTheoNamHocService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="TinhTrangTheoNamHocServiceBase.generated.cs">
+		  <DependentUpon>TinhTrangTheoNamHocService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="UteKhoiLuongQuyDoiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="UteKhoiLuongQuyDoiServiceBase.generated.cs">
+		  <DependentUpon>UteKhoiLuongQuyDoiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KhoanChiKhacService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KhoanChiKhacServiceBase.generated.cs">
+		  <DependentUpon>KhoanChiKhacService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="TietNghiaVuService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="TietNghiaVuServiceBase.generated.cs">
+		  <DependentUpon>TietNghiaVuService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="TongTienLuongTrongNamCuaGiangVienService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="TongTienLuongTrongNamCuaGiangVienServiceBase.generated.cs">
+		  <DependentUpon>TongTienLuongTrongNamCuaGiangVienService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="UteKhoiLuongKhacService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="UteKhoiLuongKhacServiceBase.generated.cs">
+		  <DependentUpon>UteKhoiLuongKhacService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KhoiLuongCacCongViecKhacService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KhoiLuongCacCongViecKhacServiceBase.generated.cs">
+		  <DependentUpon>KhoiLuongCacCongViecKhacService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KhoanQuyDoiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KhoanQuyDoiServiceBase.generated.cs">
+		  <DependentUpon>KhoanQuyDoiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="TietNoKyTruocService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="TietNoKyTruocServiceBase.generated.cs">
+		  <DependentUpon>TietNoKyTruocService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="QuyDoiHoatDongNgoaiGiangDayService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="QuyDoiHoatDongNgoaiGiangDayServiceBase.generated.cs">
+		  <DependentUpon>QuyDoiHoatDongNgoaiGiangDayService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThuLaoChamBaiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThuLaoChamBaiServiceBase.generated.cs">
+		  <DependentUpon>ThuLaoChamBaiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThucGiangMonThucTeTuHocService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThucGiangMonThucTeTuHocServiceBase.generated.cs">
+		  <DependentUpon>ThucGiangMonThucTeTuHocService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThueThuNhapCaNhanService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThueThuNhapCaNhanServiceBase.generated.cs">
+		  <DependentUpon>ThueThuNhapCaNhanService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThongTinGiangDayGiangVienService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThongTinGiangDayGiangVienServiceBase.generated.cs">
+		  <DependentUpon>ThongTinGiangDayGiangVienService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThuLaoChamBaiVhuService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThuLaoChamBaiVhuServiceBase.generated.cs">
+		  <DependentUpon>ThuLaoChamBaiVhuService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="SdhPhanNhomMonHocService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="SdhPhanNhomMonHocServiceBase.generated.cs">
+		  <DependentUpon>SdhPhanNhomMonHocService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="SdhNhomMonHocService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="SdhNhomMonHocServiceBase.generated.cs">
+		  <DependentUpon>SdhNhomMonHocService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="SdhDonGiaService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="SdhDonGiaServiceBase.generated.cs">
+		  <DependentUpon>SdhDonGiaService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="SdhKetQuaThanhToanThuLaoService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="SdhKetQuaThanhToanThuLaoServiceBase.generated.cs">
+		  <DependentUpon>SdhKetQuaThanhToanThuLaoService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="SdhPhanLoaiHocPhanService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="SdhPhanLoaiHocPhanServiceBase.generated.cs">
+		  <DependentUpon>SdhPhanLoaiHocPhanService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="SoTietNckhChuyenSangNamSauService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="SoTietNckhChuyenSangNamSauServiceBase.generated.cs">
+		  <DependentUpon>SoTietNckhChuyenSangNamSauService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="SdhMonHocKhongTinhKhoiLuongService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="SdhMonHocKhongTinhKhoiLuongServiceBase.generated.cs">
+		  <DependentUpon>SdhMonHocKhongTinhKhoiLuongService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="SdhHeSoDiaDiemService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="SdhHeSoDiaDiemServiceBase.generated.cs">
+		  <DependentUpon>SdhHeSoDiaDiemService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="SdhChotKhoiLuongGiangDayService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="SdhChotKhoiLuongGiangDayServiceBase.generated.cs">
+		  <DependentUpon>SdhChotKhoiLuongGiangDayService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThuLaoGiangDayThucHanhService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThuLaoGiangDayThucHanhServiceBase.generated.cs">
+		  <DependentUpon>ThuLaoGiangDayThucHanhService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ReportTemplateService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ReportTemplateServiceBase.generated.cs">
+		  <DependentUpon>ReportTemplateService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="SdhUteKhoiLuongGiangDayService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="SdhUteKhoiLuongGiangDayServiceBase.generated.cs">
+		  <DependentUpon>SdhUteKhoiLuongGiangDayService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="SdhUteKhoiLuongQuyDoiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="SdhUteKhoiLuongQuyDoiServiceBase.generated.cs">
+		  <DependentUpon>SdhUteKhoiLuongQuyDoiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="QuyMoKhoaService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="QuyMoKhoaServiceBase.generated.cs">
+		  <DependentUpon>QuyMoKhoaService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="SdhMonPhanCongNhieuGiangVienService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="SdhMonPhanCongNhieuGiangVienServiceBase.generated.cs">
+		  <DependentUpon>SdhMonPhanCongNhieuGiangVienService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="SdhUteThanhToanThuLaoService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="SdhUteThanhToanThuLaoServiceBase.generated.cs">
+		  <DependentUpon>SdhUteThanhToanThuLaoService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThanhTraGiangDayService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThanhTraGiangDayServiceBase.generated.cs">
+		  <DependentUpon>ThanhTraGiangDayService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThoiGianGiangDayService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThoiGianGiangDayServiceBase.generated.cs">
+		  <DependentUpon>ThoiGianGiangDayService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThanhTraCoiThiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThanhTraCoiThiServiceBase.generated.cs">
+		  <DependentUpon>ThanhTraCoiThiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThanhTraChamGiangTheoKhoaHocService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThanhTraChamGiangTheoKhoaHocServiceBase.generated.cs">
+		  <DependentUpon>ThanhTraChamGiangTheoKhoaHocService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="SdhHeSoLopDongService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="SdhHeSoLopDongServiceBase.generated.cs">
+		  <DependentUpon>SdhHeSoLopDongService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="TaiKhoanService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="TaiKhoanServiceBase.generated.cs">
+		  <DependentUpon>TaiKhoanService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThoiGianNghiTamThoiCuaGiangVienService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThoiGianNghiTamThoiCuaGiangVienServiceBase.generated.cs">
+		  <DependentUpon>ThoiGianNghiTamThoiCuaGiangVienService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThueThanhToanBoSungService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThueThanhToanBoSungServiceBase.generated.cs">
+		  <DependentUpon>ThueThanhToanBoSungService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThoiGianLamViecCuaNhanVienService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThoiGianLamViecCuaNhanVienServiceBase.generated.cs">
+		  <DependentUpon>ThoiGianLamViecCuaNhanVienService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="SiSoLopHocPhanService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="SiSoLopHocPhanServiceBase.generated.cs">
+		  <DependentUpon>SiSoLopHocPhanService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="BangPhuTroiNamHocService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="BangPhuTroiNamHocServiceBase.generated.cs">
+		  <DependentUpon>BangPhuTroiNamHocService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="SdhLoaiKhoiLuongService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="SdhLoaiKhoiLuongServiceBase.generated.cs">
+		  <DependentUpon>SdhLoaiKhoiLuongService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThanhToanThinhGiangService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThanhToanThinhGiangServiceBase.generated.cs">
+		  <DependentUpon>ThanhToanThinhGiangService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KetQuaCacKhoanChiKhacService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KetQuaCacKhoanChiKhacServiceBase.generated.cs">
+		  <DependentUpon>KetQuaCacKhoanChiKhacService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThanhTraTheoThoiKhoaBieuService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThanhTraTheoThoiKhoaBieuServiceBase.generated.cs">
+		  <DependentUpon>ThanhTraTheoThoiKhoaBieuService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqUteKhoiLuongGiangDayService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqUteKhoiLuongGiangDayServiceBase.generated.cs">
+		  <DependentUpon>KcqUteKhoiLuongGiangDayService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThamDinhLuanVanThacSyService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThamDinhLuanVanThacSyServiceBase.generated.cs">
+		  <DependentUpon>ThamDinhLuanVanThacSyService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangDaySauDaiHocService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangDaySauDaiHocServiceBase.generated.cs">
+		  <DependentUpon>GiangDaySauDaiHocService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqUteKhoiLuongKhacService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqUteKhoiLuongKhacServiceBase.generated.cs">
+		  <DependentUpon>KcqUteKhoiLuongKhacService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqPhanCongDoAnTotNghiepService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqPhanCongDoAnTotNghiepServiceBase.generated.cs">
+		  <DependentUpon>KcqPhanCongDoAnTotNghiepService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="DuTruGioGiangKhiCoLopHocPhanService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="DuTruGioGiangKhiCoLopHocPhanServiceBase.generated.cs">
+		  <DependentUpon>DuTruGioGiangKhiCoLopHocPhanService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="DanhMucHoatDongQuanLyService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="DanhMucHoatDongQuanLyServiceBase.generated.cs">
+		  <DependentUpon>DanhMucHoatDongQuanLyService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqQuyDoiGioChuanService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqQuyDoiGioChuanServiceBase.generated.cs">
+		  <DependentUpon>KcqQuyDoiGioChuanService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HocHamService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HocHamServiceBase.generated.cs">
+		  <DependentUpon>HocHamService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienChuyenMonService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienChuyenMonServiceBase.generated.cs">
+		  <DependentUpon>GiangVienChuyenMonService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienChucVuService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienChucVuServiceBase.generated.cs">
+		  <DependentUpon>GiangVienChucVuService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienThanhToanQuaNganHangService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienThanhToanQuaNganHangServiceBase.generated.cs">
+		  <DependentUpon>GiangVienThanhToanQuaNganHangService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienMocTangLuongService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienMocTangLuongServiceBase.generated.cs">
+		  <DependentUpon>GiangVienMocTangLuongService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangDayChatLuongCaoService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangDayChatLuongCaoServiceBase.generated.cs">
+		  <DependentUpon>GiangDayChatLuongCaoService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienKhongTinhGioGiangService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienKhongTinhGioGiangServiceBase.generated.cs">
+		  <DependentUpon>GiangVienKhongTinhGioGiangService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GhiChuThanhToanBoSungService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GhiChuThanhToanBoSungServiceBase.generated.cs">
+		  <DependentUpon>GhiChuThanhToanBoSungService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienDinhMucKhauTruService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienDinhMucKhauTruServiceBase.generated.cs">
+		  <DependentUpon>GiangVienDinhMucKhauTruService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienHoatDongNgoaiGiangDayService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienHoatDongNgoaiGiangDayServiceBase.generated.cs">
+		  <DependentUpon>GiangVienHoatDongNgoaiGiangDayService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiamTruDinhMucService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiamTruDinhMucServiceBase.generated.cs">
+		  <DependentUpon>GiamTruDinhMucService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienLopHocPhanService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienLopHocPhanServiceBase.generated.cs">
+		  <DependentUpon>GiangVienLopHocPhanService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienThayDoiHocHamService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienThayDoiHocHamServiceBase.generated.cs">
+		  <DependentUpon>GiangVienThayDoiHocHamService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienChoDuyetHoSoService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienChoDuyetHoSoServiceBase.generated.cs">
+		  <DependentUpon>GiangVienChoDuyetHoSoService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienBiChanTienService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienBiChanTienServiceBase.generated.cs">
+		  <DependentUpon>GiangVienBiChanTienService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienTinhGioChuanService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienTinhGioChuanServiceBase.generated.cs">
+		  <DependentUpon>GiangVienTinhGioChuanService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="NgachCongChucService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="NgachCongChucServiceBase.generated.cs">
+		  <DependentUpon>NgachCongChucService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="DinhMucGioChuanService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="DinhMucGioChuanServiceBase.generated.cs">
+		  <DependentUpon>DinhMucGioChuanService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienTamUngChiTietService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienTamUngChiTietServiceBase.generated.cs">
+		  <DependentUpon>GiangVienTamUngChiTietService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HocViService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HocViServiceBase.generated.cs">
+		  <DependentUpon>HocViService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienThayDoiLoaiGiangVienService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienThayDoiLoaiGiangVienServiceBase.generated.cs">
+		  <DependentUpon>GiangVienThayDoiLoaiGiangVienService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienGiamTruDinhMucService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienGiamTruDinhMucServiceBase.generated.cs">
+		  <DependentUpon>GiangVienGiamTruDinhMucService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienCamKetKhongTruThueService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienCamKetKhongTruThueServiceBase.generated.cs">
+		  <DependentUpon>GiangVienCamKetKhongTruThueService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienPhanHoiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienPhanHoiServiceBase.generated.cs">
+		  <DependentUpon>GiangVienPhanHoiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="DuTruGioGiangTruocLopHocPhanService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="DuTruGioGiangTruocLopHocPhanServiceBase.generated.cs">
+		  <DependentUpon>DuTruGioGiangTruocLopHocPhanService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienTinhLuongThinhGiangService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienTinhLuongThinhGiangServiceBase.generated.cs">
+		  <DependentUpon>GiangVienTinhLuongThinhGiangService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="DinhMucNghienCuuKhoaHocService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="DinhMucNghienCuuKhoaHocServiceBase.generated.cs">
+		  <DependentUpon>DinhMucNghienCuuKhoaHocService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienNghienCuuKhService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienNghienCuuKhServiceBase.generated.cs">
+		  <DependentUpon>GiangVienNghienCuuKhService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienHoSoService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienHoSoServiceBase.generated.cs">
+		  <DependentUpon>GiangVienHoSoService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienThayDoiChucVuService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienThayDoiChucVuServiceBase.generated.cs">
+		  <DependentUpon>GiangVienThayDoiChucVuService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienHoatDongQuanLyService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienHoatDongQuanLyServiceBase.generated.cs">
+		  <DependentUpon>GiangVienHoatDongQuanLyService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="DinhMucHuongDanKhoaLuanThucTapService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="DinhMucHuongDanKhoaLuanThucTapServiceBase.generated.cs">
+		  <DependentUpon>DinhMucHuongDanKhoaLuanThucTapService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiamTruGioChuanService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiamTruGioChuanServiceBase.generated.cs">
+		  <DependentUpon>GiamTruGioChuanService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ChotCoVanHocTapService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ChotCoVanHocTapServiceBase.generated.cs">
+		  <DependentUpon>ChotCoVanHocTapService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ChotKhoiLuongGiangDayService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ChotKhoiLuongGiangDayServiceBase.generated.cs">
+		  <DependentUpon>ChotKhoiLuongGiangDayService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ChucVuService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ChucVuServiceBase.generated.cs">
+		  <DependentUpon>ChucVuService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="DonGiaService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="DonGiaServiceBase.generated.cs">
+		  <DependentUpon>DonGiaService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="CoVanHocTapService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="CoVanHocTapServiceBase.generated.cs">
+		  <DependentUpon>CoVanHocTapService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ChiTietKhoiLuongService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ChiTietKhoiLuongServiceBase.generated.cs">
+		  <DependentUpon>ChiTietKhoiLuongService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="CauHinhChungService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="CauHinhChungServiceBase.generated.cs">
+		  <DependentUpon>CauHinhChungService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="DanhGiaCoVanHocTapService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="DanhGiaCoVanHocTapServiceBase.generated.cs">
+		  <DependentUpon>DanhGiaCoVanHocTapService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ChucNangService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ChucNangServiceBase.generated.cs">
+		  <DependentUpon>ChucNangService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="NghienCuuKhoaHocTongHopService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="NghienCuuKhoaHocTongHopServiceBase.generated.cs">
+		  <DependentUpon>NghienCuuKhoaHocTongHopService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="CauHinhService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="CauHinhServiceBase.generated.cs">
+		  <DependentUpon>CauHinhService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="DonGiaChatLuongCaoService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="DonGiaChatLuongCaoServiceBase.generated.cs">
+		  <DependentUpon>DonGiaChatLuongCaoService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="CauHinhChotGioService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="CauHinhChotGioServiceBase.generated.cs">
+		  <DependentUpon>CauHinhChotGioService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="CauHinhGiangVienPhanHoiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="CauHinhGiangVienPhanHoiServiceBase.generated.cs">
+		  <DependentUpon>CauHinhGiangVienPhanHoiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="BacLuongService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="BacLuongServiceBase.generated.cs">
+		  <DependentUpon>BacLuongService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="DonGiaChamBaiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="DonGiaChamBaiServiceBase.generated.cs">
+		  <DependentUpon>DonGiaChamBaiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="DanhMucNghienCuuKhoaHocService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="DanhMucNghienCuuKhoaHocServiceBase.generated.cs">
+		  <DependentUpon>DanhMucNghienCuuKhoaHocService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="DonGiaTcbService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="DonGiaTcbServiceBase.generated.cs">
+		  <DependentUpon>DonGiaTcbService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="DotChiTraService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="DotChiTraServiceBase.generated.cs">
+		  <DependentUpon>DotChiTraService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="DonGiaMotTietService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="DonGiaMotTietServiceBase.generated.cs">
+		  <DependentUpon>DonGiaMotTietService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienThayDoiHocViService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienThayDoiHocViServiceBase.generated.cs">
+		  <DependentUpon>GiangVienThayDoiHocViService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="DonGiaNgoaiQuyCheService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="DonGiaNgoaiQuyCheServiceBase.generated.cs">
+		  <DependentUpon>DonGiaNgoaiQuyCheService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="DanhSachHopDongThinhGiangService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="DanhSachHopDongThinhGiangServiceBase.generated.cs">
+		  <DependentUpon>DanhSachHopDongThinhGiangService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienChuyenDoiGioGiangService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienChuyenDoiGioGiangServiceBase.generated.cs">
+		  <DependentUpon>GiangVienChuyenDoiGioGiangService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="DanhMucViPhamService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="DanhMucViPhamServiceBase.generated.cs">
+		  <DependentUpon>DanhMucViPhamService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienTamUngService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienTamUngServiceBase.generated.cs">
+		  <DependentUpon>GiangVienTamUngService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="DonGiaCoiThiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="DonGiaCoiThiServiceBase.generated.cs">
+		  <DependentUpon>DonGiaCoiThiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ChietTinhBoiDuongGiangDayService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ChietTinhBoiDuongGiangDayServiceBase.generated.cs">
+		  <DependentUpon>ChietTinhBoiDuongGiangDayService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ChiTienThuLaoGiangDayService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ChiTienThuLaoGiangDayServiceBase.generated.cs">
+		  <DependentUpon>ChiTienThuLaoGiangDayService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="CongThucService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="CongThucServiceBase.generated.cs">
+		  <DependentUpon>CongThucService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqUteThanhToanThuLaoService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqUteThanhToanThuLaoServiceBase.generated.cs">
+		  <DependentUpon>KcqUteThanhToanThuLaoService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="DuTruGioGiangTruocThoiKhoaBieuService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="DuTruGioGiangTruocThoiKhoaBieuServiceBase.generated.cs">
+		  <DependentUpon>DuTruGioGiangTruocThoiKhoaBieuService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="DanhMucQuyMoService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="DanhMucQuyMoServiceBase.generated.cs">
+		  <DependentUpon>DanhMucQuyMoService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqKhoiLuongGiangDayChiTietService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqKhoiLuongGiangDayChiTietServiceBase.generated.cs">
+		  <DependentUpon>KcqKhoiLuongGiangDayChiTietService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoChucDanhChuyenMonService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoChucDanhChuyenMonServiceBase.generated.cs">
+		  <DependentUpon>HeSoChucDanhChuyenMonService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoCongViecService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoCongViecServiceBase.generated.cs">
+		  <DependentUpon>HeSoCongViecService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqKhoiLuongThucTapCuoiKhoaService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqKhoiLuongThucTapCuoiKhoaServiceBase.generated.cs">
+		  <DependentUpon>KcqKhoiLuongThucTapCuoiKhoaService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqKhoiLuongDoAnTotNghiepChiTietService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqKhoiLuongDoAnTotNghiepChiTietServiceBase.generated.cs">
+		  <DependentUpon>KcqKhoiLuongDoAnTotNghiepChiTietService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqKhoiLuongGiangDayDoAnTotNghiepService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqKhoiLuongGiangDayDoAnTotNghiepServiceBase.generated.cs">
+		  <DependentUpon>KcqKhoiLuongGiangDayDoAnTotNghiepService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="DinhMucGioChuanToiThieuTheoChucVuService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="DinhMucGioChuanToiThieuTheoChucVuServiceBase.generated.cs">
+		  <DependentUpon>DinhMucGioChuanToiThieuTheoChucVuService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqKhoanQuyDoiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqKhoanQuyDoiServiceBase.generated.cs">
+		  <DependentUpon>KcqKhoanQuyDoiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqHeSoCoSoService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqHeSoCoSoServiceBase.generated.cs">
+		  <DependentUpon>KcqHeSoCoSoService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqMonXepLichChuNhatKhongTinhHeSoService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqMonXepLichChuNhatKhongTinhHeSoServiceBase.generated.cs">
+		  <DependentUpon>KcqMonXepLichChuNhatKhongTinhHeSoService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqKhoiLuongKhacService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqKhoiLuongKhacServiceBase.generated.cs">
+		  <DependentUpon>KcqKhoiLuongKhacService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqHeSoDiaDiemService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqHeSoDiaDiemServiceBase.generated.cs">
+		  <DependentUpon>KcqHeSoDiaDiemService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqPhanBienLuanAnService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqPhanBienLuanAnServiceBase.generated.cs">
+		  <DependentUpon>KcqPhanBienLuanAnService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqDonGiaNgoaiQuyCheService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqDonGiaNgoaiQuyCheServiceBase.generated.cs">
+		  <DependentUpon>KcqDonGiaNgoaiQuyCheService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqChotKhoiLuongGiangDayService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqChotKhoiLuongGiangDayServiceBase.generated.cs">
+		  <DependentUpon>KcqChotKhoiLuongGiangDayService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqKhoiLuongGiangDayDoAnService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqKhoiLuongGiangDayDoAnServiceBase.generated.cs">
+		  <DependentUpon>KcqKhoiLuongGiangDayDoAnService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqKetQuaThanhToanThuLaoService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqKetQuaThanhToanThuLaoServiceBase.generated.cs">
+		  <DependentUpon>KcqKetQuaThanhToanThuLaoService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoBacDaoTaoService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoBacDaoTaoServiceBase.generated.cs">
+		  <DependentUpon>HeSoBacDaoTaoService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqUteKhoiLuongQuyDoiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqUteKhoiLuongQuyDoiServiceBase.generated.cs">
+		  <DependentUpon>KcqUteKhoiLuongQuyDoiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqMonPhanCongNhieuGiangVienService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqMonPhanCongNhieuGiangVienServiceBase.generated.cs">
+		  <DependentUpon>KcqMonPhanCongNhieuGiangVienService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqMonTieuLuanService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqMonTieuLuanServiceBase.generated.cs">
+		  <DependentUpon>KcqMonTieuLuanService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienServiceBase.generated.cs">
+		  <DependentUpon>GiangVienService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqPhuCapHanhChinhService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqPhuCapHanhChinhServiceBase.generated.cs">
+		  <DependentUpon>KcqPhuCapHanhChinhService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="GiangVienGiangDayGdtcQpService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="GiangVienGiangDayGdtcQpServiceBase.generated.cs">
+		  <DependentUpon>GiangVienGiangDayGdtcQpService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqHeSoHocKyService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqHeSoHocKyServiceBase.generated.cs">
+		  <DependentUpon>KcqHeSoHocKyService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqPhanNhomMonHocService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqPhanNhomMonHocServiceBase.generated.cs">
+		  <DependentUpon>KcqPhanNhomMonHocService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KetQuaThanhToanThuLaoService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KetQuaThanhToanThuLaoServiceBase.generated.cs">
+		  <DependentUpon>KetQuaThanhToanThuLaoService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqNhomMonHocService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqNhomMonHocServiceBase.generated.cs">
+		  <DependentUpon>KcqNhomMonHocService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqMonTinhTheoQuyCheMoiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqMonTinhTheoQuyCheMoiServiceBase.generated.cs">
+		  <DependentUpon>KcqMonTinhTheoQuyCheMoiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqCauHinhChotGioService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqCauHinhChotGioServiceBase.generated.cs">
+		  <DependentUpon>KcqCauHinhChotGioService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqPhanLoaiHocPhanService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqPhanLoaiHocPhanServiceBase.generated.cs">
+		  <DependentUpon>KcqPhanLoaiHocPhanService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqMonThucTapTotNghiepService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqMonThucTapTotNghiepServiceBase.generated.cs">
+		  <DependentUpon>KcqMonThucTapTotNghiepService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqMonHocKhongTinhKhoiLuongService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqMonHocKhongTinhKhoiLuongServiceBase.generated.cs">
+		  <DependentUpon>KcqMonHocKhongTinhKhoiLuongService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqHeSoQuyDoiTinChiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqHeSoQuyDoiTinChiServiceBase.generated.cs">
+		  <DependentUpon>KcqHeSoQuyDoiTinChiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqDonGiaService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqDonGiaServiceBase.generated.cs">
+		  <DependentUpon>KcqDonGiaService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqLoaiKhoiLuongService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqLoaiKhoiLuongServiceBase.generated.cs">
+		  <DependentUpon>KcqLoaiKhoiLuongService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoNhomMonService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoNhomMonServiceBase.generated.cs">
+		  <DependentUpon>HeSoNhomMonService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HoatDongNgoaiGiangDayClcService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HoatDongNgoaiGiangDayClcServiceBase.generated.cs">
+		  <DependentUpon>HoatDongNgoaiGiangDayClcService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeThongService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeThongServiceBase.generated.cs">
+		  <DependentUpon>HeThongService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoCoSoService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoCoSoServiceBase.generated.cs">
+		  <DependentUpon>HeSoCoSoService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoNgayService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoNgayServiceBase.generated.cs">
+		  <DependentUpon>HeSoNgayService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoKhoiLuongCongThemService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoKhoiLuongCongThemServiceBase.generated.cs">
+		  <DependentUpon>HeSoKhoiLuongCongThemService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HoatDongNgoaiGiangDayService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HoatDongNgoaiGiangDayServiceBase.generated.cs">
+		  <DependentUpon>HoatDongNgoaiGiangDayService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoLuongService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoLuongServiceBase.generated.cs">
+		  <DependentUpon>HeSoLuongService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoCoVanHocTapService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoCoVanHocTapServiceBase.generated.cs">
+		  <DependentUpon>HeSoCoVanHocTapService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoHocKyService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoHocKyServiceBase.generated.cs">
+		  <DependentUpon>HeSoHocKyService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoNgoaiGioService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoNgoaiGioServiceBase.generated.cs">
+		  <DependentUpon>HeSoNgoaiGioService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoNhomThucHanhService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoNhomThucHanhServiceBase.generated.cs">
+		  <DependentUpon>HeSoNhomThucHanhService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqNhomKhoiLuongService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqNhomKhoiLuongServiceBase.generated.cs">
+		  <DependentUpon>KcqNhomKhoiLuongService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoChucDanhKhoiLuongKhacService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoChucDanhKhoiLuongKhacServiceBase.generated.cs">
+		  <DependentUpon>HeSoChucDanhKhoiLuongKhacService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoChucDanhTietNghiaVuService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoChucDanhTietNghiaVuServiceBase.generated.cs">
+		  <DependentUpon>HeSoChucDanhTietNghiaVuService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoKhoiNganhService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoKhoiNganhServiceBase.generated.cs">
+		  <DependentUpon>HeSoKhoiNganhService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoNgonNguService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoNgonNguServiceBase.generated.cs">
+		  <DependentUpon>HeSoNgonNguService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HoSoService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HoSoServiceBase.generated.cs">
+		  <DependentUpon>HoSoService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HopDongThinhGiangService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HopDongThinhGiangServiceBase.generated.cs">
+		  <DependentUpon>HopDongThinhGiangService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoThamNienService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoThamNienServiceBase.generated.cs">
+		  <DependentUpon>HeSoThamNienService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoThoiGianGiangDayService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoThoiGianGiangDayServiceBase.generated.cs">
+		  <DependentUpon>HeSoThoiGianGiangDayService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HuongDanKhoaLuanThucTapService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HuongDanKhoaLuanThucTapServiceBase.generated.cs">
+		  <DependentUpon>HuongDanKhoaLuanThucTapService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HoatDongChuyenMonKhacService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HoatDongChuyenMonKhacServiceBase.generated.cs">
+		  <DependentUpon>HoatDongChuyenMonKhacService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoLopDongService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoLopDongServiceBase.generated.cs">
+		  <DependentUpon>HeSoLopDongService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoQuyDoiGioChuanService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoQuyDoiGioChuanServiceBase.generated.cs">
+		  <DependentUpon>HeSoQuyDoiGioChuanService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HistoryService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HistoryServiceBase.generated.cs">
+		  <DependentUpon>HistoryService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="KcqHopDongThinhGiangService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="KcqHopDongThinhGiangServiceBase.generated.cs">
+		  <DependentUpon>KcqHopDongThinhGiangService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoTinChiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoTinChiServiceBase.generated.cs">
+		  <DependentUpon>HeSoTinChiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoThucTapService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoThucTapServiceBase.generated.cs">
+		  <DependentUpon>HeSoThucTapService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="XetDuyetDeCuongLuanVanCaoHocService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="XetDuyetDeCuongLuanVanCaoHocServiceBase.generated.cs">
+		  <DependentUpon>XetDuyetDeCuongLuanVanCaoHocService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HinhThucDaoTaoService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HinhThucDaoTaoServiceBase.generated.cs">
+		  <DependentUpon>HinhThucDaoTaoService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoThanhToanGioChuanVuotMucService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoThanhToanGioChuanVuotMucServiceBase.generated.cs">
+		  <DependentUpon>HeSoThanhToanGioChuanVuotMucService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoQuyDoiTinChiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoQuyDoiTinChiServiceBase.generated.cs">
+		  <DependentUpon>HeSoQuyDoiTinChiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="ThuLaoThoaThuanService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="ThuLaoThoaThuanServiceBase.generated.cs">
+		  <DependentUpon>ThuLaoThoaThuanService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="UteThanhToanThuLaoService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="UteThanhToanThuLaoServiceBase.generated.cs">
+		  <DependentUpon>UteThanhToanThuLaoService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="HeSoQuyDoiGioTroiService.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+		<Compile Include="HeSoQuyDoiGioTroiServiceBase.generated.cs">
+		  <DependentUpon>HeSoQuyDoiGioTroiService.cs</DependentUpon>
+		  <SubType>Code</SubType>
+		</Compile>	
+		<Compile Include="..\AssemblyInfo.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+			
+			<Compile Include="Views\VChiTietKhoiLuongService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\VChiTietKhoiLuongServiceBase.generated.cs">
+			  <DependentUpon>VChiTietKhoiLuongService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\VChiTietKhoiLuongThucDayService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\VChiTietKhoiLuongThucDayServiceBase.generated.cs">
+			  <DependentUpon>VChiTietKhoiLuongThucDayService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\VChiTietQuyDoiService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\VChiTietQuyDoiServiceBase.generated.cs">
+			  <DependentUpon>VChiTietQuyDoiService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\VGiangVienChucVuService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\VGiangVienChucVuServiceBase.generated.cs">
+			  <DependentUpon>VGiangVienChucVuService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\VKhoiLuongThucDayService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\VKhoiLuongThucDayServiceBase.generated.cs">
+			  <DependentUpon>VKhoiLuongThucDayService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\VLopHocPhanKhongPhanCongService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\VLopHocPhanKhongPhanCongServiceBase.generated.cs">
+			  <DependentUpon>VLopHocPhanKhongPhanCongService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\VMonHocTinChiService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\VMonHocTinChiServiceBase.generated.cs">
+			  <DependentUpon>VMonHocTinChiService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\VThanhToanThuLaoService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\VThanhToanThuLaoServiceBase.generated.cs">
+			  <DependentUpon>VThanhToanThuLaoService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\VTongHopKhoiLuongService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\VTongHopKhoiLuongServiceBase.generated.cs">
+			  <DependentUpon>VTongHopKhoiLuongService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\VTongHopQuyDoiService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\VTongHopQuyDoiServiceBase.generated.cs">
+			  <DependentUpon>VTongHopQuyDoiService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\VTongHopThuLaoService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\VTongHopThuLaoServiceBase.generated.cs">
+			  <DependentUpon>VTongHopThuLaoService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewBacDaoTaoService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewBacDaoTaoServiceBase.generated.cs">
+			  <DependentUpon>ViewBacDaoTaoService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewBacDaoTaoLoaiHinhService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewBacDaoTaoLoaiHinhServiceBase.generated.cs">
+			  <DependentUpon>ViewBacDaoTaoLoaiHinhService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewBangPhuTroiGioDayGiangVienService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewBangPhuTroiGioDayGiangVienServiceBase.generated.cs">
+			  <DependentUpon>ViewBangPhuTroiGioDayGiangVienService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewBuoiService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewBuoiServiceBase.generated.cs">
+			  <DependentUpon>ViewBuoiService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewCauHinhService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewCauHinhServiceBase.generated.cs">
+			  <DependentUpon>ViewCauHinhService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewChiTienCoVanService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewChiTienCoVanServiceBase.generated.cs">
+			  <DependentUpon>ViewChiTienCoVanService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewChiTietGiangDayService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewChiTietGiangDayServiceBase.generated.cs">
+			  <DependentUpon>ViewChiTietGiangDayService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewChiTietHocPhanService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewChiTietHocPhanServiceBase.generated.cs">
+			  <DependentUpon>ViewChiTietHocPhanService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewChiTietKhoiLuongService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewChiTietKhoiLuongServiceBase.generated.cs">
+			  <DependentUpon>ViewChiTietKhoiLuongService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewChiTietKhoiLuongGiangDayService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewChiTietKhoiLuongGiangDayServiceBase.generated.cs">
+			  <DependentUpon>ViewChiTietKhoiLuongGiangDayService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewChiTietKhoiLuongThucDayService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewChiTietKhoiLuongThucDayServiceBase.generated.cs">
+			  <DependentUpon>ViewChiTietKhoiLuongThucDayService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewChiTietPhanCongGiangDayService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewChiTietPhanCongGiangDayServiceBase.generated.cs">
+			  <DependentUpon>ViewChiTietPhanCongGiangDayService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewChiTietQuyDoiService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewChiTietQuyDoiServiceBase.generated.cs">
+			  <DependentUpon>ViewChiTietQuyDoiService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewCoSoService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewCoSoServiceBase.generated.cs">
+			  <DependentUpon>ViewCoSoService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewCoVanHocTapService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewCoVanHocTapServiceBase.generated.cs">
+			  <DependentUpon>ViewCoVanHocTapService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewDanhSachHopDongThinhGiangService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewDanhSachHopDongThinhGiangServiceBase.generated.cs">
+			  <DependentUpon>ViewDanhSachHopDongThinhGiangService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewDanhSachLopPhanCongGiangDayService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewDanhSachLopPhanCongGiangDayServiceBase.generated.cs">
+			  <DependentUpon>ViewDanhSachLopPhanCongGiangDayService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewDanTocService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewDanTocServiceBase.generated.cs">
+			  <DependentUpon>ViewDanTocService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewDoiTuongDonGiaService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewDoiTuongDonGiaServiceBase.generated.cs">
+			  <DependentUpon>ViewDoiTuongDonGiaService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewDonGiaNgoaiQuyCheService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewDonGiaNgoaiQuyCheServiceBase.generated.cs">
+			  <DependentUpon>ViewDonGiaNgoaiQuyCheService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewDonViService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewDonViServiceBase.generated.cs">
+			  <DependentUpon>ViewDonViService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewGiamTruGioChuanService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewGiamTruGioChuanServiceBase.generated.cs">
+			  <DependentUpon>ViewGiamTruGioChuanService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewGiangVienService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewGiangVienServiceBase.generated.cs">
+			  <DependentUpon>ViewGiangVienService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewGiangVienKhoaService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewGiangVienKhoaServiceBase.generated.cs">
+			  <DependentUpon>ViewGiangVienKhoaService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewGiangVienLopHocPhanService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewGiangVienLopHocPhanServiceBase.generated.cs">
+			  <DependentUpon>ViewGiangVienLopHocPhanService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewGiangVienNckhService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewGiangVienNckhServiceBase.generated.cs">
+			  <DependentUpon>ViewGiangVienNckhService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewGiangVienNghienCuuKhoaHocService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewGiangVienNghienCuuKhoaHocServiceBase.generated.cs">
+			  <DependentUpon>ViewGiangVienNghienCuuKhoaHocService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewHeDaoTaoService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewHeDaoTaoServiceBase.generated.cs">
+			  <DependentUpon>ViewHeDaoTaoService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewHeSoLopDongHbuService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewHeSoLopDongHbuServiceBase.generated.cs">
+			  <DependentUpon>ViewHeSoLopDongHbuService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewHeSoLuongHocHamHocViService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewHeSoLuongHocHamHocViServiceBase.generated.cs">
+			  <DependentUpon>ViewHeSoLuongHocHamHocViService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewHesoThuLaoService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewHesoThuLaoServiceBase.generated.cs">
+			  <DependentUpon>ViewHesoThuLaoService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewHeSoTinChiService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewHeSoTinChiServiceBase.generated.cs">
+			  <DependentUpon>ViewHeSoTinChiService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewHinhThucThiService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewHinhThucThiServiceBase.generated.cs">
+			  <DependentUpon>ViewHinhThucThiService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewHinhThucViPhamService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewHinhThucViPhamServiceBase.generated.cs">
+			  <DependentUpon>ViewHinhThucViPhamService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewHocKyService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewHocKyServiceBase.generated.cs">
+			  <DependentUpon>ViewHocKyService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewHocPhanMonHocService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewHocPhanMonHocServiceBase.generated.cs">
+			  <DependentUpon>ViewHocPhanMonHocService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewHopDongThinhGiangService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewHopDongThinhGiangServiceBase.generated.cs">
+			  <DependentUpon>ViewHopDongThinhGiangService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKcqDonGiaNgoaiQuyCheService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKcqDonGiaNgoaiQuyCheServiceBase.generated.cs">
+			  <DependentUpon>ViewKcqDonGiaNgoaiQuyCheService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKcqHopDongThinhGiangService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKcqHopDongThinhGiangServiceBase.generated.cs">
+			  <DependentUpon>ViewKcqHopDongThinhGiangService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKcqKetQuaThanhToanThuLaoService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKcqKetQuaThanhToanThuLaoServiceBase.generated.cs">
+			  <DependentUpon>ViewKcqKetQuaThanhToanThuLaoService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKcqLietKeKhoiLuongGiangDayChiTiet2Service.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKcqLietKeKhoiLuongGiangDayChiTiet2ServiceBase.generated.cs">
+			  <DependentUpon>ViewKcqLietKeKhoiLuongGiangDayChiTiet2Service.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKcqMonThucTapTotNghiepService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKcqMonThucTapTotNghiepServiceBase.generated.cs">
+			  <DependentUpon>ViewKcqMonThucTapTotNghiepService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKcqMonTinhTheoQuyCheMoiService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKcqMonTinhTheoQuyCheMoiServiceBase.generated.cs">
+			  <DependentUpon>ViewKcqMonTinhTheoQuyCheMoiService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKcqMonXepLichChuNhatKhongTinhHeSoService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKcqMonXepLichChuNhatKhongTinhHeSoServiceBase.generated.cs">
+			  <DependentUpon>ViewKcqMonXepLichChuNhatKhongTinhHeSoService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKcqPhanNhomMonHocService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKcqPhanNhomMonHocServiceBase.generated.cs">
+			  <DependentUpon>ViewKcqPhanNhomMonHocService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKcqPhanNhomMonHocActService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKcqPhanNhomMonHocActServiceBase.generated.cs">
+			  <DependentUpon>ViewKcqPhanNhomMonHocActService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKcqPhuCapHanhChinhService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKcqPhuCapHanhChinhServiceBase.generated.cs">
+			  <DependentUpon>ViewKcqPhuCapHanhChinhService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKcqUteKhoiLuongGiangDayService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKcqUteKhoiLuongGiangDayServiceBase.generated.cs">
+			  <DependentUpon>ViewKcqUteKhoiLuongGiangDayService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKcqUteKhoiLuongQuyDoi2Service.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKcqUteKhoiLuongQuyDoi2ServiceBase.generated.cs">
+			  <DependentUpon>ViewKcqUteKhoiLuongQuyDoi2Service.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKetQuaCacKhoanChiKhacService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKetQuaCacKhoanChiKhacServiceBase.generated.cs">
+			  <DependentUpon>ViewKetQuaCacKhoanChiKhacService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKetQuaThanhToanThuLaoService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKetQuaThanhToanThuLaoServiceBase.generated.cs">
+			  <DependentUpon>ViewKetQuaThanhToanThuLaoService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKetQuaTinhService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKetQuaTinhServiceBase.generated.cs">
+			  <DependentUpon>ViewKetQuaTinhService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKhoaService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKhoaServiceBase.generated.cs">
+			  <DependentUpon>ViewKhoaService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKhoaBoMonService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKhoaBoMonServiceBase.generated.cs">
+			  <DependentUpon>ViewKhoaBoMonService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKhoaHocService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKhoaHocServiceBase.generated.cs">
+			  <DependentUpon>ViewKhoaHocService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKhoaHocBacHeService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKhoaHocBacHeServiceBase.generated.cs">
+			  <DependentUpon>ViewKhoaHocBacHeService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKhoiLuongGiangDayService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKhoiLuongGiangDayServiceBase.generated.cs">
+			  <DependentUpon>ViewKhoiLuongGiangDayService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKhoiLuongGiangDayCanBoService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKhoiLuongGiangDayCanBoServiceBase.generated.cs">
+			  <DependentUpon>ViewKhoiLuongGiangDayCanBoService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKhoiLuongThucDayService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKhoiLuongThucDayServiceBase.generated.cs">
+			  <DependentUpon>ViewKhoiLuongThucDayService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKhoiLuongCacCongViecKhacService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKhoiLuongCacCongViecKhacServiceBase.generated.cs">
+			  <DependentUpon>ViewKhoiLuongCacCongViecKhacService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKyThiService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewKyThiServiceBase.generated.cs">
+			  <DependentUpon>ViewKyThiService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewLietKeKhoiLuongGiangDayChiTietService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewLietKeKhoiLuongGiangDayChiTietServiceBase.generated.cs">
+			  <DependentUpon>ViewLietKeKhoiLuongGiangDayChiTietService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewLietKeKhoiLuongGiangDayChiTietUsshService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewLietKeKhoiLuongGiangDayChiTietUsshServiceBase.generated.cs">
+			  <DependentUpon>ViewLietKeKhoiLuongGiangDayChiTietUsshService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewLietKeKhoiLuongGiangDayChiTietUsshCdgtvtService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewLietKeKhoiLuongGiangDayChiTietUsshCdgtvtServiceBase.generated.cs">
+			  <DependentUpon>ViewLietKeKhoiLuongGiangDayChiTietUsshCdgtvtService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewLietKeKhoiLuongGiangDayChiTiet2Service.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewLietKeKhoiLuongGiangDayChiTiet2ServiceBase.generated.cs">
+			  <DependentUpon>ViewLietKeKhoiLuongGiangDayChiTiet2Service.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewLoaiHinhDaoTaoService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewLoaiHinhDaoTaoServiceBase.generated.cs">
+			  <DependentUpon>ViewLoaiHinhDaoTaoService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewLoaiHocPhanService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewLoaiHocPhanServiceBase.generated.cs">
+			  <DependentUpon>ViewLoaiHocPhanService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewLopService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewLopServiceBase.generated.cs">
+			  <DependentUpon>ViewLopService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewLopChatLuongCaoService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewLopChatLuongCaoServiceBase.generated.cs">
+			  <DependentUpon>ViewLopChatLuongCaoService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewLopHocPhanService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewLopHocPhanServiceBase.generated.cs">
+			  <DependentUpon>ViewLopHocPhanService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewLopHocPhanClcAufCjlService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewLopHocPhanClcAufCjlServiceBase.generated.cs">
+			  <DependentUpon>ViewLopHocPhanClcAufCjlService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewLopHocPhanChuyenNganhService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewLopHocPhanChuyenNganhServiceBase.generated.cs">
+			  <DependentUpon>ViewLopHocPhanChuyenNganhService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewLopHocPhanGiangBangTiengNuocNgoaiService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewLopHocPhanGiangBangTiengNuocNgoaiServiceBase.generated.cs">
+			  <DependentUpon>ViewLopHocPhanGiangBangTiengNuocNgoaiService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewLopHocPhanGiangBangTiengNuocNgoaiBuhService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewLopHocPhanGiangBangTiengNuocNgoaiBuhServiceBase.generated.cs">
+			  <DependentUpon>ViewLopHocPhanGiangBangTiengNuocNgoaiBuhService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewMonGiangMoiService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewMonGiangMoiServiceBase.generated.cs">
+			  <DependentUpon>ViewMonGiangMoiService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewMonHocService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewMonHocServiceBase.generated.cs">
+			  <DependentUpon>ViewMonHocService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewMonHocKhoaService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewMonHocKhoaServiceBase.generated.cs">
+			  <DependentUpon>ViewMonHocKhoaService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewMonThucTapTotNghiepService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewMonThucTapTotNghiepServiceBase.generated.cs">
+			  <DependentUpon>ViewMonThucTapTotNghiepService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewMonTinhTheoQuyCheMoiService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewMonTinhTheoQuyCheMoiServiceBase.generated.cs">
+			  <DependentUpon>ViewMonTinhTheoQuyCheMoiService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewMonXepLichChuNhatKhongTinhHeSoService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewMonXepLichChuNhatKhongTinhHeSoServiceBase.generated.cs">
+			  <DependentUpon>ViewMonXepLichChuNhatKhongTinhHeSoService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewNamHocService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewNamHocServiceBase.generated.cs">
+			  <DependentUpon>ViewNamHocService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewNgachLuongHrmService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewNgachLuongHrmServiceBase.generated.cs">
+			  <DependentUpon>ViewNgachLuongHrmService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewNgayTrongTuanService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewNgayTrongTuanServiceBase.generated.cs">
+			  <DependentUpon>ViewNgayTrongTuanService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewNhomMonHocService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewNhomMonHocServiceBase.generated.cs">
+			  <DependentUpon>ViewNhomMonHocService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewPhanCongChuyenMonService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewPhanCongChuyenMonServiceBase.generated.cs">
+			  <DependentUpon>ViewPhanCongChuyenMonService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewPhanCongCoVanService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewPhanCongCoVanServiceBase.generated.cs">
+			  <DependentUpon>ViewPhanCongCoVanService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewPhanCongGiangDayService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewPhanCongGiangDayServiceBase.generated.cs">
+			  <DependentUpon>ViewPhanCongGiangDayService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewPhanLoaiGiangVienService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewPhanLoaiGiangVienServiceBase.generated.cs">
+			  <DependentUpon>ViewPhanLoaiGiangVienService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewPhanNhomMonHocService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewPhanNhomMonHocServiceBase.generated.cs">
+			  <DependentUpon>ViewPhanNhomMonHocService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewPhanNhomMonHocActService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewPhanNhomMonHocActServiceBase.generated.cs">
+			  <DependentUpon>ViewPhanNhomMonHocActService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewPhuCapHanhChinhService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewPhuCapHanhChinhServiceBase.generated.cs">
+			  <DependentUpon>ViewPhuCapHanhChinhService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewQuyDoiHoatDongNgoaiGiangDayService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewQuyDoiHoatDongNgoaiGiangDayServiceBase.generated.cs">
+			  <DependentUpon>ViewQuyDoiHoatDongNgoaiGiangDayService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewQuyetDinhDoiHocHamHocViService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewQuyetDinhDoiHocHamHocViServiceBase.generated.cs">
+			  <DependentUpon>ViewQuyetDinhDoiHocHamHocViService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewSdhLietKeKhoiLuongGiangDayChiTietService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewSdhLietKeKhoiLuongGiangDayChiTietServiceBase.generated.cs">
+			  <DependentUpon>ViewSdhLietKeKhoiLuongGiangDayChiTietService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewSdhUteKhoiLuongQuyDoiService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewSdhUteKhoiLuongQuyDoiServiceBase.generated.cs">
+			  <DependentUpon>ViewSdhUteKhoiLuongQuyDoiService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewSinhVienHocPhanService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewSinhVienHocPhanServiceBase.generated.cs">
+			  <DependentUpon>ViewSinhVienHocPhanService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewSinhVienLopService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewSinhVienLopServiceBase.generated.cs">
+			  <DependentUpon>ViewSinhVienLopService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewSinhVienLopHocPhanService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewSinhVienLopHocPhanServiceBase.generated.cs">
+			  <DependentUpon>ViewSinhVienLopHocPhanService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewSinhVienLopHocPhanSgService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewSinhVienLopHocPhanSgServiceBase.generated.cs">
+			  <DependentUpon>ViewSinhVienLopHocPhanSgService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewSoTietCoiThiTieuChuanCuaGiangVienService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewSoTietCoiThiTieuChuanCuaGiangVienServiceBase.generated.cs">
+			  <DependentUpon>ViewSoTietCoiThiTieuChuanCuaGiangVienService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThamDinhLuanVanThacSyService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThamDinhLuanVanThacSyServiceBase.generated.cs">
+			  <DependentUpon>ViewThamDinhLuanVanThacSyService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThanhToanGioDayService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThanhToanGioDayServiceBase.generated.cs">
+			  <DependentUpon>ViewThanhToanGioDayService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThanhToanThuLaoService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThanhToanThuLaoServiceBase.generated.cs">
+			  <DependentUpon>ViewThanhToanThuLaoService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThanhToanTienGiangService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThanhToanTienGiangServiceBase.generated.cs">
+			  <DependentUpon>ViewThanhToanTienGiangService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThanhTraChamGiangTheoKhoaHocService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThanhTraChamGiangTheoKhoaHocServiceBase.generated.cs">
+			  <DependentUpon>ViewThanhTraChamGiangTheoKhoaHocService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThanhTraCoiThiService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThanhTraCoiThiServiceBase.generated.cs">
+			  <DependentUpon>ViewThanhTraCoiThiService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThanhTraGiangDayService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThanhTraGiangDayServiceBase.generated.cs">
+			  <DependentUpon>ViewThanhTraGiangDayService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThanhTraTheoThoiKhoaBieuService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThanhTraTheoThoiKhoaBieuServiceBase.generated.cs">
+			  <DependentUpon>ViewThanhTraTheoThoiKhoaBieuService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewTheoDoiGiangDayService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewTheoDoiGiangDayServiceBase.generated.cs">
+			  <DependentUpon>ViewTheoDoiGiangDayService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThoiGianLamViecCuaNhanVienService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThoiGianLamViecCuaNhanVienServiceBase.generated.cs">
+			  <DependentUpon>ViewThoiGianLamViecCuaNhanVienService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThoiGianNghiTamThoiCuaGiangVienService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThoiGianNghiTamThoiCuaGiangVienServiceBase.generated.cs">
+			  <DependentUpon>ViewThoiGianNghiTamThoiCuaGiangVienService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThoiKhoaBieuService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThoiKhoaBieuServiceBase.generated.cs">
+			  <DependentUpon>ViewThoiKhoaBieuService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThongKeChucVuService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThongKeChucVuServiceBase.generated.cs">
+			  <DependentUpon>ViewThongKeChucVuService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThongKeHoSoService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThongKeHoSoServiceBase.generated.cs">
+			  <DependentUpon>ViewThongKeHoSoService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThongKeHoSoChiTietService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThongKeHoSoChiTietServiceBase.generated.cs">
+			  <DependentUpon>ViewThongKeHoSoChiTietService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThongTinChiTietGiangVienService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThongTinChiTietGiangVienServiceBase.generated.cs">
+			  <DependentUpon>ViewThongTinChiTietGiangVienService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThongTinChiTietGiangVienChoDuyetHoSoService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThongTinChiTietGiangVienChoDuyetHoSoServiceBase.generated.cs">
+			  <DependentUpon>ViewThongTinChiTietGiangVienChoDuyetHoSoService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThongTinGiangVienService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThongTinGiangVienServiceBase.generated.cs">
+			  <DependentUpon>ViewThongTinGiangVienService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThongTinLopHocPhanHeSoCongViecService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewThongTinLopHocPhanHeSoCongViecServiceBase.generated.cs">
+			  <DependentUpon>ViewThongTinLopHocPhanHeSoCongViecService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewTietGiangDayService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewTietGiangDayServiceBase.generated.cs">
+			  <DependentUpon>ViewTietGiangDayService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewTietNghiaVuService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewTietNghiaVuServiceBase.generated.cs">
+			  <DependentUpon>ViewTietNghiaVuService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewTietNghiaVuTheoNamHocHocKyService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewTietNghiaVuTheoNamHocHocKyServiceBase.generated.cs">
+			  <DependentUpon>ViewTietNghiaVuTheoNamHocHocKyService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewTietNoKyTruocService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewTietNoKyTruocServiceBase.generated.cs">
+			  <DependentUpon>ViewTietNoKyTruocService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewTinhKhoiLuongService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewTinhKhoiLuongServiceBase.generated.cs">
+			  <DependentUpon>ViewTinhKhoiLuongService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewTinhKhoiLuongTungTuanService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewTinhKhoiLuongTungTuanServiceBase.generated.cs">
+			  <DependentUpon>ViewTinhKhoiLuongTungTuanService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewTongHopChiTienCoVanService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewTongHopChiTienCoVanServiceBase.generated.cs">
+			  <DependentUpon>ViewTongHopChiTienCoVanService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewTonghopGiodayHeDaoTaoLoaiGiangVienNamHocHocKyService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewTonghopGiodayHeDaoTaoLoaiGiangVienNamHocHocKyServiceBase.generated.cs">
+			  <DependentUpon>ViewTonghopGiodayHeDaoTaoLoaiGiangVienNamHocHocKyService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewTongHopQuyDoiService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewTongHopQuyDoiServiceBase.generated.cs">
+			  <DependentUpon>ViewTongHopQuyDoiService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewTongHopGioDayGiangVienService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewTongHopGioDayGiangVienServiceBase.generated.cs">
+			  <DependentUpon>ViewTongHopGioDayGiangVienService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewTonGiaoService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewTonGiaoServiceBase.generated.cs">
+			  <DependentUpon>ViewTonGiaoService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewUteKhoiLuongGiangDayService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewUteKhoiLuongGiangDayServiceBase.generated.cs">
+			  <DependentUpon>ViewUteKhoiLuongGiangDayService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewUteKhoiLuongQuyDoiService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewUteKhoiLuongQuyDoiServiceBase.generated.cs">
+			  <DependentUpon>ViewUteKhoiLuongQuyDoiService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewUteKhoiLuongQuyDoi2Service.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewUteKhoiLuongQuyDoi2ServiceBase.generated.cs">
+			  <DependentUpon>ViewUteKhoiLuongQuyDoi2Service.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewXetDuyetDeCuongLuanVanCaoHocService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewXetDuyetDeCuongLuanVanCaoHocServiceBase.generated.cs">
+			  <DependentUpon>ViewXetDuyetDeCuongLuanVanCaoHocService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewXuLyQuyDoiService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewXuLyQuyDoiServiceBase.generated.cs">
+			  <DependentUpon>ViewXuLyQuyDoiService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewXuLyQuyDoiTungTuanService.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ViewXuLyQuyDoiTungTuanServiceBase.generated.cs">
+			  <DependentUpon>ViewXuLyQuyDoiTungTuanService.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>
+		<!-- 
+			<Compile Include="Processors\**\*.cs">
+			   <SubType>Code</SubType>
+			</Compile>		
+		 -->
+			<Compile Include="Processors\GenericProcessorResult.cs">
+			  <SubType>Code</SubType>
+			</Compile>		
+			<Compile Include="Processors\IProcessor.cs">
+			  <SubType>Code</SubType>
+			</Compile>		
+			<Compile Include="Processors\IProcessorResult.cs">
+			  <SubType>Code</SubType>
+			</Compile>		
+			<Compile Include="Processors\ProcessorBase.cs">
+			  <SubType>Code</SubType>
+			</Compile>		
+			
+			<Compile Include="SecurityContext.cs">
+			  <SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="SecurityContextBase.generated.cs">
+			  <DependentUpon>SecurityContext.cs</DependentUpon>
+			  <SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ContextView.cs">
+			  <SubType>Code</SubType>
+			</Compile>		
+			<Compile Include="DomainUtil.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="IConnectionScope.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="ConnectionScope.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="ConnectionScopeBase.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="ServiceResult.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+            <Compile Include="DataServices.cs">
+			  <SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ServiceBase.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="ServiceBaseCore.generated.cs">
+			  <SubType>Code</SubType>
+			  <DependentUpon>ServiceBase.cs</DependentUpon>
+			</Compile>
+			<Compile Include="IComponentService.cs">
+			  <SubType>Code</SubType>
+			</Compile>		
+			<Compile Include="Views\ServiceViewBase.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Views\ServiceViewBaseCore.generated.cs">
+			  <SubType>Code</SubType>
+			  <DependentUpon>ServiceViewBase.cs</DependentUpon>
+			</Compile>
+
+		
+		
+
+		
+		
+		
+		
+		 <AppDesigner Include="Properties\" />
+	</ItemGroup>
+	
+	
+	
+	
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+	<PostBuildEvent>
+	</PostBuildEvent>
+  </PropertyGroup>
+
+</Project>

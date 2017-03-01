@@ -1,0 +1,39 @@
+D:\Source\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\PMS.Entities.dll
+D:\Source\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\PMS.Entities.pdb
+D:\Source\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\PMS.Entities.xml
+D:\Source\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+D:\Source\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Source\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Source\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Source\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Source\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Source\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Source\PMS_CHUNG\PMS\PMS.Entities\obj\Debug\ResolveAssemblyReference.cache
+D:\Source\PMS_CHUNG\PMS\PMS.Entities\obj\Debug\PMS.Entities.dll
+D:\Source\PMS_CHUNG\PMS\PMS.Entities\obj\Debug\PMS.Entities.pdb
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\PMS.Entities.dll
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\PMS.Entities.pdb
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\PMS.Entities.xml
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Entities\obj\Debug\PMS.Entities.csprojResolveAssemblyReference.cache
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Entities\obj\Debug\PMS.Entities.dll
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Entities\obj\Debug\PMS.Entities.pdb
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\PMS.Entities.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\PMS.Entities.pdb
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\PMS.Entities.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Entities\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Entities\obj\Debug\PMS.Entities.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Entities\obj\Debug\PMS.Entities.pdb
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Entities\obj\Debug\PMS.Entities.csprojResolveAssemblyReference.cache

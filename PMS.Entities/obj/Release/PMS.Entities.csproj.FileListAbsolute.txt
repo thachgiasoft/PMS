@@ -1,0 +1,11 @@
+D:\PMS\PMS.Entities\bin\Release\PMS.Entities.dll
+D:\PMS\PMS.Entities\bin\Release\PMS.Entities.pdb
+D:\PMS\PMS.Entities\bin\Release\PMS.Entities.xml
+D:\PMS\PMS.Entities\bin\Release\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+D:\PMS\PMS.Entities\bin\Release\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\PMS\PMS.Entities\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\PMS\PMS.Entities\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+D:\PMS\PMS.Entities\bin\Release\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\PMS\PMS.Entities\obj\Release\ResolveAssemblyReference.cache
+D:\PMS\PMS.Entities\obj\Release\PMS.Entities.dll
+D:\PMS\PMS.Entities\obj\Release\PMS.Entities.pdb

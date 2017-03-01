@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PMSDataSet" targetNamespace="http://tempuri.org/PMSDataSet.xsd" xmlns:mstns="http://tempuri.org/PMSDataSet.xsd" xmlns="http://tempuri.org/PMSDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="PMSConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="PMSConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.PMS.Properties.Settings.GlobalReference.Default.PMSConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_PhuTroi_NamHocTableAdapter" GeneratorDataComponentClassName="View_PhuTroi_NamHocTableAdapter" Name="View_PhuTroi_NamHoc" UserDataComponentName="View_PhuTroi_NamHocTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="PMSConnectionString (Settings)" DbObjectName="PMS.dbo.View_PhuTroi_NamHoc" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT MaGiangVien, TietThucDay, TietQuyDoi, MaChucVu, TenChucVu, TietNghiaVu, Nckh, NhiemVuKhac, GioChuan, HoLot, Ten, MaDonVi FROM dbo.View_PhuTroi_NamHoc</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MaGiangVien" DataSetColumn="MaGiangVien" />
+              <Mapping SourceColumn="TietThucDay" DataSetColumn="TietThucDay" />
+              <Mapping SourceColumn="TietQuyDoi" DataSetColumn="TietQuyDoi" />
+              <Mapping SourceColumn="MaChucVu" DataSetColumn="MaChucVu" />
+              <Mapping SourceColumn="TenChucVu" DataSetColumn="TenChucVu" />
+              <Mapping SourceColumn="TietNghiaVu" DataSetColumn="TietNghiaVu" />
+              <Mapping SourceColumn="Nckh" DataSetColumn="Nckh" />
+              <Mapping SourceColumn="NhiemVuKhac" DataSetColumn="NhiemVuKhac" />
+              <Mapping SourceColumn="GioChuan" DataSetColumn="GioChuan" />
+              <Mapping SourceColumn="HoLot" DataSetColumn="HoLot" />
+              <Mapping SourceColumn="Ten" DataSetColumn="Ten" />
+              <Mapping SourceColumn="MaDonVi" DataSetColumn="MaDonVi" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PMSDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="PMSDataSet" msprop:Generator_UserDSName="PMSDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="View_PhuTroi_NamHoc" msprop:Generator_TableClassName="View_PhuTroi_NamHocDataTable" msprop:Generator_TableVarName="tableView_PhuTroi_NamHoc" msprop:Generator_TablePropName="View_PhuTroi_NamHoc" msprop:Generator_RowDeletingName="View_PhuTroi_NamHocRowDeleting" msprop:Generator_UserTableName="View_PhuTroi_NamHoc" msprop:Generator_RowChangingName="View_PhuTroi_NamHocRowChanging" msprop:Generator_RowEvHandlerName="View_PhuTroi_NamHocRowChangeEventHandler" msprop:Generator_RowDeletedName="View_PhuTroi_NamHocRowDeleted" msprop:Generator_RowEvArgName="View_PhuTroi_NamHocRowChangeEvent" msprop:Generator_RowChangedName="View_PhuTroi_NamHocRowChanged" msprop:Generator_RowClassName="View_PhuTroi_NamHocRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaGiangVien" msprop:Generator_ColumnVarNameInTable="columnMaGiangVien" msprop:Generator_ColumnPropNameInRow="MaGiangVien" msprop:Generator_ColumnPropNameInTable="MaGiangVienColumn" msprop:Generator_UserColumnName="MaGiangVien" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TietThucDay" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTietThucDay" msprop:Generator_ColumnPropNameInRow="TietThucDay" msprop:Generator_ColumnPropNameInTable="TietThucDayColumn" msprop:Generator_UserColumnName="TietThucDay" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TietQuyDoi" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTietQuyDoi" msprop:Generator_ColumnPropNameInRow="TietQuyDoi" msprop:Generator_ColumnPropNameInTable="TietQuyDoiColumn" msprop:Generator_UserColumnName="TietQuyDoi" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MaChucVu" msprop:Generator_ColumnVarNameInTable="columnMaChucVu" msprop:Generator_ColumnPropNameInRow="MaChucVu" msprop:Generator_ColumnPropNameInTable="MaChucVuColumn" msprop:Generator_UserColumnName="MaChucVu" type="xs:int" minOccurs="0" />
+              <xs:element name="TenChucVu" msprop:Generator_ColumnVarNameInTable="columnTenChucVu" msprop:Generator_ColumnPropNameInRow="TenChucVu" msprop:Generator_ColumnPropNameInTable="TenChucVuColumn" msprop:Generator_UserColumnName="TenChucVu" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TietNghiaVu" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTietNghiaVu" msprop:Generator_ColumnPropNameInRow="TietNghiaVu" msprop:Generator_ColumnPropNameInTable="TietNghiaVuColumn" msprop:Generator_UserColumnName="TietNghiaVu" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Nckh" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNckh" msprop:Generator_ColumnPropNameInRow="Nckh" msprop:Generator_ColumnPropNameInTable="NckhColumn" msprop:Generator_UserColumnName="Nckh" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NhiemVuKhac" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNhiemVuKhac" msprop:Generator_ColumnPropNameInRow="NhiemVuKhac" msprop:Generator_ColumnPropNameInTable="NhiemVuKhacColumn" msprop:Generator_UserColumnName="NhiemVuKhac" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GioChuan" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnGioChuan" msprop:Generator_ColumnPropNameInRow="GioChuan" msprop:Generator_ColumnPropNameInTable="GioChuanColumn" msprop:Generator_UserColumnName="GioChuan" type="xs:decimal" minOccurs="0" />
+              <xs:element name="HoLot" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnHoLot" msprop:Generator_ColumnPropNameInRow="HoLot" msprop:Generator_ColumnPropNameInTable="HoLotColumn" msprop:Generator_UserColumnName="HoLot" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="101" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Ten" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTen" msprop:Generator_ColumnPropNameInRow="Ten" msprop:Generator_ColumnPropNameInTable="TenColumn" msprop:Generator_UserColumnName="Ten" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MaDonVi" msprop:Generator_ColumnVarNameInTable="columnMaDonVi" msprop:Generator_ColumnPropNameInRow="MaDonVi" msprop:Generator_ColumnPropNameInTable="MaDonViColumn" msprop:Generator_UserColumnName="MaDonVi" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:View_PhuTroi_NamHoc" />
+      <xs:field xpath="mstns:MaChucVu" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

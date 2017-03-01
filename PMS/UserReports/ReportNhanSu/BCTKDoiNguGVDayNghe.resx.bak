@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="xrTable2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v10.1" name="DevExpress.Utils.v10.1, Version=10.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="xrTable2.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.1">
+    <value>10.0000067, 0</value>
+  </data>
+  <assembly alias="DevExpress.Data.v10.1" name="DevExpress.Data.v10.1, Version=10.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="xrTableCell70.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v10.1">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="xrTable2.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>1068, 29.166666</value>
+  </data>
+  <data name="xrTable2.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v10.1">
+    <value>MiddleCenter</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Detail.HeightF" type="System.Single, mscorlib">
+    <value>29.166666</value>
+  </data>
+  <data name="Detail.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v10.1">
+    <value>TopLeft</value>
+  </data>
+  <data name="TopMargin.HeightF" type="System.Single, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="TopMargin.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v10.1">
+    <value>TopLeft</value>
+  </data>
+  <data name="BottomMargin.HeightF" type="System.Single, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="BottomMargin.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v10.1">
+    <value>TopLeft</value>
+  </data>
+  <data name="xrLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14pt, style=Bold</value>
+  </data>
+  <data name="xrLabel2.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.1">
+    <value>101.041664, 31.3333359</value>
+  </data>
+  <data name="xrLabel2.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>879.1666, 29.2500038</value>
+  </data>
+  <data name="xrLabel2.Text" xml:space="preserve">
+    <value>(tính đến thời điểm báo cáo)</value>
+  </data>
+  <data name="xrLabel2.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v10.1">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14pt, style=Bold</value>
+  </data>
+  <data name="xrLabel1.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.1">
+    <value>101.041664, 0</value>
+  </data>
+  <data name="xrLabel1.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>879.1666, 31.3333359</value>
+  </data>
+  <data name="xrLabel1.Text" xml:space="preserve">
+    <value>BÁO CÁO THỐNG KÊ ĐỘI NGŨ GIẢNG VIÊN, GIÁO VIÊN DẠY NGHỀ</value>
+  </data>
+  <data name="xrLabel1.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v10.1">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="ReportHeader.HeightF" type="System.Single, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="xrTable1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt</value>
+  </data>
+  <data name="xrTable1.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.1">
+    <value>10.0000067, 0</value>
+  </data>
+  <data name="xrTableCell4.Text" xml:space="preserve">
+    <value>STT</value>
+  </data>
+  <data name="xrTableCell1.Text" xml:space="preserve">
+    <value>Họ và tên</value>
+  </data>
+  <data name="xrTable3.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.1">
+    <value>8.583069E-06, 0</value>
+  </data>
+  <data name="xrTableCell139.Text" xml:space="preserve">
+    <value>Giáo viên dạy nghề</value>
+  </data>
+  <data name="xrTable3.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>259.9583, 58.3333664</value>
+  </data>
+  <data name="xrTable3.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v10.1">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTable4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt</value>
+  </data>
+  <data name="xrTable4.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.1">
+    <value>8.583069E-06, 58.3333969</value>
+  </data>
+  <data name="xrTableCell140.Text" xml:space="preserve">
+    <value>Tổng
+số</value>
+  </data>
+  <data name="xrTableCell137.Text" xml:space="preserve">
+    <value>GV cơ hữu</value>
+  </data>
+  <data name="xrTable4.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>67.6562653, 92.0064545</value>
+  </data>
+  <data name="xrTable4.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v10.1">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTable15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt</value>
+  </data>
+  <data name="xrTable15.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.1">
+    <value>67.15625, 58.3333664</value>
+  </data>
+  <data name="xrTableCell24.Text" xml:space="preserve">
+    <value>Theo nghiệp vụ giảng dạy</value>
+  </data>
+  <data name="xrTableCell29.Text" xml:space="preserve">
+    <value>Theo cấp trình độ  giảng dạy</value>
+  </data>
+  <data name="xrTable15.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>192.801987, 33.3333435</value>
+  </data>
+  <data name="xrTable15.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v10.1">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTable5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt</value>
+  </data>
+  <data name="xrTable5.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.1">
+    <value>67.15623, 91.6666946</value>
+  </data>
+  <data name="xrTableCell138.Text" xml:space="preserve">
+    <value>GV
+LT</value>
+  </data>
+  <data name="xrTableCell142.Text" xml:space="preserve">
+    <value>GV
+TH</value>
+  </data>
+  <data name="xrTableCell143.Text" xml:space="preserve">
+    <value>GV
+LT +
+TH</value>
+  </data>
+  <data name="xrTableCell144.Text" xml:space="preserve">
+    <value>GV dạy
+CĐN</value>
+  </data>
+  <data name="xrTableCell145.Text" xml:space="preserve">
+    <value>GD dạy
+TCN</value>
+  </data>
+  <data name="xrTableCell141.Text" xml:space="preserve">
+    <value>GV dạy
+SCN&amp;
+DNTX</value>
+  </data>
+  <data name="xrTable5.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>192.801987, 58.6731567</value>
+  </data>
+  <data name="xrTable5.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v10.1">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTable11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt</value>
+  </data>
+  <data name="xrTable11.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.1">
+    <value>8.48770142E-05, 0</value>
+  </data>
+  <data name="xrTableCell18.Text" xml:space="preserve">
+    <value>Số lượng giáo viên theo trình độ được đào tạo về chuyên môn, nghiệp vụ</value>
+  </data>
+  <data name="xrTable11.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>589.9999, 25</value>
+  </data>
+  <data name="xrTable11.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v10.1">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTable8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt</value>
+  </data>
+  <data name="xrTable8.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.1">
+    <value>0, 25</value>
+  </data>
+  <data name="xrTableCell17.Text" xml:space="preserve">
+    <value>Trình độ chuyên môn được đào tạo</value>
+  </data>
+  <data name="xrTableCell22.Text" xml:space="preserve">
+    <value>Trình độ nghiệp vụ sư phạm của giáo viên</value>
+  </data>
+  <data name="xrTable8.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>343.999969, 33.333374</value>
+  </data>
+  <data name="xrTable8.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v10.1">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTable6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt</value>
+  </data>
+  <data name="xrTable6.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.1">
+    <value>0, 58.3333664</value>
+  </data>
+  <data name="xrTableCell2.Text" xml:space="preserve">
+    <value>Tiến sĩ</value>
+  </data>
+  <data name="xrTableCell6.Text" xml:space="preserve">
+    <value>Thạc
+sĩ</value>
+  </data>
+  <data name="xrTableCell7.Text" xml:space="preserve">
+    <value>Đại học</value>
+  </data>
+  <data name="xrTableCell8.Text" xml:space="preserve">
+    <value>Cao
+đẳng</value>
+  </data>
+  <data name="xrTableCell9.Text" xml:space="preserve">
+    <value>Trung cấp</value>
+  </data>
+  <data name="xrTableCell147.Text" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="xrTableCell146.Text" xml:space="preserve">
+    <value>SPKT</value>
+  </data>
+  <data name="xrTableCell11.Text" xml:space="preserve">
+    <value>SPDN</value>
+  </data>
+  <data name="xrTableCell150.Text" xml:space="preserve">
+    <value>SP
+Bậc II</value>
+  </data>
+  <data name="xrTableCell149.Text" xml:space="preserve">
+    <value>SP
+Bậc I</value>
+  </data>
+  <data name="xrTableCell148.Text" xml:space="preserve">
+    <value>SP
+Khác</value>
+  </data>
+  <data name="xrTable6.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>343.999969, 92.006485</value>
+  </data>
+  <data name="xrTable6.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v10.1">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTable13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt</value>
+  </data>
+  <data name="xrTable13.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.1">
+    <value>344, 25</value>
+  </data>
+  <data name="xrTableCell20.Text" xml:space="preserve">
+    <value>Trình độ ngoại ngữ</value>
+  </data>
+  <data name="xrTable13.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>164, 33.33338</value>
+  </data>
+  <data name="xrTable13.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v10.1">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTable12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt</value>
+  </data>
+  <data name="xrTable12.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.1">
+    <value>344.000061, 58.3333664</value>
+  </data>
+  <data name="xrTableCell23.Text" xml:space="preserve">
+    <value>Tiếng Anh</value>
+  </data>
+  <data name="xrTableCell27.Text" xml:space="preserve">
+    <value>Ngoại ngữ khác</value>
+  </data>
+  <data name="xrTable12.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>164, 23.9583511</value>
+  </data>
+  <data name="xrTable12.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v10.1">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTable7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt</value>
+  </data>
+  <data name="xrTable7.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.1">
+    <value>344, 82.2917252</value>
+  </data>
+  <data name="xrTableCell10.Text" xml:space="preserve">
+    <value>Cử nhân</value>
+  </data>
+  <data name="xrTableCell151.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="xrTableCell152.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="xrTableCell153.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="xrTableCell154.Text" xml:space="preserve">
+    <value>Cử nhân</value>
+  </data>
+  <data name="xrTableCell155.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="xrTableCell156.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="xrTableCell157.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="xrTable7.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>164, 68.04813</value>
+  </data>
+  <data name="xrTable7.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v10.1">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTable14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt</value>
+  </data>
+  <data name="xrTable14.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.1">
+    <value>508, 25</value>
+  </data>
+  <data name="xrTableCell25.Text" xml:space="preserve">
+    <value>Trình độ tin học</value>
+  </data>
+  <data name="xrTable14.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>82, 33.3333664</value>
+  </data>
+  <data name="xrTable14.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v10.1">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTable10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt</value>
+  </data>
+  <data name="xrTable10.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.1">
+    <value>508, 58.3333969</value>
+  </data>
+  <data name="xrTableCell12.Text" xml:space="preserve">
+    <value>Cử nhân</value>
+  </data>
+  <data name="xrTableCell14.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="xrTableCell15.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="xrTableCell16.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="xrTable10.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>82, 92.0064545</value>
+  </data>
+  <data name="xrTable10.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v10.1">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell3.Text" xml:space="preserve">
+    <value>Ghi chú</value>
+  </data>
+  <data name="xrTableCell35.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="xrTableCell36.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="xrTableCell37.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="xrTableCell38.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="xrTableCell39.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="xrTableCell40.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="xrTableCell41.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="xrTableCell42.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="xrTableCell43.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="xrTableCell44.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="xrTableCell45.Text" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="xrTableCell46.Text" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="xrTableCell47.Text" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="xrTableCell48.Text" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="xrTableCell49.Text" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="xrTableCell50.Text" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="xrTableCell51.Text" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="xrTableCell52.Text" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="xrTableCell53.Text" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="xrTableCell54.Text" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="xrTableCell55.Text" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="xrTableCell56.Text" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="xrTableCell57.Text" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="xrTableCell58.Text" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="xrTableCell59.Text" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="xrTableCell60.Text" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="xrTableCell61.Text" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="xrTableCell62.Text" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="xrTableCell63.Text" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="xrTableCell64.Text" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="xrTableCell65.Text" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="xrTableCell66.Text" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="xrTableCell67.Text" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="xrTableCell68.Text" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="xrTableRow2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt, style=Bold</value>
+  </data>
+  <data name="xrTable1.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>1068, 176.041672</value>
+  </data>
+  <data name="xrTable1.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v10.1">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="PageHeader.HeightF" type="System.Single, mscorlib">
+    <value>176.041672</value>
+  </data>
+  <data name="ReportFooter.HeightF" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="xrPageInfo1.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.1">
+    <value>987, 0</value>
+  </data>
+  <data name="xrPageInfo1.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="xrPageInfo1.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v10.1">
+    <value>MiddleRight</value>
+  </data>
+  <data name="PageFooter.HeightF" type="System.Single, mscorlib">
+    <value>24</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.Margins" type="System.Drawing.Printing.Margins, System.Drawing">
+    <value>48, 34, 46, 48</value>
+  </data>
+</root>

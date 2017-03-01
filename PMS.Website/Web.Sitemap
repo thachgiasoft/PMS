@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  
+    <siteMapNode url="" title="Admin"  description="">
+        <siteMapNode url="~/Admin/Default.aspx" title="Admin"  description="Admin" />  
+	<siteMapNode url="~/Admin/BacLuong.aspx" title="Bac Luong"  description="" />
+	<siteMapNode url="~/Admin/BangPhuTroiGioDayGiangVien.aspx" title="Bang Phu Troi Gio Day Giang Vien"  description="" />
+	<siteMapNode url="~/Admin/BangPhuTroiNamHoc.aspx" title="Bang Phu Troi Nam Hoc"  description="" />
+	<siteMapNode url="~/Admin/CauHinh.aspx" title="Cau Hinh"  description="" />
+	<siteMapNode url="~/Admin/CauHinhChotGio.aspx" title="Cau Hinh Chot Gio"  description="" />
+	<siteMapNode url="~/Admin/CauHinhChung.aspx" title="Cau Hinh Chung"  description="" />
+	<siteMapNode url="~/Admin/CauHinhGiangVienPhanHoi.aspx" title="Cau Hinh Giang Vien Phan Hoi"  description="" />
+	<siteMapNode url="~/Admin/ChietTinhBoiDuongGiangDay.aspx" title="Chiet Tinh Boi Duong Giang Day"  description="" />
+	<siteMapNode url="~/Admin/ChiTienThuLaoGiangDay.aspx" title="Chi Tien Thu Lao Giang Day"  description="" />
+	<siteMapNode url="~/Admin/ChiTietKhoiLuong.aspx" title="Chi Tiet Khoi Luong"  description="" />
+	<siteMapNode url="~/Admin/ChotCoVanHocTap.aspx" title="Chot Co Van Hoc Tap"  description="" />
+	<siteMapNode url="~/Admin/ChotKhoiLuongGiangDay.aspx" title="Chot Khoi Luong Giang Day"  description="" />
+	<siteMapNode url="~/Admin/ChucNang.aspx" title="Chuc Nang"  description="" />
+	<siteMapNode url="~/Admin/ChucVu.aspx" title="Chuc Vu"  description="" />
+	<siteMapNode url="~/Admin/CongThuc.aspx" title="Cong Thuc"  description="" />
+	<siteMapNode url="~/Admin/CoVanHocTap.aspx" title="Co Van Hoc Tap"  description="" />
+	<siteMapNode url="~/Admin/DanhGiaCoVanHocTap.aspx" title="Danh Gia Co Van Hoc Tap"  description="" />
+	<siteMapNode url="~/Admin/DanhMucGioGiang.aspx" title="Danh Muc Gio Giang"  description="" />
+	<siteMapNode url="~/Admin/DanhMucHoatDongQuanLy.aspx" title="Danh Muc Hoat Dong Quan Ly"  description="" />
+	<siteMapNode url="~/Admin/DanhMucNghienCuuKhoaHoc.aspx" title="Danh Muc Nghien Cuu Khoa Hoc"  description="" />
+	<siteMapNode url="~/Admin/DanhMucQuyMo.aspx" title="Danh Muc Quy Mo"  description="" />
+	<siteMapNode url="~/Admin/DanhMucViPham.aspx" title="Danh Muc Vi Pham"  description="" />
+	<siteMapNode url="~/Admin/DanhSachHopDongThinhGiang.aspx" title="Danh Sach Hop Dong Thinh Giang"  description="" />
+	<siteMapNode url="~/Admin/DinhMucGioChuan.aspx" title="Dinh Muc Gio Chuan"  description="" />
+	<siteMapNode url="~/Admin/DinhMucGioChuanToiThieuTheoChucVu.aspx" title="Dinh Muc Gio Chuan Toi Thieu Theo Chuc Vu"  description="" />
+	<siteMapNode url="~/Admin/DinhMucHuongDanKhoaLuanThucTap.aspx" title="Dinh Muc Huong Dan Khoa Luan Thuc Tap"  description="" />
+	<siteMapNode url="~/Admin/DinhMucNghienCuuKhoaHoc.aspx" title="Dinh Muc Nghien Cuu Khoa Hoc"  description="" />
+	<siteMapNode url="~/Admin/DonGia.aspx" title="Don Gia"  description="" />
+	<siteMapNode url="~/Admin/DonGiaChamBai.aspx" title="Don Gia Cham Bai"  description="" />
+	<siteMapNode url="~/Admin/DonGiaChatLuongCao.aspx" title="Don Gia Chat Luong Cao"  description="" />
+	<siteMapNode url="~/Admin/DonGiaCoiThi.aspx" title="Don Gia Coi Thi"  description="" />
+	<siteMapNode url="~/Admin/DonGiaMotTiet.aspx" title="Don Gia Mot Tiet"  description="" />
+	<siteMapNode url="~/Admin/DonGiaNgoaiQuyChe.aspx" title="Don Gia Ngoai Quy Che"  description="" />
+	<siteMapNode url="~/Admin/DonGiaTcb.aspx" title="Don Gia Tcb"  description="" />
+	<siteMapNode url="~/Admin/DonViTinh.aspx" title="Don Vi Tinh"  description="" />
+	<siteMapNode url="~/Admin/DotChiTra.aspx" title="Dot Chi Tra"  description="" />
+	<siteMapNode url="~/Admin/DuTruGioGiangKhiCoLopHocPhan.aspx" title="Du Tru Gio Giang Khi Co Lop Hoc Phan"  description="" />
+	<siteMapNode url="~/Admin/DuTruGioGiangTruocLopHocPhan.aspx" title="Du Tru Gio Giang Truoc Lop Hoc Phan"  description="" />
+	<siteMapNode url="~/Admin/DuTruGioGiangTruocThoiKhoaBieu.aspx" title="Du Tru Gio Giang Truoc Thoi Khoa Bieu"  description="" />
+	<siteMapNode url="~/Admin/GhiChuThanhToanBoSung.aspx" title="Ghi Chu Thanh Toan Bo Sung"  description="" />
+	<siteMapNode url="~/Admin/GiamTruDinhMuc.aspx" title="Giam Tru Dinh Muc"  description="" />
+	<siteMapNode url="~/Admin/GiamTruGioChuan.aspx" title="Giam Tru Gio Chuan"  description="" />
+	<siteMapNode url="~/Admin/GiangDayChatLuongCao.aspx" title="Giang Day Chat Luong Cao"  description="" />
+	<siteMapNode url="~/Admin/GiangDaySauDaiHoc.aspx" title="Giang Day Sau Dai Hoc"  description="" />
+	<siteMapNode url="~/Admin/GiangVien.aspx" title="Giang Vien"  description="" />
+	<siteMapNode url="~/Admin/GiangVienChucVu.aspx" title="Giang Vien Chuc Vu"  description="" />
+	<siteMapNode url="~/Admin/GiangVienChuyenMon.aspx" title="Giang Vien Chuyen Mon"  description="" />
+	<siteMapNode url="~/Admin/GiangVienDinhMucKhauTru.aspx" title="Giang Vien Dinh Muc Khau Tru"  description="" />
+	<siteMapNode url="~/Admin/GiangVienGiamTruDinhMuc.aspx" title="Giang Vien Giam Tru Dinh Muc"  description="" />
+	<siteMapNode url="~/Admin/GiangVienGiangDayGdtcQp.aspx" title="Giang Vien Giang Day Gdtc Qp"  description="" />
+	<siteMapNode url="~/Admin/GiangVienHoatDongNgoaiGiangDay.aspx" title="Giang Vien Hoat Dong Ngoai Giang Day"  description="" />
+	<siteMapNode url="~/Admin/GiangVienHoSo.aspx" title="Giang Vien Ho So"  description="" />
+	<siteMapNode url="~/Admin/GiangVienLopHocPhan.aspx" title="Giang Vien Lop Hoc Phan"  description="" />
+	<siteMapNode url="~/Admin/GiangVienMocTangLuong.aspx" title="Giang Vien Moc Tang Luong"  description="" />
+	<siteMapNode url="~/Admin/GiangVienNghienCuuKh.aspx" title="Giang Vien Nghien Cuu Kh"  description="" />
+	<siteMapNode url="~/Admin/GiangVienBiChanTien.aspx" title="Giang Vien Bi Chan Tien"  description="" />
+	<siteMapNode url="~/Admin/GiangVienCamKetKhongTruThue.aspx" title="Giang Vien Cam Ket Khong Tru Thue"  description="" />
+	<siteMapNode url="~/Admin/GiangVienChoDuyetHoSo.aspx" title="Giang Vien Cho Duyet Ho So"  description="" />
+	<siteMapNode url="~/Admin/GiangVienChuyenDoiGioGiang.aspx" title="Giang Vien Chuyen Doi Gio Giang"  description="" />
+	<siteMapNode url="~/Admin/GiangVienHoatDongQuanLy.aspx" title="Giang Vien Hoat Dong Quan Ly"  description="" />
+	<siteMapNode url="~/Admin/GiangVienKhongTinhGioGiang.aspx" title="Giang Vien Khong Tinh Gio Giang"  description="" />
+	<siteMapNode url="~/Admin/GiangVienPhanHoi.aspx" title="Giang Vien Phan Hoi"  description="" />
+	<siteMapNode url="~/Admin/GiangVienTamUng.aspx" title="Giang Vien Tam Ung"  description="" />
+	<siteMapNode url="~/Admin/GiangVienTamUngChiTiet.aspx" title="Giang Vien Tam Ung Chi Tiet"  description="" />
+	<siteMapNode url="~/Admin/GiangVienThanhToanQuaNganHang.aspx" title="Giang Vien Thanh Toan Qua Ngan Hang"  description="" />
+	<siteMapNode url="~/Admin/GiangVienThayDoiChucVu.aspx" title="Giang Vien Thay Doi Chuc Vu"  description="" />
+	<siteMapNode url="~/Admin/GiangVienThayDoiHocHam.aspx" title="Giang Vien Thay Doi Hoc Ham"  description="" />
+	<siteMapNode url="~/Admin/GiangVienThayDoiHocVi.aspx" title="Giang Vien Thay Doi Hoc Vi"  description="" />
+	<siteMapNode url="~/Admin/GiangVienThayDoiLoaiGiangVien.aspx" title="Giang Vien Thay Doi Loai Giang Vien"  description="" />
+	<siteMapNode url="~/Admin/GiangVienTinhGioChuan.aspx" title="Giang Vien Tinh Gio Chuan"  description="" />
+	<siteMapNode url="~/Admin/GiangVienTinhLuongThinhGiang.aspx" title="Giang Vien Tinh Luong Thinh Giang"  description="" />
+	<siteMapNode url="~/Admin/HeSoBacDaoTao.aspx" title="He So Bac Dao Tao"  description="" />
+	<siteMapNode url="~/Admin/HeSoChucDanhTietNghiaVu.aspx" title="He So Chuc Danh Tiet Nghia Vu"  description="" />
+	<siteMapNode url="~/Admin/HeSoChucDanhChuyenMon.aspx" title="He So Chuc Danh Chuyen Mon"  description="" />
+	<siteMapNode url="~/Admin/HeSoChucDanhKhoiLuongKhac.aspx" title="He So Chuc Danh Khoi Luong Khac"  description="" />
+	<siteMapNode url="~/Admin/HeSoCongViec.aspx" title="He So Cong Viec"  description="" />
+	<siteMapNode url="~/Admin/HeSoCoSo.aspx" title="He So Co So"  description="" />
+	<siteMapNode url="~/Admin/HeSoCoVanHocTap.aspx" title="He So Co Van Hoc Tap"  description="" />
+	<siteMapNode url="~/Admin/HeSoHocKy.aspx" title="He So Hoc Ky"  description="" />
+	<siteMapNode url="~/Admin/HeSoKhoiLuongCongThem.aspx" title="He So Khoi Luong Cong Them"  description="" />
+	<siteMapNode url="~/Admin/HeSoKhoiNganh.aspx" title="He So Khoi Nganh"  description="" />
+	<siteMapNode url="~/Admin/HeSoLopDong.aspx" title="He So Lop Dong"  description="" />
+	<siteMapNode url="~/Admin/HeSoLuong.aspx" title="He So Luong"  description="" />
+	<siteMapNode url="~/Admin/HeSoNgay.aspx" title="He So Ngay"  description="" />
+	<siteMapNode url="~/Admin/HeSoNgoaiGio.aspx" title="He So Ngoai Gio"  description="" />
+	<siteMapNode url="~/Admin/HeSoNgonNgu.aspx" title="He So Ngon Ngu"  description="" />
+	<siteMapNode url="~/Admin/HeSoNhomMon.aspx" title="He So Nhom Mon"  description="" />
+	<siteMapNode url="~/Admin/HeSoNhomThucHanh.aspx" title="He So Nhom Thuc Hanh"  description="" />
+	<siteMapNode url="~/Admin/HeSoQuyDoiGioChuan.aspx" title="He So Quy Doi Gio Chuan"  description="" />
+	<siteMapNode url="~/Admin/HeSoQuyDoiGioTroi.aspx" title="He So Quy Doi Gio Troi"  description="" />
+	<siteMapNode url="~/Admin/HeSoQuyDoiTinChi.aspx" title="He So Quy Doi Tin Chi"  description="" />
+	<siteMapNode url="~/Admin/HeSoThamNien.aspx" title="He So Tham Nien"  description="" />
+	<siteMapNode url="~/Admin/HeSoThanhToanGioChuanVuotMuc.aspx" title="He So Thanh Toan Gio Chuan Vuot Muc"  description="" />
+	<siteMapNode url="~/Admin/HeSoThoiGianGiangDay.aspx" title="He So Thoi Gian Giang Day"  description="" />
+	<siteMapNode url="~/Admin/HeSoThucTap.aspx" title="He So Thuc Tap"  description="" />
+	<siteMapNode url="~/Admin/HeSoThuLao.aspx" title="He So Thu Lao"  description="" />
+	<siteMapNode url="~/Admin/HeSoTinChi.aspx" title="He So Tin Chi"  description="" />
+	<siteMapNode url="~/Admin/HeSoTroCapTheoKhoa.aspx" title="He So Tro Cap Theo Khoa"  description="" />
+	<siteMapNode url="~/Admin/HeThong.aspx" title="He Thong"  description="" />
+	<siteMapNode url="~/Admin/HinhThucDaoTao.aspx" title="Hinh Thuc Dao Tao"  description="" />
+	<siteMapNode url="~/Admin/History.aspx" title="History"  description="" />
+	<siteMapNode url="~/Admin/HoatDongChuyenMonKhac.aspx" title="Hoat Dong Chuyen Mon Khac"  description="" />
+	<siteMapNode url="~/Admin/HoatDongNgoaiGiangDay.aspx" title="Hoat Dong Ngoai Giang Day"  description="" />
+	<siteMapNode url="~/Admin/HoatDongNgoaiGiangDayClc.aspx" title="Hoat Dong Ngoai Giang Day Clc"  description="" />
+	<siteMapNode url="~/Admin/HocHam.aspx" title="Hoc Ham"  description="" />
+	<siteMapNode url="~/Admin/HocVi.aspx" title="Hoc Vi"  description="" />
+	<siteMapNode url="~/Admin/HopDongThinhGiang.aspx" title="Hop Dong Thinh Giang"  description="" />
+	<siteMapNode url="~/Admin/HoSo.aspx" title="Ho So"  description="" />
+	<siteMapNode url="~/Admin/HuongDanKhoaLuanThucTap.aspx" title="Huong Dan Khoa Luan Thuc Tap"  description="" />
+	<siteMapNode url="~/Admin/KcqCauHinhChotGio.aspx" title="Kcq Cau Hinh Chot Gio"  description="" />
+	<siteMapNode url="~/Admin/KcqChotKhoiLuongGiangDay.aspx" title="Kcq Chot Khoi Luong Giang Day"  description="" />
+	<siteMapNode url="~/Admin/KcqDonGia.aspx" title="Kcq Don Gia"  description="" />
+	<siteMapNode url="~/Admin/KcqDonGiaNgoaiQuyChe.aspx" title="Kcq Don Gia Ngoai Quy Che"  description="" />
+	<siteMapNode url="~/Admin/KcqHeSoCoSo.aspx" title="Kcq He So Co So"  description="" />
+	<siteMapNode url="~/Admin/KcqHeSoDiaDiem.aspx" title="Kcq He So Dia Diem"  description="" />
+	<siteMapNode url="~/Admin/KcqHeSoHocKy.aspx" title="Kcq He So Hoc Ky"  description="" />
+	<siteMapNode url="~/Admin/KcqHeSoQuyDoiTinChi.aspx" title="Kcq He So Quy Doi Tin Chi"  description="" />
+	<siteMapNode url="~/Admin/KcqHopDongThinhGiang.aspx" title="Kcq Hop Dong Thinh Giang"  description="" />
+	<siteMapNode url="~/Admin/KcqKetQuaThanhToanThuLao.aspx" title="Kcq Ket Qua Thanh Toan Thu Lao"  description="" />
+	<siteMapNode url="~/Admin/KcqKhoanQuyDoi.aspx" title="Kcq Khoan Quy Doi"  description="" />
+	<siteMapNode url="~/Admin/KcqKhoiLuongDoAnTotNghiepChiTiet.aspx" title="Kcq Khoi Luong Do An Tot Nghiep Chi Tiet"  description="" />
+	<siteMapNode url="~/Admin/KcqKhoiLuongGiangDayChiTiet.aspx" title="Kcq Khoi Luong Giang Day Chi Tiet"  description="" />
+	<siteMapNode url="~/Admin/KcqKhoiLuongGiangDayDoAn.aspx" title="Kcq Khoi Luong Giang Day Do An"  description="" />
+	<siteMapNode url="~/Admin/KcqKhoiLuongGiangDayDoAnTotNghiep.aspx" title="Kcq Khoi Luong Giang Day Do An Tot Nghiep"  description="" />
+	<siteMapNode url="~/Admin/KcqKhoiLuongKhac.aspx" title="Kcq Khoi Luong Khac"  description="" />
+	<siteMapNode url="~/Admin/KcqKhoiLuongThucTapCuoiKhoa.aspx" title="Kcq Khoi Luong Thuc Tap Cuoi Khoa"  description="" />
+	<siteMapNode url="~/Admin/KcqLoaiKhoiLuong.aspx" title="Kcq Loai Khoi Luong"  description="" />
+	<siteMapNode url="~/Admin/KcqMonHocKhongTinhKhoiLuong.aspx" title="Kcq Mon Hoc Khong Tinh Khoi Luong"  description="" />
+	<siteMapNode url="~/Admin/KcqMonPhanCongNhieuGiangVien.aspx" title="Kcq Mon Phan Cong Nhieu Giang Vien"  description="" />
+	<siteMapNode url="~/Admin/KcqMonThucTapTotNghiep.aspx" title="Kcq Mon Thuc Tap Tot Nghiep"  description="" />
+	<siteMapNode url="~/Admin/KcqMonTieuLuan.aspx" title="Kcq Mon Tieu Luan"  description="" />
+	<siteMapNode url="~/Admin/KcqMonTinhTheoQuyCheMoi.aspx" title="Kcq Mon Tinh Theo Quy Che Moi"  description="" />
+	<siteMapNode url="~/Admin/KcqMonXepLichChuNhatKhongTinhHeSo.aspx" title="Kcq Mon Xep Lich Chu Nhat Khong Tinh He So"  description="" />
+	<siteMapNode url="~/Admin/KcqNhomKhoiLuong.aspx" title="Kcq Nhom Khoi Luong"  description="" />
+	<siteMapNode url="~/Admin/KcqNhomMonHoc.aspx" title="Kcq Nhom Mon Hoc"  description="" />
+	<siteMapNode url="~/Admin/KcqPhanBienLuanAn.aspx" title="Kcq Phan Bien Luan An"  description="" />
+	<siteMapNode url="~/Admin/KcqPhanCongDoAnTotNghiep.aspx" title="Kcq Phan Cong Do An Tot Nghiep"  description="" />
+	<siteMapNode url="~/Admin/KcqPhanLoaiHocPhan.aspx" title="Kcq Phan Loai Hoc Phan"  description="" />
+	<siteMapNode url="~/Admin/KcqPhanNhomMonHoc.aspx" title="Kcq Phan Nhom Mon Hoc"  description="" />
+	<siteMapNode url="~/Admin/KcqPhuCapHanhChinh.aspx" title="Kcq Phu Cap Hanh Chinh"  description="" />
+	<siteMapNode url="~/Admin/KcqQuyDoiGioChuan.aspx" title="Kcq Quy Doi Gio Chuan"  description="" />
+	<siteMapNode url="~/Admin/KcqUteKhoiLuongGiangDay.aspx" title="Kcq Ute Khoi Luong Giang Day"  description="" />
+	<siteMapNode url="~/Admin/KcqUteKhoiLuongKhac.aspx" title="Kcq Ute Khoi Luong Khac"  description="" />
+	<siteMapNode url="~/Admin/KcqUteKhoiLuongQuyDoi.aspx" title="Kcq Ute Khoi Luong Quy Doi"  description="" />
+	<siteMapNode url="~/Admin/KcqUteThanhToanThuLao.aspx" title="Kcq Ute Thanh Toan Thu Lao"  description="" />
+	<siteMapNode url="~/Admin/KetQuaCacKhoanChiKhac.aspx" title="Ket Qua Cac Khoan Chi Khac"  description="" />
+	<siteMapNode url="~/Admin/KetQuaDanhGiaVuotGio.aspx" title="Ket Qua Danh Gia Vuot Gio"  description="" />
+	<siteMapNode url="~/Admin/KetQuaThanhToanThuLao.aspx" title="Ket Qua Thanh Toan Thu Lao"  description="" />
+	<siteMapNode url="~/Admin/KetQuaTinh.aspx" title="Ket Qua Tinh"  description="" />
+	<siteMapNode url="~/Admin/KetQuaTinhTheoTuan.aspx" title="Ket Qua Tinh Theo Tuan"  description="" />
+	<siteMapNode url="~/Admin/KhoanChiKhac.aspx" title="Khoan Chi Khac"  description="" />
+	<siteMapNode url="~/Admin/KhoanQuyDoi.aspx" title="Khoan Quy Doi"  description="" />
+	<siteMapNode url="~/Admin/KhoiLuongCacCongViecKhac.aspx" title="Khoi Luong Cac Cong Viec Khac"  description="" />
+	<siteMapNode url="~/Admin/KhoiLuongDoAnTotNghiepChiTiet.aspx" title="Khoi Luong Do An Tot Nghiep Chi Tiet"  description="" />
+	<siteMapNode url="~/Admin/KhoiLuongGiangDay.aspx" title="Khoi Luong Giang Day"  description="" />
+	<siteMapNode url="~/Admin/KhoiLuongGiangDayCaoDang.aspx" title="Khoi Luong Giang Day Cao Dang"  description="" />
+	<siteMapNode url="~/Admin/KhoiLuongGiangDayChiTiet.aspx" title="Khoi Luong Giang Day Chi Tiet"  description="" />
+	<siteMapNode url="~/Admin/KhoiLuongGiangDayDoAn.aspx" title="Khoi Luong Giang Day Do An"  description="" />
+	<siteMapNode url="~/Admin/KhoiLuongGiangDayDoAnTotNghiep.aspx" title="Khoi Luong Giang Day Do An Tot Nghiep"  description="" />
+	<siteMapNode url="~/Admin/KhoiLuongGiangDayTungTuan.aspx" title="Khoi Luong Giang Day Tung Tuan"  description="" />
+	<siteMapNode url="~/Admin/KhoiLuongHuongDanThucTap.aspx" title="Khoi Luong Huong Dan Thuc Tap"  description="" />
+	<siteMapNode url="~/Admin/KhoiLuongKhac.aspx" title="Khoi Luong Khac"  description="" />
+	<siteMapNode url="~/Admin/KhoiLuongQuyDoi.aspx" title="Khoi Luong Quy Doi"  description="" />
+	<siteMapNode url="~/Admin/KhoiLuongQuyDoiCaoDang.aspx" title="Khoi Luong Quy Doi Cao Dang"  description="" />
+	<siteMapNode url="~/Admin/KhoiLuongTamUng.aspx" title="Khoi Luong Tam Ung"  description="" />
+	<siteMapNode url="~/Admin/KyThi.aspx" title="Ky Thi"  description="" />
+	<siteMapNode url="~/Admin/KyTinhLuong.aspx" title="Ky Tinh Luong"  description="" />
+	<siteMapNode url="~/Admin/LoaiGiangVien.aspx" title="Loai Giang Vien"  description="" />
+	<siteMapNode url="~/Admin/LoaiKhoiLuong.aspx" title="Loai Khoi Luong"  description="" />
+	<siteMapNode url="~/Admin/LoaiLop.aspx" title="Loai Lop"  description="" />
+	<siteMapNode url="~/Admin/LoaiNghienCuuKhoaHoc.aspx" title="Loai Nghien Cuu Khoa Hoc"  description="" />
+	<siteMapNode url="~/Admin/LoaiNhanVien.aspx" title="Loai Nhan Vien"  description="" />
+	<siteMapNode url="~/Admin/LopChatLuongCao.aspx" title="Lop Chat Luong Cao"  description="" />
+	<siteMapNode url="~/Admin/LopHocPhanBacDaoTao.aspx" title="Lop Hoc Phan Bac Dao Tao"  description="" />
+	<siteMapNode url="~/Admin/LopHocPhanClcAufCjl.aspx" title="Lop Hoc Phan Clc Auf Cjl"  description="" />
+	<siteMapNode url="~/Admin/LopHocPhanChuyenNganh.aspx" title="Lop Hoc Phan Chuyen Nganh"  description="" />
+	<siteMapNode url="~/Admin/LopHocPhanGhepThoiKhoaBieu.aspx" title="Lop Hoc Phan Ghep Thoi Khoa Bieu"  description="" />
+	<siteMapNode url="~/Admin/LopHocPhanGiangBangTiengNuocNgoai.aspx" title="Lop Hoc Phan Giang Bang Tieng Nuoc Ngoai"  description="" />
+	<siteMapNode url="~/Admin/LopHocPhanKhongTinhGioGiang.aspx" title="Lop Hoc Phan Khong Tinh Gio Giang"  description="" />
+	<siteMapNode url="~/Admin/LyDoTamNghi.aspx" title="Ly Do Tam Nghi"  description="" />
+	<siteMapNode url="~/Admin/MonGiangMoi.aspx" title="Mon Giang Moi"  description="" />
+	<siteMapNode url="~/Admin/MonHocCoNganHangDeThi.aspx" title="Mon Hoc Co Ngan Hang De Thi"  description="" />
+	<siteMapNode url="~/Admin/MonHocKhongTinhKhoiLuong.aspx" title="Mon Hoc Khong Tinh Khoi Luong"  description="" />
+	<siteMapNode url="~/Admin/MonHocTinhHeSoKhoiNganh.aspx" title="Mon Hoc Tinh He So Khoi Nganh"  description="" />
+	<siteMapNode url="~/Admin/MonKhongTinh.aspx" title="Mon Khong Tinh"  description="" />
+	<siteMapNode url="~/Admin/MonPhanCongNhieuGiangVien.aspx" title="Mon Phan Cong Nhieu Giang Vien"  description="" />
+	<siteMapNode url="~/Admin/MonThucTapTotNghiep.aspx" title="Mon Thuc Tap Tot Nghiep"  description="" />
+	<siteMapNode url="~/Admin/MonTieuLuan.aspx" title="Mon Tieu Luan"  description="" />
+	<siteMapNode url="~/Admin/MonTinhTheoQuyCheMoi.aspx" title="Mon Tinh Theo Quy Che Moi"  description="" />
+	<siteMapNode url="~/Admin/MonXepLichChuNhatKhongTinhHeSo.aspx" title="Mon Xep Lich Chu Nhat Khong Tinh He So"  description="" />
+	<siteMapNode url="~/Admin/MucDoHoanThanhNckh.aspx" title="Muc Do Hoan Thanh Nckh"  description="" />
+	<siteMapNode url="~/Admin/NamHoc.aspx" title="Nam Hoc"  description="" />
+	<siteMapNode url="~/Admin/NamHocHienThiThuLaoLenWeb.aspx" title="Nam Hoc Hien Thi Thu Lao Len Web"  description="" />
+	<siteMapNode url="~/Admin/NgachCongChuc.aspx" title="Ngach Cong Chuc"  description="" />
+	<siteMapNode url="~/Admin/NghienCuuKhoaHoc.aspx" title="Nghien Cuu Khoa Hoc"  description="" />
+	<siteMapNode url="~/Admin/NghienCuuKhoaHocTongHop.aspx" title="Nghien Cuu Khoa Hoc Tong Hop"  description="" />
+	<siteMapNode url="~/Admin/NgonNguGiangDay.aspx" title="Ngon Ngu Giang Day"  description="" />
+	<siteMapNode url="~/Admin/NhomChucNang.aspx" title="Nhom Chuc Nang"  description="" />
+	<siteMapNode url="~/Admin/NhomHoatDongNgoaiGiangDay.aspx" title="Nhom Hoat Dong Ngoai Giang Day"  description="" />
+	<siteMapNode url="~/Admin/NhomKhoiLuong.aspx" title="Nhom Khoi Luong"  description="" />
+	<siteMapNode url="~/Admin/NhomMonHoc.aspx" title="Nhom Mon Hoc"  description="" />
+	<siteMapNode url="~/Admin/NhomQuyen.aspx" title="Nhom Quyen"  description="" />
+	<siteMapNode url="~/Admin/NoiDungCongViecQuanLy.aspx" title="Noi Dung Cong Viec Quan Ly"  description="" />
+	<siteMapNode url="~/Admin/NoiDungDanhGia.aspx" title="Noi Dung Danh Gia"  description="" />
+	<siteMapNode url="~/Admin/PhanBienLuanAn.aspx" title="Phan Bien Luan An"  description="" />
+	<siteMapNode url="~/Admin/PhanCongDoAnTotNghiep.aspx" title="Phan Cong Do An Tot Nghiep"  description="" />
+	<siteMapNode url="~/Admin/PhanLoaiGiangVien.aspx" title="Phan Loai Giang Vien"  description="" />
+	<siteMapNode url="~/Admin/PhanLoaiHocPhan.aspx" title="Phan Loai Hoc Phan"  description="" />
+	<siteMapNode url="~/Admin/PhanNhomMonHoc.aspx" title="Phan Nhom Mon Hoc"  description="" />
+	<siteMapNode url="~/Admin/PhanQuyenControlTrenForm.aspx" title="Phan Quyen Control Tren Form"  description="" />
+	<siteMapNode url="~/Admin/PhuCapHanhChinh.aspx" title="Phu Cap Hanh Chinh"  description="" />
+	<siteMapNode url="~/Admin/PscDotThanhToanCoiThiChamThi.aspx" title="Psc Dot Thanh Toan Coi Thi Cham Thi"  description="" />
+	<siteMapNode url="~/Admin/PscExBarCodes.aspx" title="Psc Ex Bar Codes"  description="" />
+	<siteMapNode url="~/Admin/PscUserConfigApplication.aspx" title="Psc User Config Application"  description="" />
+	<siteMapNode url="~/Admin/QuocTich.aspx" title="Quoc Tich"  description="" />
+	<siteMapNode url="~/Admin/QuyDinhTienCanTren.aspx" title="Quy Dinh Tien Can Tren"  description="" />
+	<siteMapNode url="~/Admin/QuyDoiGioChuan.aspx" title="Quy Doi Gio Chuan"  description="" />
+	<siteMapNode url="~/Admin/QuyDoiHoatDongNgoaiGiangDay.aspx" title="Quy Doi Hoat Dong Ngoai Giang Day"  description="" />
+	<siteMapNode url="~/Admin/QuyDoiKhoiLuongTamUng.aspx" title="Quy Doi Khoi Luong Tam Ung"  description="" />
+	<siteMapNode url="~/Admin/QuyMoKhoa.aspx" title="Quy Mo Khoa"  description="" />
+	<siteMapNode url="~/Admin/QuyUocDatTenLopHocPhan.aspx" title="Quy Uoc Dat Ten Lop Hoc Phan"  description="" />
+	<siteMapNode url="~/Admin/ReportManagerments.aspx" title="Report Managerments"  description="" />
+	<siteMapNode url="~/Admin/ReportTemplate.aspx" title="Report Template"  description="" />
+	<siteMapNode url="~/Admin/SdhChotKhoiLuongGiangDay.aspx" title="Sdh Chot Khoi Luong Giang Day"  description="" />
+	<siteMapNode url="~/Admin/SdhDonGia.aspx" title="Sdh Don Gia"  description="" />
+	<siteMapNode url="~/Admin/SdhHeSoDiaDiem.aspx" title="Sdh He So Dia Diem"  description="" />
+	<siteMapNode url="~/Admin/SdhHeSoLopDong.aspx" title="Sdh He So Lop Dong"  description="" />
+	<siteMapNode url="~/Admin/SdhKetQuaThanhToanThuLao.aspx" title="Sdh Ket Qua Thanh Toan Thu Lao"  description="" />
+	<siteMapNode url="~/Admin/SdhLoaiKhoiLuong.aspx" title="Sdh Loai Khoi Luong"  description="" />
+	<siteMapNode url="~/Admin/SdhMonHocKhongTinhKhoiLuong.aspx" title="Sdh Mon Hoc Khong Tinh Khoi Luong"  description="" />
+	<siteMapNode url="~/Admin/SdhMonPhanCongNhieuGiangVien.aspx" title="Sdh Mon Phan Cong Nhieu Giang Vien"  description="" />
+	<siteMapNode url="~/Admin/SdhNhomMonHoc.aspx" title="Sdh Nhom Mon Hoc"  description="" />
+	<siteMapNode url="~/Admin/SdhPhanLoaiHocPhan.aspx" title="Sdh Phan Loai Hoc Phan"  description="" />
+	<siteMapNode url="~/Admin/SdhPhanNhomMonHoc.aspx" title="Sdh Phan Nhom Mon Hoc"  description="" />
+	<siteMapNode url="~/Admin/SdhUteKhoiLuongGiangDay.aspx" title="Sdh Ute Khoi Luong Giang Day"  description="" />
+	<siteMapNode url="~/Admin/SdhUteKhoiLuongQuyDoi.aspx" title="Sdh Ute Khoi Luong Quy Doi"  description="" />
+	<siteMapNode url="~/Admin/SdhUteThanhToanThuLao.aspx" title="Sdh Ute Thanh Toan Thu Lao"  description="" />
+	<siteMapNode url="~/Admin/SiSoLopHocPhan.aspx" title="Si So Lop Hoc Phan"  description="" />
+	<siteMapNode url="~/Admin/SoTietCoiThiTieuChuanCuaGiangVien.aspx" title="So Tiet Coi Thi Tieu Chuan Cua Giang Vien"  description="" />
+	<siteMapNode url="~/Admin/SoTietNckhChuyenSangNamSau.aspx" title="So Tiet Nckh Chuyen Sang Nam Sau"  description="" />
+	<siteMapNode url="~/Admin/TaiKhoan.aspx" title="Tai Khoan"  description="" />
+	<siteMapNode url="~/Admin/TcbKetQuaQuyDoi.aspx" title="Tcb Ket Qua Quy Doi"  description="" />
+	<siteMapNode url="~/Admin/ThamDinhLuanVanThacSy.aspx" title="Tham Dinh Luan Van Thac Sy"  description="" />
+	<siteMapNode url="~/Admin/ThangHe.aspx" title="Thang He"  description="" />
+	<siteMapNode url="~/Admin/ThanhToanThinhGiang.aspx" title="Thanh Toan Thinh Giang"  description="" />
+	<siteMapNode url="~/Admin/ThanhTraChamGiangTheoKhoaHoc.aspx" title="Thanh Tra Cham Giang Theo Khoa Hoc"  description="" />
+	<siteMapNode url="~/Admin/ThanhTraCoiThi.aspx" title="Thanh Tra Coi Thi"  description="" />
+	<siteMapNode url="~/Admin/ThanhTraGiangDay.aspx" title="Thanh Tra Giang Day"  description="" />
+	<siteMapNode url="~/Admin/ThanhTraTheoThoiKhoaBieu.aspx" title="Thanh Tra Theo Thoi Khoa Bieu"  description="" />
+	<siteMapNode url="~/Admin/ThoiGianGiangDay.aspx" title="Thoi Gian Giang Day"  description="" />
+	<siteMapNode url="~/Admin/ThoiGianLamViecCuaNhanVien.aspx" title="Thoi Gian Lam Viec Cua Nhan Vien"  description="" />
+	<siteMapNode url="~/Admin/ThoiGianNghiTamThoiCuaGiangVien.aspx" title="Thoi Gian Nghi Tam Thoi Cua Giang Vien"  description="" />
+	<siteMapNode url="~/Admin/ThongTinGiangDayGiangVien.aspx" title="Thong Tin Giang Day Giang Vien"  description="" />
+	<siteMapNode url="~/Admin/ThucGiangMonThucTeTuHoc.aspx" title="Thuc Giang Mon Thuc Te Tu Hoc"  description="" />
+	<siteMapNode url="~/Admin/ThueThanhToanBoSung.aspx" title="Thue Thanh Toan Bo Sung"  description="" />
+	<siteMapNode url="~/Admin/ThueThuNhapCaNhan.aspx" title="Thue Thu Nhap Ca Nhan"  description="" />
+	<siteMapNode url="~/Admin/ThuLaoChamBai.aspx" title="Thu Lao Cham Bai"  description="" />
+	<siteMapNode url="~/Admin/ThuLaoChamBaiVhu.aspx" title="Thu Lao Cham Bai Vhu"  description="" />
+	<siteMapNode url="~/Admin/ThuLaoChamThiVhuex.aspx" title="Thu Lao Cham Thi Vhuex"  description="" />
+	<siteMapNode url="~/Admin/ThuLaoCoiThi.aspx" title="Thu Lao Coi Thi"  description="" />
+	<siteMapNode url="~/Admin/ThuLaoCoiThiChamBaiImport.aspx" title="Thu Lao Coi Thi Cham Bai Import"  description="" />
+	<siteMapNode url="~/Admin/ThuLaoCoiThiVhu.aspx" title="Thu Lao Coi Thi Vhu"  description="" />
+	<siteMapNode url="~/Admin/ThuLaoCoiThiVhuex.aspx" title="Thu Lao Coi Thi Vhuex"  description="" />
+	<siteMapNode url="~/Admin/ThuLaoGiangDayDaiHocLopClc.aspx" title="Thu Lao Giang Day Dai Hoc Lop Clc"  description="" />
+	<siteMapNode url="~/Admin/ThuLaoGiangDayThucHanh.aspx" title="Thu Lao Giang Day Thuc Hanh"  description="" />
+	<siteMapNode url="~/Admin/ThuLaoHuongDanCuoiKhoa.aspx" title="Thu Lao Huong Dan Cuoi Khoa"  description="" />
+	<siteMapNode url="~/Admin/ThuLaoImport.aspx" title="Thu Lao Import"  description="" />
+	<siteMapNode url="~/Admin/ThuLaoRaDeThiVhuex.aspx" title="Thu Lao Ra De Thi Vhuex"  description="" />
+	<siteMapNode url="~/Admin/ThuLaoRaDeVhu.aspx" title="Thu Lao Ra De Vhu"  description="" />
+	<siteMapNode url="~/Admin/ThuLaoThoaThuan.aspx" title="Thu Lao Thoa Thuan"  description="" />
+	<siteMapNode url="~/Admin/ThuMoiGiangHopDongThinhGiang.aspx" title="Thu Moi Giang Hop Dong Thinh Giang"  description="" />
+	<siteMapNode url="~/Admin/TienCongTacPhi.aspx" title="Tien Cong Tac Phi"  description="" />
+	<siteMapNode url="~/Admin/TietNghiaVu.aspx" title="Tiet Nghia Vu"  description="" />
+	<siteMapNode url="~/Admin/TietNoKyTruoc.aspx" title="Tiet No Ky Truoc"  description="" />
+	<siteMapNode url="~/Admin/TinhTrang.aspx" title="Tinh Trang"  description="" />
+	<siteMapNode url="~/Admin/TinhTrangTheoNamHoc.aspx" title="Tinh Trang Theo Nam Hoc"  description="" />
+	<siteMapNode url="~/Admin/TongTienLuongTrongNamCuaGiangVien.aspx" title="Tong Tien Luong Trong Nam Cua Giang Vien"  description="" />
+	<siteMapNode url="~/Admin/TrinhDoChinhTri.aspx" title="Trinh Do Chinh Tri"  description="" />
+	<siteMapNode url="~/Admin/TrinhDoNgoaiNgu.aspx" title="Trinh Do Ngoai Ngu"  description="" />
+	<siteMapNode url="~/Admin/TrinhDoQuanLyNhaNuoc.aspx" title="Trinh Do Quan Ly Nha Nuoc"  description="" />
+	<siteMapNode url="~/Admin/TrinhDoSuPham.aspx" title="Trinh Do Su Pham"  description="" />
+	<siteMapNode url="~/Admin/TrinhDoTinHoc.aspx" title="Trinh Do Tin Hoc"  description="" />
+	<siteMapNode url="~/Admin/UteKhoiLuongGiangDay.aspx" title="Ute Khoi Luong Giang Day"  description="" />
+	<siteMapNode url="~/Admin/UteKhoiLuongKhac.aspx" title="Ute Khoi Luong Khac"  description="" />
+	<siteMapNode url="~/Admin/UteKhoiLuongQuyDoi.aspx" title="Ute Khoi Luong Quy Doi"  description="" />
+	<siteMapNode url="~/Admin/UteThanhToanThuLao.aspx" title="Ute Thanh Toan Thu Lao"  description="" />
+	<siteMapNode url="~/Admin/VaiTro.aspx" title="Vai Tro"  description="" />
+	<siteMapNode url="~/Admin/XetDuyetDeCuongLuanVanCaoHoc.aspx" title="Xet Duyet De Cuong Luan Van Cao Hoc"  description="" />
+        </siteMapNode>              
+</siteMap>

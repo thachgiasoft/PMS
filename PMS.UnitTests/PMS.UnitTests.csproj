@@ -1,0 +1,3204 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{031D5BAE-0BFB-4D45-8125-9AB0BBC09A92}</ProjectGuid>
+    <ProjectType>Local</ProjectType>
+	<TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OutputType>Library</OutputType>
+    <ApplicationIcon>
+	</ApplicationIcon>
+    <AssemblyKeyContainerName>
+	</AssemblyKeyContainerName>
+    <AssemblyName>PMS.UnitTests</AssemblyName>
+    <AssemblyOriginatorKeyFile>..\PMS.snk</AssemblyOriginatorKeyFile>
+	<SignAssembly>false</SignAssembly>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <RootNamespace>PMS.UnitTests</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject></StartupObject>
+    <FileUpgradeFlags></FileUpgradeFlags>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>PMS.UnitTests.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>PMS.UnitTests.xml</DocumentationFile>
+	 <DebugType>pdbonly</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'GenerateDebug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>PMS.UnitTests.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System"/>
+	<Reference Include="System.Core">
+		<RequiredTargetFramework>4.0</RequiredTargetFramework>
+	</Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations"/>
+    <Reference Include="System.Web"/>
+    <Reference Include="System.Data"/>
+    <Reference Include="System.Design"/>
+    <Reference Include="System.Xml"/>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Drawing" />
+     
+	<ProjectReference Include="..\PMS.Entities\PMS.Entities.csproj">
+      <Name>PMS.Entities</Name>
+      <Project>{20E43088-4618-4F4A-B8AD-FC31B50D94CD}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+	
+	
+	
+	
+    
+    
+    <!-- check the GAC ? -->
+    <Reference Include="nunit.framework, PublicKeyToken=96d09a1eb7f44a77">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\nunit.framework.dll</HintPath>
+    </Reference>
+
+    <ProjectReference Include="..\PMS.Data\PMS.Data.csproj">
+        <Name>PMS.Data</Name>
+        <Project>{041C1BBE-0BFB-4D45-8125-9AB0BBC09A92}</Project>
+        <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"</Package>
+    </ProjectReference>
+	<ProjectReference Include="..\PMS.Data.SqlClient\PMS.Data.SqlClient.csproj">
+        <Name>PMS.Data.SqlClient</Name>
+        <Project>{8996A7B4-57D3-440B-A545-A701844B8C4A}</Project>
+        <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+	<ProjectReference Include="..\PMS.Services\PMS.Services.csproj">
+        <Name>PMS.Services</Name>
+        <Project>{794327CE-DC0A-4381-89EE-4C00AFB08D5A}</Project>
+        <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"</Package>
+    </ProjectReference>
+	     
+    	
+	
+	
+	
+	</ItemGroup>
+	
+	<ItemGroup>
+		<None Include="PMS.UnitTests.dll.config">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Include="entlib.config">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+		
+	<!-- Custom code folder: D:\Source PMS\PMS_CHUNG\PMS\PMS.UnitTests\App_Code -->
+	<ItemGroup>	
+		<Folder Include="App_Code\" />
+        <Compile Include="App_Code\**\*.cs">
+          <SubType>Code</SubType>
+        </Compile>		
+	</ItemGroup>
+
+	<!-- Include any user files -->
+	<ItemGroup>	
+		<Compile Include="**\*.user.*" Exclude="**\*.csproj.user;**\.svn\**" >
+          <SubType>Code</SubType>
+        </Compile>		
+	</ItemGroup>
+	
+	<ItemGroup>
+		<Compile Include="Views\VChiTietKhoiLuongTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\VChiTietKhoiLuongTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>VChiTietKhoiLuongTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\VChiTietKhoiLuongThucDayTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\VChiTietKhoiLuongThucDayTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>VChiTietKhoiLuongThucDayTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\VChiTietQuyDoiTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\VChiTietQuyDoiTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>VChiTietQuyDoiTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\VGiangVienChucVuTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\VGiangVienChucVuTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>VGiangVienChucVuTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\VKhoiLuongThucDayTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\VKhoiLuongThucDayTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>VKhoiLuongThucDayTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\VLopHocPhanKhongPhanCongTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\VLopHocPhanKhongPhanCongTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>VLopHocPhanKhongPhanCongTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\VMonHocTinChiTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\VMonHocTinChiTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>VMonHocTinChiTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\VThanhToanThuLaoTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\VThanhToanThuLaoTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>VThanhToanThuLaoTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\VTongHopKhoiLuongTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\VTongHopKhoiLuongTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>VTongHopKhoiLuongTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\VTongHopQuyDoiTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\VTongHopQuyDoiTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>VTongHopQuyDoiTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\VTongHopThuLaoTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\VTongHopThuLaoTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>VTongHopThuLaoTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewBacDaoTaoTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewBacDaoTaoTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewBacDaoTaoTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewBacDaoTaoLoaiHinhTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewBacDaoTaoLoaiHinhTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewBacDaoTaoLoaiHinhTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewBangPhuTroiGioDayGiangVienTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewBangPhuTroiGioDayGiangVienTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewBangPhuTroiGioDayGiangVienTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewBuoiTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewBuoiTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewBuoiTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewCauHinhTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewCauHinhTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewCauHinhTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewChiTienCoVanTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewChiTienCoVanTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewChiTienCoVanTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewChiTietGiangDayTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewChiTietGiangDayTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewChiTietGiangDayTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewChiTietHocPhanTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewChiTietHocPhanTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewChiTietHocPhanTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewChiTietKhoiLuongTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewChiTietKhoiLuongTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewChiTietKhoiLuongTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewChiTietKhoiLuongGiangDayTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewChiTietKhoiLuongGiangDayTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewChiTietKhoiLuongGiangDayTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewChiTietKhoiLuongThucDayTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewChiTietKhoiLuongThucDayTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewChiTietKhoiLuongThucDayTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewChiTietPhanCongGiangDayTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewChiTietPhanCongGiangDayTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewChiTietPhanCongGiangDayTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewChiTietQuyDoiTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewChiTietQuyDoiTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewChiTietQuyDoiTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewCoSoTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewCoSoTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewCoSoTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewCoVanHocTapTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewCoVanHocTapTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewCoVanHocTapTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewDanhSachHopDongThinhGiangTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewDanhSachHopDongThinhGiangTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewDanhSachHopDongThinhGiangTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewDanhSachLopPhanCongGiangDayTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewDanhSachLopPhanCongGiangDayTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewDanhSachLopPhanCongGiangDayTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewDanTocTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewDanTocTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewDanTocTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewDoiTuongDonGiaTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewDoiTuongDonGiaTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewDoiTuongDonGiaTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewDonGiaNgoaiQuyCheTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewDonGiaNgoaiQuyCheTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewDonGiaNgoaiQuyCheTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewDonViTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewDonViTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewDonViTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewGiamTruGioChuanTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewGiamTruGioChuanTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewGiamTruGioChuanTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewGiangVienTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewGiangVienTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewGiangVienTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewGiangVienKhoaTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewGiangVienKhoaTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewGiangVienKhoaTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewGiangVienLopHocPhanTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewGiangVienLopHocPhanTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewGiangVienLopHocPhanTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewGiangVienNckhTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewGiangVienNckhTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewGiangVienNckhTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewGiangVienNghienCuuKhoaHocTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewGiangVienNghienCuuKhoaHocTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewGiangVienNghienCuuKhoaHocTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewHeDaoTaoTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewHeDaoTaoTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewHeDaoTaoTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewHeSoLopDongHbuTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewHeSoLopDongHbuTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewHeSoLopDongHbuTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewHeSoLuongHocHamHocViTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewHeSoLuongHocHamHocViTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewHeSoLuongHocHamHocViTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewHesoThuLaoTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewHesoThuLaoTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewHesoThuLaoTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewHeSoTinChiTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewHeSoTinChiTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewHeSoTinChiTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewHinhThucThiTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewHinhThucThiTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewHinhThucThiTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewHinhThucViPhamTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewHinhThucViPhamTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewHinhThucViPhamTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewHocKyTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewHocKyTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewHocKyTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewHocPhanMonHocTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewHocPhanMonHocTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewHocPhanMonHocTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewHopDongThinhGiangTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewHopDongThinhGiangTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewHopDongThinhGiangTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewKcqDonGiaNgoaiQuyCheTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewKcqDonGiaNgoaiQuyCheTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewKcqDonGiaNgoaiQuyCheTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewKcqHopDongThinhGiangTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewKcqHopDongThinhGiangTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewKcqHopDongThinhGiangTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewKcqKetQuaThanhToanThuLaoTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewKcqKetQuaThanhToanThuLaoTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewKcqKetQuaThanhToanThuLaoTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewKcqLietKeKhoiLuongGiangDayChiTiet2Test.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewKcqLietKeKhoiLuongGiangDayChiTiet2Test.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewKcqLietKeKhoiLuongGiangDayChiTiet2Test.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewKcqMonThucTapTotNghiepTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewKcqMonThucTapTotNghiepTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewKcqMonThucTapTotNghiepTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewKcqMonTinhTheoQuyCheMoiTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewKcqMonTinhTheoQuyCheMoiTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewKcqMonTinhTheoQuyCheMoiTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewKcqMonXepLichChuNhatKhongTinhHeSoTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewKcqMonXepLichChuNhatKhongTinhHeSoTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewKcqMonXepLichChuNhatKhongTinhHeSoTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewKcqPhanNhomMonHocTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewKcqPhanNhomMonHocTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewKcqPhanNhomMonHocTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewKcqPhanNhomMonHocActTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewKcqPhanNhomMonHocActTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewKcqPhanNhomMonHocActTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewKcqPhuCapHanhChinhTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewKcqPhuCapHanhChinhTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewKcqPhuCapHanhChinhTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewKcqUteKhoiLuongGiangDayTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewKcqUteKhoiLuongGiangDayTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewKcqUteKhoiLuongGiangDayTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewKcqUteKhoiLuongQuyDoi2Test.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewKcqUteKhoiLuongQuyDoi2Test.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewKcqUteKhoiLuongQuyDoi2Test.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewKetQuaCacKhoanChiKhacTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewKetQuaCacKhoanChiKhacTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewKetQuaCacKhoanChiKhacTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewKetQuaThanhToanThuLaoTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewKetQuaThanhToanThuLaoTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewKetQuaThanhToanThuLaoTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewKetQuaTinhTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewKetQuaTinhTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewKetQuaTinhTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewKhoaTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewKhoaTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewKhoaTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewKhoaBoMonTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewKhoaBoMonTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewKhoaBoMonTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewKhoaHocTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewKhoaHocTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewKhoaHocTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewKhoaHocBacHeTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewKhoaHocBacHeTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewKhoaHocBacHeTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewKhoiLuongGiangDayTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewKhoiLuongGiangDayTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewKhoiLuongGiangDayTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewKhoiLuongGiangDayCanBoTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewKhoiLuongGiangDayCanBoTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewKhoiLuongGiangDayCanBoTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewKhoiLuongThucDayTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewKhoiLuongThucDayTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewKhoiLuongThucDayTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewKhoiLuongCacCongViecKhacTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewKhoiLuongCacCongViecKhacTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewKhoiLuongCacCongViecKhacTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewKyThiTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewKyThiTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewKyThiTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewLietKeKhoiLuongGiangDayChiTietTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewLietKeKhoiLuongGiangDayChiTietTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewLietKeKhoiLuongGiangDayChiTietTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewLietKeKhoiLuongGiangDayChiTietUsshTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewLietKeKhoiLuongGiangDayChiTietUsshTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewLietKeKhoiLuongGiangDayChiTietUsshTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewLietKeKhoiLuongGiangDayChiTiet2Test.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewLietKeKhoiLuongGiangDayChiTiet2Test.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewLietKeKhoiLuongGiangDayChiTiet2Test.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewLoaiHinhDaoTaoTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewLoaiHinhDaoTaoTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewLoaiHinhDaoTaoTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewLoaiHocPhanTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewLoaiHocPhanTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewLoaiHocPhanTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewLopTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewLopTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewLopTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewLopChatLuongCaoTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewLopChatLuongCaoTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewLopChatLuongCaoTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewLopHocPhanTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewLopHocPhanTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewLopHocPhanTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewLopHocPhanClcAufCjlTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewLopHocPhanClcAufCjlTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewLopHocPhanClcAufCjlTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewLopHocPhanChuyenNganhTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewLopHocPhanChuyenNganhTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewLopHocPhanChuyenNganhTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewLopHocPhanGiangBangTiengNuocNgoaiTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewLopHocPhanGiangBangTiengNuocNgoaiTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewLopHocPhanGiangBangTiengNuocNgoaiTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewLopHocPhanGiangBangTiengNuocNgoaiBuhTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewLopHocPhanGiangBangTiengNuocNgoaiBuhTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewLopHocPhanGiangBangTiengNuocNgoaiBuhTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewMonGiangMoiTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewMonGiangMoiTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewMonGiangMoiTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewMonHocTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewMonHocTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewMonHocTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewMonHocKhoaTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewMonHocKhoaTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewMonHocKhoaTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewMonThucTapTotNghiepTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewMonThucTapTotNghiepTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewMonThucTapTotNghiepTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewMonTinhTheoQuyCheMoiTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewMonTinhTheoQuyCheMoiTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewMonTinhTheoQuyCheMoiTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewMonXepLichChuNhatKhongTinhHeSoTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewMonXepLichChuNhatKhongTinhHeSoTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewMonXepLichChuNhatKhongTinhHeSoTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewNamHocTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewNamHocTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewNamHocTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewNgachLuongHrmTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewNgachLuongHrmTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewNgachLuongHrmTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewNgayTrongTuanTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewNgayTrongTuanTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewNgayTrongTuanTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewNhomMonHocTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewNhomMonHocTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewNhomMonHocTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewPhanCongChuyenMonTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewPhanCongChuyenMonTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewPhanCongChuyenMonTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewPhanCongCoVanTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewPhanCongCoVanTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewPhanCongCoVanTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewPhanCongGiangDayTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewPhanCongGiangDayTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewPhanCongGiangDayTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewPhanLoaiGiangVienTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewPhanLoaiGiangVienTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewPhanLoaiGiangVienTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewPhanNhomMonHocTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewPhanNhomMonHocTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewPhanNhomMonHocTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewPhanNhomMonHocActTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewPhanNhomMonHocActTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewPhanNhomMonHocActTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewPhuCapHanhChinhTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewPhuCapHanhChinhTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewPhuCapHanhChinhTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewQuyDoiHoatDongNgoaiGiangDayTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewQuyDoiHoatDongNgoaiGiangDayTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewQuyDoiHoatDongNgoaiGiangDayTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewQuyetDinhDoiHocHamHocViTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewQuyetDinhDoiHocHamHocViTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewQuyetDinhDoiHocHamHocViTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewSdhLietKeKhoiLuongGiangDayChiTietTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewSdhLietKeKhoiLuongGiangDayChiTietTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewSdhLietKeKhoiLuongGiangDayChiTietTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewSdhUteKhoiLuongQuyDoiTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewSdhUteKhoiLuongQuyDoiTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewSdhUteKhoiLuongQuyDoiTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewSinhVienHocPhanTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewSinhVienHocPhanTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewSinhVienHocPhanTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewSinhVienLopTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewSinhVienLopTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewSinhVienLopTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewSinhVienLopHocPhanTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewSinhVienLopHocPhanTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewSinhVienLopHocPhanTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewSinhVienLopHocPhanSgTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewSinhVienLopHocPhanSgTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewSinhVienLopHocPhanSgTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewSoTietCoiThiTieuChuanCuaGiangVienTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewSoTietCoiThiTieuChuanCuaGiangVienTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewSoTietCoiThiTieuChuanCuaGiangVienTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewThamDinhLuanVanThacSyTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewThamDinhLuanVanThacSyTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewThamDinhLuanVanThacSyTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewThanhToanGioDayTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewThanhToanGioDayTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewThanhToanGioDayTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewThanhToanThuLaoTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewThanhToanThuLaoTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewThanhToanThuLaoTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewThanhToanTienGiangTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewThanhToanTienGiangTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewThanhToanTienGiangTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewThanhTraChamGiangTheoKhoaHocTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewThanhTraChamGiangTheoKhoaHocTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewThanhTraChamGiangTheoKhoaHocTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewThanhTraCoiThiTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewThanhTraCoiThiTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewThanhTraCoiThiTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewThanhTraGiangDayTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewThanhTraGiangDayTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewThanhTraGiangDayTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewThanhTraTheoThoiKhoaBieuTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewThanhTraTheoThoiKhoaBieuTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewThanhTraTheoThoiKhoaBieuTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewTheoDoiGiangDayTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewTheoDoiGiangDayTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewTheoDoiGiangDayTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewThoiGianLamViecCuaNhanVienTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewThoiGianLamViecCuaNhanVienTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewThoiGianLamViecCuaNhanVienTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewThoiGianNghiTamThoiCuaGiangVienTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewThoiGianNghiTamThoiCuaGiangVienTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewThoiGianNghiTamThoiCuaGiangVienTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewThoiKhoaBieuTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewThoiKhoaBieuTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewThoiKhoaBieuTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewThongKeChucVuTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewThongKeChucVuTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewThongKeChucVuTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewThongKeHoSoTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewThongKeHoSoTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewThongKeHoSoTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewThongKeHoSoChiTietTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewThongKeHoSoChiTietTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewThongKeHoSoChiTietTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewThongTinChiTietGiangVienTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewThongTinChiTietGiangVienTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewThongTinChiTietGiangVienTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewThongTinChiTietGiangVienChoDuyetHoSoTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewThongTinChiTietGiangVienChoDuyetHoSoTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewThongTinChiTietGiangVienChoDuyetHoSoTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewThongTinGiangVienTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewThongTinGiangVienTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewThongTinGiangVienTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewThongTinLopHocPhanHeSoCongViecTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewThongTinLopHocPhanHeSoCongViecTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewThongTinLopHocPhanHeSoCongViecTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewTietGiangDayTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewTietGiangDayTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewTietGiangDayTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewTietNghiaVuTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewTietNghiaVuTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewTietNghiaVuTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewTietNghiaVuTheoNamHocHocKyTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewTietNghiaVuTheoNamHocHocKyTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewTietNghiaVuTheoNamHocHocKyTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewTietNoKyTruocTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewTietNoKyTruocTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewTietNoKyTruocTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewTinhKhoiLuongTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewTinhKhoiLuongTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewTinhKhoiLuongTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewTinhKhoiLuongTungTuanTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewTinhKhoiLuongTungTuanTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewTinhKhoiLuongTungTuanTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewTongHopChiTienCoVanTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewTongHopChiTienCoVanTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewTongHopChiTienCoVanTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewTonghopGiodayHeDaoTaoLoaiGiangVienNamHocHocKyTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewTonghopGiodayHeDaoTaoLoaiGiangVienNamHocHocKyTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewTonghopGiodayHeDaoTaoLoaiGiangVienNamHocHocKyTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewTongHopQuyDoiTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewTongHopQuyDoiTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewTongHopQuyDoiTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewTongHopGioDayGiangVienTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewTongHopGioDayGiangVienTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewTongHopGioDayGiangVienTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewTonGiaoTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewTonGiaoTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewTonGiaoTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewUteKhoiLuongGiangDayTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewUteKhoiLuongGiangDayTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewUteKhoiLuongGiangDayTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewUteKhoiLuongQuyDoiTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewUteKhoiLuongQuyDoiTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewUteKhoiLuongQuyDoiTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewUteKhoiLuongQuyDoi2Test.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewUteKhoiLuongQuyDoi2Test.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewUteKhoiLuongQuyDoi2Test.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewXetDuyetDeCuongLuanVanCaoHocTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewXetDuyetDeCuongLuanVanCaoHocTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewXetDuyetDeCuongLuanVanCaoHocTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewXuLyQuyDoiTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewXuLyQuyDoiTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewXuLyQuyDoiTest.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Views\ViewXuLyQuyDoiTungTuanTest.cs">
+			<SubType>Code</SubType>
+		</Compile>					
+		<Compile Include="Views\ViewXuLyQuyDoiTungTuanTest.generated.cs">
+			<SubType>Code</SubType>
+			<DependentUpon>ViewXuLyQuyDoiTungTuanTest.cs</DependentUpon>
+		</Compile>
+			<Compile Include="KcqQuyDoiGioChuanTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqQuyDoiGioChuanTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqQuyDoiGioChuanTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ChietTinhBoiDuongGiangDayTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ChietTinhBoiDuongGiangDayTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ChietTinhBoiDuongGiangDayTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="MonTinhTheoQuyCheMoiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="MonTinhTheoQuyCheMoiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>MonTinhTheoQuyCheMoiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="MonXepLichChuNhatKhongTinhHeSoTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="MonXepLichChuNhatKhongTinhHeSoTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>MonXepLichChuNhatKhongTinhHeSoTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="MucDoHoanThanhNckhTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="MucDoHoanThanhNckhTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>MucDoHoanThanhNckhTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="BacLuongTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="BacLuongTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>BacLuongTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="LyDoTamNghiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="LyDoTamNghiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>LyDoTamNghiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="TrinhDoSuPhamTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="TrinhDoSuPhamTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>TrinhDoSuPhamTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="NamHocTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="NamHocTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>NamHocTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="MonKhongTinhTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="MonKhongTinhTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>MonKhongTinhTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="NhomMonHocTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="NhomMonHocTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>NhomMonHocTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="MonGiangMoiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="MonGiangMoiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>MonGiangMoiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="NgonNguGiangDayTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="NgonNguGiangDayTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>NgonNguGiangDayTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="MonHocKhongTinhKhoiLuongTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="MonHocKhongTinhKhoiLuongTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>MonHocKhongTinhKhoiLuongTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="MonPhanCongNhieuGiangVienTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="MonPhanCongNhieuGiangVienTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>MonPhanCongNhieuGiangVienTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="MonThucTapTotNghiepTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="MonThucTapTotNghiepTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>MonThucTapTotNghiepTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="LopHocPhanKhongTinhGioGiangTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="LopHocPhanKhongTinhGioGiangTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>LopHocPhanKhongTinhGioGiangTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="NamHocHienThiThuLaoLenWebTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="NamHocHienThiThuLaoLenWebTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>NamHocHienThiThuLaoLenWebTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="NghienCuuKhoaHocTongHopTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="NghienCuuKhoaHocTongHopTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>NghienCuuKhoaHocTongHopTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="NgachCongChucTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="NgachCongChucTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>NgachCongChucTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="PhanLoaiGiangVienTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="PhanLoaiGiangVienTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>PhanLoaiGiangVienTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="NoiDungDanhGiaTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="NoiDungDanhGiaTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>NoiDungDanhGiaTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="PhanQuyenControlTrenFormTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="PhanQuyenControlTrenFormTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>PhanQuyenControlTrenFormTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="PhanLoaiHocPhanTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="PhanLoaiHocPhanTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>PhanLoaiHocPhanTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="PhanCongDoAnTotNghiepTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="PhanCongDoAnTotNghiepTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>PhanCongDoAnTotNghiepTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="PscDotThanhToanCoiThiChamThiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="PscDotThanhToanCoiThiChamThiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>PscDotThanhToanCoiThiChamThiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="PhuCapHanhChinhTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="PhuCapHanhChinhTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>PhuCapHanhChinhTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="NhomKhoiLuongTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="NhomKhoiLuongTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>NhomKhoiLuongTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="PhanBienLuanAnTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="PhanBienLuanAnTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>PhanBienLuanAnTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="MonHocTinhHeSoKhoiNganhTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="MonHocTinhHeSoKhoiNganhTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>MonHocTinhHeSoKhoiNganhTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="MonHocCoNganHangDeThiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="MonHocCoNganHangDeThiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>MonHocCoNganHangDeThiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="NghienCuuKhoaHocTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="NghienCuuKhoaHocTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>NghienCuuKhoaHocTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="NhomHoatDongNgoaiGiangDayTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="NhomHoatDongNgoaiGiangDayTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>NhomHoatDongNgoaiGiangDayTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="NhomQuyenTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="NhomQuyenTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>NhomQuyenTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="NoiDungCongViecQuanLyTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="NoiDungCongViecQuanLyTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>NoiDungCongViecQuanLyTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="LoaiGiangVienTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="LoaiGiangVienTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>LoaiGiangVienTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="LopHocPhanGiangBangTiengNuocNgoaiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="LopHocPhanGiangBangTiengNuocNgoaiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>LopHocPhanGiangBangTiengNuocNgoaiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KhoanChiKhacTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KhoanChiKhacTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KhoanChiKhacTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="LoaiLopTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="LoaiLopTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>LoaiLopTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="TrinhDoNgoaiNguTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="TrinhDoNgoaiNguTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>TrinhDoNgoaiNguTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="TrinhDoChinhTriTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="TrinhDoChinhTriTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>TrinhDoChinhTriTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="NhomChucNangTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="NhomChucNangTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>NhomChucNangTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KhoiLuongDoAnTotNghiepChiTietTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KhoiLuongDoAnTotNghiepChiTietTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KhoiLuongDoAnTotNghiepChiTietTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KhoanQuyDoiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KhoanQuyDoiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KhoanQuyDoiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KetQuaDanhGiaVuotGioTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KetQuaDanhGiaVuotGioTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KetQuaDanhGiaVuotGioTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="SdhUteKhoiLuongQuyDoiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="SdhUteKhoiLuongQuyDoiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>SdhUteKhoiLuongQuyDoiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KhoiLuongCacCongViecKhacTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KhoiLuongCacCongViecKhacTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KhoiLuongCacCongViecKhacTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KetQuaCacKhoanChiKhacTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KetQuaCacKhoanChiKhacTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KetQuaCacKhoanChiKhacTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="TrinhDoTinHocTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="TrinhDoTinHocTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>TrinhDoTinHocTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KetQuaThanhToanThuLaoTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KetQuaThanhToanThuLaoTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KetQuaThanhToanThuLaoTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="LoaiNhanVienTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="LoaiNhanVienTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>LoaiNhanVienTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="TrinhDoQuanLyNhaNuocTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="TrinhDoQuanLyNhaNuocTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>TrinhDoQuanLyNhaNuocTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="TinhTrangTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="TinhTrangTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>TinhTrangTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KetQuaTinhTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KetQuaTinhTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KetQuaTinhTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="LopHocPhanGhepThoiKhoaBieuTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="LopHocPhanGhepThoiKhoaBieuTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>LopHocPhanGhepThoiKhoaBieuTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="LoaiNghienCuuKhoaHocTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="LoaiNghienCuuKhoaHocTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>LoaiNghienCuuKhoaHocTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KhoiLuongGiangDayTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KhoiLuongGiangDayTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KhoiLuongGiangDayTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KhoiLuongGiangDayDoAnTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KhoiLuongGiangDayDoAnTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KhoiLuongGiangDayDoAnTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KhoiLuongHuongDanThucTapTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KhoiLuongHuongDanThucTapTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KhoiLuongHuongDanThucTapTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="LopHocPhanChuyenNganhTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="LopHocPhanChuyenNganhTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>LopHocPhanChuyenNganhTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KhoiLuongGiangDayDoAnTotNghiepTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KhoiLuongGiangDayDoAnTotNghiepTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KhoiLuongGiangDayDoAnTotNghiepTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="LoaiKhoiLuongTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="LoaiKhoiLuongTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>LoaiKhoiLuongTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="LopChatLuongCaoTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="LopChatLuongCaoTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>LopChatLuongCaoTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KhoiLuongGiangDayTungTuanTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KhoiLuongGiangDayTungTuanTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KhoiLuongGiangDayTungTuanTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="LopHocPhanBacDaoTaoTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="LopHocPhanBacDaoTaoTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>LopHocPhanBacDaoTaoTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KhoiLuongGiangDayChiTietTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KhoiLuongGiangDayChiTietTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KhoiLuongGiangDayChiTietTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqUteKhoiLuongGiangDayTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqUteKhoiLuongGiangDayTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqUteKhoiLuongGiangDayTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KetQuaTinhTheoTuanTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KetQuaTinhTheoTuanTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KetQuaTinhTheoTuanTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="LopHocPhanClcAufCjlTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="LopHocPhanClcAufCjlTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>LopHocPhanClcAufCjlTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="PhanNhomMonHocTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="PhanNhomMonHocTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>PhanNhomMonHocTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KhoiLuongQuyDoiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KhoiLuongQuyDoiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KhoiLuongQuyDoiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="PscExBarCodesTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="PscExBarCodesTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>PscExBarCodesTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KyTinhLuongTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KyTinhLuongTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KyTinhLuongTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="PscUserConfigApplicationTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="PscUserConfigApplicationTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>PscUserConfigApplicationTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KyThiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KyThiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KyThiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="QuocTichTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="QuocTichTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>QuocTichTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThuLaoCoiThiChamBaiImportTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThuLaoCoiThiChamBaiImportTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThuLaoCoiThiChamBaiImportTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ReportManagermentsTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ReportManagermentsTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ReportManagermentsTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThuLaoChamThiVhuexTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThuLaoChamThiVhuexTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThuLaoChamThiVhuexTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThuLaoCoiThiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThuLaoCoiThiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThuLaoCoiThiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThuLaoChamBaiVhuTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThuLaoChamBaiVhuTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThuLaoChamBaiVhuTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThuLaoCoiThiVhuTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThuLaoCoiThiVhuTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThuLaoCoiThiVhuTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThoiGianNghiTamThoiCuaGiangVienTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThoiGianNghiTamThoiCuaGiangVienTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThoiGianNghiTamThoiCuaGiangVienTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThuLaoCoiThiVhuexTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThuLaoCoiThiVhuexTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThuLaoCoiThiVhuexTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThuLaoGiangDayDaiHocLopClcTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThuLaoGiangDayDaiHocLopClcTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThuLaoGiangDayDaiHocLopClcTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThoiGianLamViecCuaNhanVienTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThoiGianLamViecCuaNhanVienTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThoiGianLamViecCuaNhanVienTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThueThuNhapCaNhanTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThueThuNhapCaNhanTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThueThuNhapCaNhanTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThuMoiGiangHopDongThinhGiangTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThuMoiGiangHopDongThinhGiangTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThuMoiGiangHopDongThinhGiangTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThuLaoChamBaiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThuLaoChamBaiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThuLaoChamBaiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThueThanhToanBoSungTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThueThanhToanBoSungTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThueThanhToanBoSungTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThuLaoRaDeThiVhuexTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThuLaoRaDeThiVhuexTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThuLaoRaDeThiVhuexTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="UteKhoiLuongGiangDayTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="UteKhoiLuongGiangDayTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>UteKhoiLuongGiangDayTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThuLaoHuongDanCuoiKhoaTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThuLaoHuongDanCuoiKhoaTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThuLaoHuongDanCuoiKhoaTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeThongTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeThongTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeThongTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="VaiTroTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="VaiTroTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>VaiTroTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="TietNoKyTruocTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="TietNoKyTruocTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>TietNoKyTruocTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThuLaoImportTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThuLaoImportTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThuLaoImportTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="UteKhoiLuongKhacTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="UteKhoiLuongKhacTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>UteKhoiLuongKhacTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThuLaoRaDeVhuTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThuLaoRaDeVhuTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThuLaoRaDeVhuTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="UteThanhToanThuLaoTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="UteThanhToanThuLaoTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>UteThanhToanThuLaoTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThuLaoThoaThuanTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThuLaoThoaThuanTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThuLaoThoaThuanTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThucGiangMonThucTeTuHocTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThucGiangMonThucTeTuHocTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThucGiangMonThucTeTuHocTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="TietNghiaVuTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="TietNghiaVuTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>TietNghiaVuTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThuLaoGiangDayThucHanhTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThuLaoGiangDayThucHanhTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThuLaoGiangDayThucHanhTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThongTinGiangDayGiangVienTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThongTinGiangDayGiangVienTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThongTinGiangDayGiangVienTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="UteKhoiLuongQuyDoiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="UteKhoiLuongQuyDoiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>UteKhoiLuongQuyDoiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="TienCongTacPhiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="TienCongTacPhiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>TienCongTacPhiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="SdhLoaiKhoiLuongTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="SdhLoaiKhoiLuongTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>SdhLoaiKhoiLuongTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KhoiLuongTamUngTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KhoiLuongTamUngTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KhoiLuongTamUngTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThanhTraCoiThiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThanhTraCoiThiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThanhTraCoiThiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThanhTraGiangDayTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThanhTraGiangDayTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThanhTraGiangDayTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThoiGianGiangDayTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThoiGianGiangDayTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThoiGianGiangDayTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="TinhTrangTheoNamHocTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="TinhTrangTheoNamHocTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>TinhTrangTheoNamHocTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="SdhMonHocKhongTinhKhoiLuongTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="SdhMonHocKhongTinhKhoiLuongTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>SdhMonHocKhongTinhKhoiLuongTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="SdhDonGiaTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="SdhDonGiaTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>SdhDonGiaTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThanhTraTheoThoiKhoaBieuTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThanhTraTheoThoiKhoaBieuTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThanhTraTheoThoiKhoaBieuTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="QuyUocDatTenLopHocPhanTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="QuyUocDatTenLopHocPhanTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>QuyUocDatTenLopHocPhanTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="QuyDoiKhoiLuongTamUngTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="QuyDoiKhoiLuongTamUngTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>QuyDoiKhoiLuongTamUngTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ReportTemplateTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ReportTemplateTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ReportTemplateTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KhoiLuongKhacTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KhoiLuongKhacTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KhoiLuongKhacTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="SdhHeSoDiaDiemTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="SdhHeSoDiaDiemTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>SdhHeSoDiaDiemTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="SdhKetQuaThanhToanThuLaoTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="SdhKetQuaThanhToanThuLaoTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>SdhKetQuaThanhToanThuLaoTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="QuyDoiHoatDongNgoaiGiangDayTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="QuyDoiHoatDongNgoaiGiangDayTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>QuyDoiHoatDongNgoaiGiangDayTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="QuyDoiGioChuanTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="QuyDoiGioChuanTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>QuyDoiGioChuanTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="SdhHeSoLopDongTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="SdhHeSoLopDongTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>SdhHeSoLopDongTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="SdhNhomMonHocTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="SdhNhomMonHocTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>SdhNhomMonHocTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="SdhChotKhoiLuongGiangDayTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="SdhChotKhoiLuongGiangDayTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>SdhChotKhoiLuongGiangDayTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThamDinhLuanVanThacSyTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThamDinhLuanVanThacSyTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThamDinhLuanVanThacSyTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThangHeTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThangHeTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThangHeTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="SoTietNckhChuyenSangNamSauTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="SoTietNckhChuyenSangNamSauTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>SoTietNckhChuyenSangNamSauTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="QuyMoKhoaTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="QuyMoKhoaTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>QuyMoKhoaTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="TcbKetQuaQuyDoiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="TcbKetQuaQuyDoiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>TcbKetQuaQuyDoiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThanhToanThinhGiangTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThanhToanThinhGiangTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThanhToanThinhGiangTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="SdhPhanNhomMonHocTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="SdhPhanNhomMonHocTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>SdhPhanNhomMonHocTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="QuyDinhTienCanTrenTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="QuyDinhTienCanTrenTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>QuyDinhTienCanTrenTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ThanhTraChamGiangTheoKhoaHocTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ThanhTraChamGiangTheoKhoaHocTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ThanhTraChamGiangTheoKhoaHocTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="SoTietCoiThiTieuChuanCuaGiangVienTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="SoTietCoiThiTieuChuanCuaGiangVienTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>SoTietCoiThiTieuChuanCuaGiangVienTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="SdhUteThanhToanThuLaoTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="SdhUteThanhToanThuLaoTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>SdhUteThanhToanThuLaoTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="SdhMonPhanCongNhieuGiangVienTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="SdhMonPhanCongNhieuGiangVienTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>SdhMonPhanCongNhieuGiangVienTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="SdhPhanLoaiHocPhanTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="SdhPhanLoaiHocPhanTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>SdhPhanLoaiHocPhanTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqUteKhoiLuongKhacTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqUteKhoiLuongKhacTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqUteKhoiLuongKhacTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="SiSoLopHocPhanTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="SiSoLopHocPhanTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>SiSoLopHocPhanTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangVienDinhMucKhauTruTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangVienDinhMucKhauTruTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangVienDinhMucKhauTruTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqPhanLoaiHocPhanTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqPhanLoaiHocPhanTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqPhanLoaiHocPhanTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangVienGiangDayGdtcQpTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangVienGiangDayGdtcQpTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangVienGiangDayGdtcQpTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangVienLopHocPhanTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangVienLopHocPhanTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangVienLopHocPhanTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiamTruGioChuanTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiamTruGioChuanTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiamTruGioChuanTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangVienGiamTruDinhMucTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangVienGiamTruDinhMucTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangVienGiamTruDinhMucTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangVienHoSoTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangVienHoSoTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangVienHoSoTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangDayChatLuongCaoTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangDayChatLuongCaoTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangDayChatLuongCaoTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="DuTruGioGiangTruocThoiKhoaBieuTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="DuTruGioGiangTruocThoiKhoaBieuTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>DuTruGioGiangTruocThoiKhoaBieuTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GhiChuThanhToanBoSungTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GhiChuThanhToanBoSungTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GhiChuThanhToanBoSungTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangVienHoatDongNgoaiGiangDayTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangVienHoatDongNgoaiGiangDayTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangVienHoatDongNgoaiGiangDayTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangVienChucVuTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangVienChucVuTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangVienChucVuTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangVienPhanHoiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangVienPhanHoiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangVienPhanHoiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangVienMocTangLuongTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangVienMocTangLuongTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangVienMocTangLuongTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="SdhUteKhoiLuongGiangDayTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="SdhUteKhoiLuongGiangDayTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>SdhUteKhoiLuongGiangDayTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangVienChuyenMonTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangVienChuyenMonTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangVienChuyenMonTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangDaySauDaiHocTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangDaySauDaiHocTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangDaySauDaiHocTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangVienNghienCuuKhTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangVienNghienCuuKhTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangVienNghienCuuKhTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangVienTinhGioChuanTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangVienTinhGioChuanTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangVienTinhGioChuanTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangVienTamUngTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangVienTamUngTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangVienTamUngTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangVienChuyenDoiGioGiangTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangVienChuyenDoiGioGiangTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangVienChuyenDoiGioGiangTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoBacDaoTaoTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoBacDaoTaoTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoBacDaoTaoTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="DanhMucQuyMoTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="DanhMucQuyMoTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>DanhMucQuyMoTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangVienThayDoiHocViTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangVienThayDoiHocViTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangVienThayDoiHocViTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangVienBiChanTienTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangVienBiChanTienTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangVienBiChanTienTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoChucDanhTietNghiaVuTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoChucDanhTietNghiaVuTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoChucDanhTietNghiaVuTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangVienTamUngChiTietTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangVienTamUngChiTietTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangVienTamUngChiTietTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangVienThayDoiHocHamTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangVienThayDoiHocHamTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangVienThayDoiHocHamTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="DuTruGioGiangTruocLopHocPhanTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="DuTruGioGiangTruocLopHocPhanTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>DuTruGioGiangTruocLopHocPhanTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangVienHoatDongQuanLyTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangVienHoatDongQuanLyTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangVienHoatDongQuanLyTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangVienThayDoiChucVuTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangVienThayDoiChucVuTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangVienThayDoiChucVuTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangVienCamKetKhongTruThueTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangVienCamKetKhongTruThueTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangVienCamKetKhongTruThueTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiamTruDinhMucTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiamTruDinhMucTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiamTruDinhMucTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangVienKhongTinhGioGiangTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangVienKhongTinhGioGiangTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangVienKhongTinhGioGiangTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangVienChoDuyetHoSoTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangVienChoDuyetHoSoTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangVienChoDuyetHoSoTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="DuTruGioGiangKhiCoLopHocPhanTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="DuTruGioGiangKhiCoLopHocPhanTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>DuTruGioGiangKhiCoLopHocPhanTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="BangPhuTroiGioDayGiangVienTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="BangPhuTroiGioDayGiangVienTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>BangPhuTroiGioDayGiangVienTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="DonGiaNgoaiQuyCheTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="DonGiaNgoaiQuyCheTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>DonGiaNgoaiQuyCheTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="CoVanHocTapTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="CoVanHocTapTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>CoVanHocTapTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="DotChiTraTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="DotChiTraTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>DotChiTraTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ChiTietKhoiLuongTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ChiTietKhoiLuongTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ChiTietKhoiLuongTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ChucVuTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ChucVuTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ChucVuTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="DanhGiaCoVanHocTapTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="DanhGiaCoVanHocTapTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>DanhGiaCoVanHocTapTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="DanhMucGioGiangTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="DanhMucGioGiangTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>DanhMucGioGiangTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="DonViTinhTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="DonViTinhTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>DonViTinhTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ChiTienThuLaoGiangDayTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ChiTienThuLaoGiangDayTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ChiTienThuLaoGiangDayTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="CauHinhTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="CauHinhTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>CauHinhTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="CauHinhChotGioTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="CauHinhChotGioTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>CauHinhChotGioTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="CongThucTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="CongThucTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>CongThucTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="TaiKhoanTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="TaiKhoanTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>TaiKhoanTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="CauHinhChungTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="CauHinhChungTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>CauHinhChungTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ChotCoVanHocTapTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ChotCoVanHocTapTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ChotCoVanHocTapTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="MonTieuLuanTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="MonTieuLuanTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>MonTieuLuanTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="CauHinhGiangVienPhanHoiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="CauHinhGiangVienPhanHoiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>CauHinhGiangVienPhanHoiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="DonGiaChamBaiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="DonGiaChamBaiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>DonGiaChamBaiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="DanhMucViPhamTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="DanhMucViPhamTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>DanhMucViPhamTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="DinhMucNghienCuuKhoaHocTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="DinhMucNghienCuuKhoaHocTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>DinhMucNghienCuuKhoaHocTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="DonGiaChatLuongCaoTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="DonGiaChatLuongCaoTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>DonGiaChatLuongCaoTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ChotKhoiLuongGiangDayTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ChotKhoiLuongGiangDayTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ChotKhoiLuongGiangDayTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="DanhMucNghienCuuKhoaHocTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="DanhMucNghienCuuKhoaHocTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>DanhMucNghienCuuKhoaHocTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="DonGiaCoiThiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="DonGiaCoiThiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>DonGiaCoiThiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="ChucNangTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="ChucNangTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>ChucNangTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="DonGiaTcbTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="DonGiaTcbTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>DonGiaTcbTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="DanhMucHoatDongQuanLyTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="DanhMucHoatDongQuanLyTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>DanhMucHoatDongQuanLyTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="DinhMucGioChuanTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="DinhMucGioChuanTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>DinhMucGioChuanTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="DinhMucHuongDanKhoaLuanThucTapTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="DinhMucHuongDanKhoaLuanThucTapTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>DinhMucHuongDanKhoaLuanThucTapTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="DonGiaMotTietTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="DonGiaMotTietTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>DonGiaMotTietTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="DanhSachHopDongThinhGiangTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="DanhSachHopDongThinhGiangTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>DanhSachHopDongThinhGiangTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangVienThayDoiLoaiGiangVienTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangVienThayDoiLoaiGiangVienTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangVienThayDoiLoaiGiangVienTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangVienThanhToanQuaNganHangTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangVienThanhToanQuaNganHangTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangVienThanhToanQuaNganHangTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="DonGiaTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="DonGiaTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>DonGiaTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqKhoiLuongDoAnTotNghiepChiTietTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqKhoiLuongDoAnTotNghiepChiTietTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqKhoiLuongDoAnTotNghiepChiTietTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoCoSoTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoCoSoTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoCoSoTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="DinhMucGioChuanToiThieuTheoChucVuTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="DinhMucGioChuanToiThieuTheoChucVuTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>DinhMucGioChuanToiThieuTheoChucVuTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqKhoiLuongGiangDayDoAnTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqKhoiLuongGiangDayDoAnTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqKhoiLuongGiangDayDoAnTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqHeSoDiaDiemTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqHeSoDiaDiemTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqHeSoDiaDiemTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqKhoiLuongGiangDayDoAnTotNghiepTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqKhoiLuongGiangDayDoAnTotNghiepTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqKhoiLuongGiangDayDoAnTotNghiepTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqNhomKhoiLuongTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqNhomKhoiLuongTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqNhomKhoiLuongTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqKhoiLuongGiangDayChiTietTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqKhoiLuongGiangDayChiTietTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqKhoiLuongGiangDayChiTietTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqHeSoQuyDoiTinChiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqHeSoQuyDoiTinChiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqHeSoQuyDoiTinChiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqDonGiaNgoaiQuyCheTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqDonGiaNgoaiQuyCheTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqDonGiaNgoaiQuyCheTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqHopDongThinhGiangTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqHopDongThinhGiangTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqHopDongThinhGiangTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqDonGiaTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqDonGiaTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqDonGiaTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqMonTieuLuanTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqMonTieuLuanTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqMonTieuLuanTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HuongDanKhoaLuanThucTapTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HuongDanKhoaLuanThucTapTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HuongDanKhoaLuanThucTapTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqKhoiLuongThucTapCuoiKhoaTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqKhoiLuongThucTapCuoiKhoaTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqKhoiLuongThucTapCuoiKhoaTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoChucDanhChuyenMonTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoChucDanhChuyenMonTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoChucDanhChuyenMonTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqHeSoCoSoTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqHeSoCoSoTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqHeSoCoSoTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqHeSoHocKyTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqHeSoHocKyTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqHeSoHocKyTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqUteKhoiLuongQuyDoiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqUteKhoiLuongQuyDoiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqUteKhoiLuongQuyDoiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqMonThucTapTotNghiepTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqMonThucTapTotNghiepTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqMonThucTapTotNghiepTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqMonHocKhongTinhKhoiLuongTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqMonHocKhongTinhKhoiLuongTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqMonHocKhongTinhKhoiLuongTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqUteThanhToanThuLaoTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqUteThanhToanThuLaoTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqUteThanhToanThuLaoTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="GiangVienTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="GiangVienTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>GiangVienTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqLoaiKhoiLuongTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqLoaiKhoiLuongTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqLoaiKhoiLuongTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqPhanBienLuanAnTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqPhanBienLuanAnTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqPhanBienLuanAnTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqPhanCongDoAnTotNghiepTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqPhanCongDoAnTotNghiepTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqPhanCongDoAnTotNghiepTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqMonPhanCongNhieuGiangVienTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqMonPhanCongNhieuGiangVienTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqMonPhanCongNhieuGiangVienTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqPhanNhomMonHocTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqPhanNhomMonHocTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqPhanNhomMonHocTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqMonTinhTheoQuyCheMoiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqMonTinhTheoQuyCheMoiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqMonTinhTheoQuyCheMoiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqCauHinhChotGioTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqCauHinhChotGioTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqCauHinhChotGioTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqPhuCapHanhChinhTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqPhuCapHanhChinhTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqPhuCapHanhChinhTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqMonXepLichChuNhatKhongTinhHeSoTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqMonXepLichChuNhatKhongTinhHeSoTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqMonXepLichChuNhatKhongTinhHeSoTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HocHamTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HocHamTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HocHamTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqChotKhoiLuongGiangDayTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqChotKhoiLuongGiangDayTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqChotKhoiLuongGiangDayTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqNhomMonHocTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqNhomMonHocTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqNhomMonHocTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoNgonNguTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoNgonNguTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoNgonNguTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoNgayTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoNgayTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoNgayTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoThamNienTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoThamNienTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoThamNienTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoNhomThucHanhTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoNhomThucHanhTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoNhomThucHanhTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoLuongTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoLuongTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoLuongTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoQuyDoiGioTroiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoQuyDoiGioTroiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoQuyDoiGioTroiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoCoVanHocTapTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoCoVanHocTapTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoCoVanHocTapTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoLopDongTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoLopDongTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoLopDongTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoQuyDoiGioChuanTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoQuyDoiGioChuanTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoQuyDoiGioChuanTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqKhoanQuyDoiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqKhoanQuyDoiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqKhoanQuyDoiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoKhoiNganhTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoKhoiNganhTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoKhoiNganhTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HocViTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HocViTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HocViTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoChucDanhKhoiLuongKhacTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoChucDanhKhoiLuongKhacTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoChucDanhKhoiLuongKhacTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqKetQuaThanhToanThuLaoTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqKetQuaThanhToanThuLaoTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqKetQuaThanhToanThuLaoTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoCongViecTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoCongViecTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoCongViecTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoHocKyTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoHocKyTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoHocKyTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HoSoTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HoSoTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HoSoTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoKhoiLuongCongThemTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoKhoiLuongCongThemTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoKhoiLuongCongThemTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoNhomMonTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoNhomMonTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoNhomMonTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HinhThucDaoTaoTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HinhThucDaoTaoTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HinhThucDaoTaoTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HoatDongNgoaiGiangDayTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HoatDongNgoaiGiangDayTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HoatDongNgoaiGiangDayTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="KcqKhoiLuongKhacTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="KcqKhoiLuongKhacTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>KcqKhoiLuongKhacTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HistoryTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HistoryTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HistoryTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoNgoaiGioTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoNgoaiGioTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoNgoaiGioTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoThuLaoTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoThuLaoTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoThuLaoTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HoatDongChuyenMonKhacTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HoatDongChuyenMonKhacTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HoatDongChuyenMonKhacTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HopDongThinhGiangTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HopDongThinhGiangTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HopDongThinhGiangTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoThoiGianGiangDayTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoThoiGianGiangDayTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoThoiGianGiangDayTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoQuyDoiTinChiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoQuyDoiTinChiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoQuyDoiTinChiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoThanhToanGioChuanVuotMucTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoThanhToanGioChuanVuotMucTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoThanhToanGioChuanVuotMucTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoTroCapTheoKhoaTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoTroCapTheoKhoaTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoTroCapTheoKhoaTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HoatDongNgoaiGiangDayClcTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HoatDongNgoaiGiangDayClcTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HoatDongNgoaiGiangDayClcTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoThucTapTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoThucTapTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoThucTapTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="TongTienLuongTrongNamCuaGiangVienTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="TongTienLuongTrongNamCuaGiangVienTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>TongTienLuongTrongNamCuaGiangVienTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="HeSoTinChiTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="HeSoTinChiTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>HeSoTinChiTest.cs</DependentUpon>
+			</Compile>
+			<Compile Include="XetDuyetDeCuongLuanVanCaoHocTest.cs">
+			  	<SubType>Code</SubType>
+			</Compile>	
+			<Compile Include="XetDuyetDeCuongLuanVanCaoHocTest.generated.cs">
+			  	<SubType>Code</SubType>
+				<DependentUpon>XetDuyetDeCuongLuanVanCaoHocTest.cs</DependentUpon>
+			</Compile>
+		<Compile Include="..\AssemblyInfo.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+			
+
+		
+		
+
+			<Compile Include="TestUtility.cs">
+			  <SubType>Code</SubType>
+			</Compile>			
+		
+		
+		
+		
+		 <AppDesigner Include="Properties\" />
+	</ItemGroup>
+	
+	
+	
+	
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+	<PostBuildEvent>
+	</PostBuildEvent>
+  </PropertyGroup>
+
+</Project>

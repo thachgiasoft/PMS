@@ -1,0 +1,2881 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>12.0.21005.1</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4DDE9AC0-79A4-4B8B-8D81-C74617DFA56C}</ProjectGuid>
+    <ProjectType>Local</ProjectType>
+	<TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <OutputType>Library</OutputType>
+    <ApplicationIcon>
+	</ApplicationIcon>
+    <AssemblyKeyContainerName>
+	</AssemblyKeyContainerName>
+    <AssemblyName>PMS.Web</AssemblyName>
+    <AssemblyOriginatorKeyFile>..\PMS.snk</AssemblyOriginatorKeyFile>
+	<SignAssembly>false</SignAssembly>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <RootNamespace>PMS.Web</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject></StartupObject>
+    <FileUpgradeFlags></FileUpgradeFlags>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>PMS.Web.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>PMS.Web.xml</DocumentationFile>
+	 <DebugType>pdbonly</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'GenerateDebug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>PMS.Web.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System"/>
+	<Reference Include="System.Core">
+		<RequiredTargetFramework>4.5</RequiredTargetFramework>
+	</Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations"/>
+    <Reference Include="System.Web"/>
+    <Reference Include="System.Data"/>
+    <Reference Include="System.Design"/>
+    <Reference Include="System.Xml"/>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Drawing" />
+     
+	<ProjectReference Include="..\PMS.Entities\PMS.Entities.csproj">
+      <Name>PMS.Entities</Name>
+      <Project>{20E43088-4618-4F4A-B8AD-FC31B50D94CD}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+	
+    <ProjectReference Include="..\PMS.Data\PMS.Data.csproj">
+        <Name>PMS.Data</Name>
+        <Project>{041C1BBE-0BFB-4D45-8125-9AB0BBC09A92}</Project>
+        <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+	
+	
+    <ProjectReference Include="..\PMS.Services\PMS.Services.csproj">
+        <Name>PMS.Services</Name>
+        <Project>{794327CE-DC0A-4381-89EE-4C00AFB08D5A}</Project>
+        <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"</Package>
+    </ProjectReference>
+	
+    
+    	
+	
+	
+	
+	</ItemGroup>
+	
+		
+	<!-- Custom code folder: C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Web\App_Code -->
+	<ItemGroup>	
+		<Folder Include="App_Code\" />
+        <Compile Include="App_Code\**\*.cs">
+          <SubType>Code</SubType>
+        </Compile>		
+	</ItemGroup>
+
+	<!-- Include any user files -->
+	<ItemGroup>	
+		<Compile Include="**\*.user.*" Exclude="**\*.csproj.user;**\.svn\**" >
+          <SubType>Code</SubType>
+        </Compile>		
+	</ItemGroup>
+	
+	<ItemGroup>
+		<Compile Include="..\AssemblyInfo.cs">
+		  <SubType>Code</SubType>
+		</Compile>
+			
+
+		
+		
+
+		
+			<Compile Include="Data\BaseDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>			
+			<Compile Include="Data\BaseDataSourceDesigner.cs">
+			  <SubType>Code</SubType>
+			</Compile>			
+			<Compile Include="Data\CustomDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>			
+			<Compile Include="Data\CustomDataSourceDesigner.cs">
+			  <SubType>Code</SubType>
+			</Compile>			
+			<Compile Include="Data\CustomParameter.cs">
+			  <SubType>Code</SubType>
+			</Compile>			
+			<Compile Include="Data\DataParameter.cs">
+			  <SubType>Code</SubType>
+			</Compile>			
+			<Compile Include="Data\EntityDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>			
+			<Compile Include="Data\EntityDataSourceFilter.cs">
+			  <SubType>Code</SubType>
+			</Compile>			
+			<Compile Include="Data\EntityRelationship.cs">
+			  <SubType>Code</SubType>
+			</Compile>			
+			<Compile Include="Data\EntityRelationshipMember.cs">
+			  <SubType>Code</SubType>
+			</Compile>			
+			<Compile Include="Data\EntityTransactionModule.cs">
+			  <SubType>Code</SubType>
+			</Compile>			
+			<Compile Include="Data\ILinkedDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>			
+			<Compile Include="Data\ManyToManyListRelationship.cs">
+			  <SubType>Code</SubType>
+			</Compile>			
+			<Compile Include="Data\ManyToManyViewRelationship.cs">
+			  <SubType>Code</SubType>
+			</Compile>			
+			<Compile Include="Data\OneToManyGridRelationship.cs">
+			  <SubType>Code</SubType>
+			</Compile>			
+			<Compile Include="Data\OneToOneViewRelationship.cs">
+			  <SubType>Code</SubType>
+			</Compile>			
+			<Compile Include="Data\ProviderDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>			
+			<Compile Include="Data\ProviderDataSourceDesigner.cs">
+			  <SubType>Code</SubType>
+			</Compile>			
+			<Compile Include="Data\ReadOnlyDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>			
+			<Compile Include="Data\ReadOnlyDataSourceDesigner.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="Data\SqlParameter.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\DonGiaMotTietDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\DonGiaMotTietRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KhoiLuongGiangDayChiTietDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KhoiLuongGiangDayChiTietRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\TinhTrangDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\TinhTrangRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\TrinhDoQuanLyNhaNuocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\TrinhDoQuanLyNhaNuocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\NgachCongChucDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\NgachCongChucRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\DanhSachHopDongThinhGiangDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\DanhSachHopDongThinhGiangRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\DonGiaTcbDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\DonGiaTcbRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqKhoiLuongGiangDayChiTietDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqKhoiLuongGiangDayChiTietRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienHoatDongNgoaiGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienHoatDongNgoaiGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\CauHinhDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\CauHinhRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\DotChiTraDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\DotChiTraRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\BangPhuTroiGioDayGiangVienDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\BangPhuTroiGioDayGiangVienRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienKhongTinhGioGiangDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienKhongTinhGioGiangRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\TrinhDoSuPhamDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\TrinhDoSuPhamRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\DonGiaChatLuongCaoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\DonGiaChatLuongCaoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ChucNangDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ChucNangRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\BacLuongDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\BacLuongRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HoatDongNgoaiGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HoatDongNgoaiGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ChotCoVanHocTapDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ChotCoVanHocTapRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\DanhGiaCoVanHocTapDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\DanhGiaCoVanHocTapRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\TrinhDoTinHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\TrinhDoTinHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\NghienCuuKhoaHocTongHopDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\NghienCuuKhoaHocTongHopRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoChucDanhChuyenMonDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoChucDanhChuyenMonRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ChucVuDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ChucVuRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoThucTapDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoThucTapRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\CauHinhChotGioDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\CauHinhChotGioRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\DonGiaNgoaiQuyCheDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\DonGiaNgoaiQuyCheRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienTamUngChiTietDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienTamUngChiTietRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqUteThanhToanThuLaoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqUteThanhToanThuLaoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GhiChuThanhToanBoSungDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GhiChuThanhToanBoSungRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\CauHinhChungDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\CauHinhChungRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\SdhUteThanhToanThuLaoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\SdhUteThanhToanThuLaoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoKhoiNganhDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoKhoiNganhRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\MonHocCoNganHangDeThiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\MonHocCoNganHangDeThiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HocViDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HocViRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienThayDoiLoaiGiangVienDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienThayDoiLoaiGiangVienRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiamTruDinhMucDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiamTruDinhMucRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangDayChatLuongCaoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangDayChatLuongCaoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\SdhUteKhoiLuongGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\SdhUteKhoiLuongGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqPhuCapHanhChinhDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqPhuCapHanhChinhRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqUteKhoiLuongGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqUteKhoiLuongGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\DonGiaChamBaiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\DonGiaChamBaiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqHeSoHocKyDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqHeSoHocKyRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiamTruGioChuanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiamTruGioChuanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ChietTinhBoiDuongGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ChietTinhBoiDuongGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\SdhHeSoLopDongDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\SdhHeSoLopDongRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\DinhMucGioChuanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\DinhMucGioChuanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\SdhHeSoDiaDiemDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\SdhHeSoDiaDiemRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqMonPhanCongNhieuGiangVienDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqMonPhanCongNhieuGiangVienRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqQuyDoiGioChuanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqQuyDoiGioChuanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\SdhUteKhoiLuongQuyDoiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\SdhUteKhoiLuongQuyDoiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HocHamDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HocHamRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoCoSoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoCoSoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienGiangDayGdtcQpDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienGiangDayGdtcQpRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\CongThucDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\CongThucRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienBiChanTienDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienBiChanTienRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoThamNienDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoThamNienRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqCauHinhChotGioDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqCauHinhChotGioRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienThayDoiChucVuDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienThayDoiChucVuRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienChuyenDoiGioGiangDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienChuyenDoiGioGiangRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\DanhMucQuyMoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\DanhMucQuyMoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\DinhMucNghienCuuKhoaHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\DinhMucNghienCuuKhoaHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangDaySauDaiHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangDaySauDaiHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienTinhGioChuanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienTinhGioChuanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienDinhMucKhauTruDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienDinhMucKhauTruRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\DinhMucHuongDanKhoaLuanThucTapDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\DinhMucHuongDanKhoaLuanThucTapRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\DuTruGioGiangKhiCoLopHocPhanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\DuTruGioGiangKhiCoLopHocPhanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienTamUngDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienTamUngRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\TaiKhoanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\TaiKhoanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\DonGiaCoiThiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\DonGiaCoiThiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoNgayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoNgayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienPhanHoiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienPhanHoiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HuongDanKhoaLuanThucTapDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HuongDanKhoaLuanThucTapRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqKhoiLuongThucTapCuoiKhoaDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqKhoiLuongThucTapCuoiKhoaRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\DuTruGioGiangTruocLopHocPhanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\DuTruGioGiangTruocLopHocPhanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoCoVanHocTapDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoCoVanHocTapRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqHeSoCoSoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqHeSoCoSoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HoSoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HoSoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoNgoaiGioDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoNgoaiGioRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqPhanLoaiHocPhanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqPhanLoaiHocPhanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeThongDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeThongRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqKhoanQuyDoiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqKhoanQuyDoiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqKetQuaThanhToanThuLaoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqKetQuaThanhToanThuLaoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoTinChiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoTinChiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HinhThucDaoTaoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HinhThucDaoTaoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\UteKhoiLuongKhacDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\UteKhoiLuongKhacRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoChucDanhKhoiLuongKhacDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoChucDanhKhoiLuongKhacRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoKhoiLuongCongThemDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoKhoiLuongCongThemRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoLopDongDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoLopDongRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoThanhToanGioChuanVuotMucDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoThanhToanGioChuanVuotMucRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\UteKhoiLuongQuyDoiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\UteKhoiLuongQuyDoiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqDonGiaNgoaiQuyCheDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqDonGiaNgoaiQuyCheRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoThoiGianGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoThoiGianGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoNgonNguDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoNgonNguRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoNhomThucHanhDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoNhomThucHanhRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThuLaoChamBaiVhuDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThuLaoChamBaiVhuRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqHopDongThinhGiangDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqHopDongThinhGiangRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoLuongDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoLuongRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoQuyDoiTinChiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoQuyDoiTinChiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\DonGiaDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\DonGiaRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqMonTinhTheoQuyCheMoiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqMonTinhTheoQuyCheMoiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqMonTieuLuanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqMonTieuLuanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqNhomKhoiLuongDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqNhomKhoiLuongRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqKhoiLuongGiangDayDoAnDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqKhoiLuongGiangDayDoAnRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThuMoiGiangHopDongThinhGiangDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThuMoiGiangHopDongThinhGiangRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqMonHocKhongTinhKhoiLuongDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqMonHocKhongTinhKhoiLuongRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoHocKyDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoHocKyRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqHeSoDiaDiemDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqHeSoDiaDiemRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqHeSoQuyDoiTinChiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqHeSoQuyDoiTinChiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqDonGiaDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqDonGiaRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HistoryDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HistoryRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\DuTruGioGiangTruocThoiKhoaBieuDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\DuTruGioGiangTruocThoiKhoaBieuRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HoatDongChuyenMonKhacDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HoatDongChuyenMonKhacRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqKhoiLuongGiangDayDoAnTotNghiepDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqKhoiLuongGiangDayDoAnTotNghiepRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoQuyDoiGioChuanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoQuyDoiGioChuanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqMonXepLichChuNhatKhongTinhHeSoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqMonXepLichChuNhatKhongTinhHeSoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\TrinhDoNgoaiNguDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\TrinhDoNgoaiNguRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoBacDaoTaoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoBacDaoTaoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\NhomQuyenDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\NhomQuyenRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoCongViecDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoCongViecRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqUteKhoiLuongQuyDoiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqUteKhoiLuongQuyDoiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoNhomMonDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoNhomMonRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqKhoiLuongDoAnTotNghiepChiTietDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqKhoiLuongDoAnTotNghiepChiTietRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienLopHocPhanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienLopHocPhanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqNhomMonHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqNhomMonHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqChotKhoiLuongGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqChotKhoiLuongGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\QuyMoKhoaDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\QuyMoKhoaRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienThayDoiHocHamDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienThayDoiHocHamRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThueThanhToanBoSungDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThueThanhToanBoSungRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HoatDongNgoaiGiangDayClcDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HoatDongNgoaiGiangDayClcRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienThayDoiHocViDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienThayDoiHocViRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\DinhMucGioChuanToiThieuTheoChucVuDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\DinhMucGioChuanToiThieuTheoChucVuRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\TrinhDoChinhTriDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\TrinhDoChinhTriRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\LoaiNhanVienDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\LoaiNhanVienRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\MonGiangMoiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\MonGiangMoiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KetQuaTinhTheoTuanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KetQuaTinhTheoTuanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\PhanLoaiHocPhanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\PhanLoaiHocPhanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqLoaiKhoiLuongDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqLoaiKhoiLuongRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqUteKhoiLuongKhacDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqUteKhoiLuongKhacRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqPhanBienLuanAnDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqPhanBienLuanAnRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KhoiLuongGiangDayDoAnDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KhoiLuongGiangDayDoAnRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\SoTietNckhChuyenSangNamSauDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\SoTietNckhChuyenSangNamSauRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThanhTraChamGiangTheoKhoaHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThanhTraChamGiangTheoKhoaHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\QuyDoiHoatDongNgoaiGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\QuyDoiHoatDongNgoaiGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThueThuNhapCaNhanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThueThuNhapCaNhanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\LoaiNghienCuuKhoaHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\LoaiNghienCuuKhoaHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienChoDuyetHoSoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienChoDuyetHoSoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienThanhToanQuaNganHangDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienThanhToanQuaNganHangRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KhoiLuongGiangDayCaoDangDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KhoiLuongGiangDayCaoDangRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ChiTienThuLaoGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ChiTienThuLaoGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KhoiLuongGiangDayDoAnTotNghiepDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KhoiLuongGiangDayDoAnTotNghiepRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KhoiLuongTamUngDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KhoiLuongTamUngRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ChotKhoiLuongGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ChotKhoiLuongGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KhoiLuongGiangDayTungTuanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KhoiLuongGiangDayTungTuanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KhoiLuongQuyDoiCaoDangDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KhoiLuongQuyDoiCaoDangRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KyTinhLuongDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KyTinhLuongRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\LyDoTamNghiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\LyDoTamNghiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\QuyDinhTienCanTrenDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\QuyDinhTienCanTrenRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\LopHocPhanChuyenNganhDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\LopHocPhanChuyenNganhRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\MonPhanCongNhieuGiangVienDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\MonPhanCongNhieuGiangVienRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KhoiLuongQuyDoiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KhoiLuongQuyDoiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\MonTinhTheoQuyCheMoiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\MonTinhTheoQuyCheMoiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KhoiLuongDoAnTotNghiepChiTietDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KhoiLuongDoAnTotNghiepChiTietRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KyThiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KyThiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThangHeDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThangHeRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ReportManagermentsDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ReportManagermentsRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\TongTienLuongTrongNamCuaGiangVienDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\TongTienLuongTrongNamCuaGiangVienRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqKhoiLuongKhacDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqKhoiLuongKhacRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\PhanQuyenControlTrenFormDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\PhanQuyenControlTrenFormRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqPhanCongDoAnTotNghiepDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqPhanCongDoAnTotNghiepRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\NoiDungCongViecQuanLyDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\NoiDungCongViecQuanLyRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KetQuaThanhToanThuLaoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KetQuaThanhToanThuLaoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\LopHocPhanKhongTinhGioGiangDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\LopHocPhanKhongTinhGioGiangRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\MonHocKhongTinhKhoiLuongDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\MonHocKhongTinhKhoiLuongRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KhoiLuongHuongDanThucTapDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KhoiLuongHuongDanThucTapRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\TinhTrangTheoNamHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\TinhTrangTheoNamHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\NhomHoatDongNgoaiGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\NhomHoatDongNgoaiGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\NhomKhoiLuongDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\NhomKhoiLuongRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\LoaiLopDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\LoaiLopRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\QuyDoiGioChuanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\QuyDoiGioChuanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\MonXepLichChuNhatKhongTinhHeSoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\MonXepLichChuNhatKhongTinhHeSoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienCamKetKhongTruThueDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienCamKetKhongTruThueRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\QuyUocDatTenLopHocPhanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\QuyUocDatTenLopHocPhanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\TcbKetQuaQuyDoiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\TcbKetQuaQuyDoiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\DanhMucViPhamDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\DanhMucViPhamRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\MonHocTinhHeSoKhoiNganhDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\MonHocTinhHeSoKhoiNganhRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThuLaoCoiThiVhuexDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThuLaoCoiThiVhuexRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\CauHinhGiangVienPhanHoiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\CauHinhGiangVienPhanHoiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\MonThucTapTotNghiepDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\MonThucTapTotNghiepRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\NghienCuuKhoaHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\NghienCuuKhoaHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\MucDoHoanThanhNckhDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\MucDoHoanThanhNckhRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\DanhMucNghienCuuKhoaHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\DanhMucNghienCuuKhoaHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\PhanNhomMonHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\PhanNhomMonHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThuLaoThoaThuanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThuLaoThoaThuanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\NoiDungDanhGiaDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\NoiDungDanhGiaRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\DanhMucGioGiangDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\DanhMucGioGiangRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\LoaiKhoiLuongDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\LoaiKhoiLuongRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\PhanBienLuanAnDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\PhanBienLuanAnRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\PhanLoaiGiangVienDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\PhanLoaiGiangVienRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\NamHocHienThiThuLaoLenWebDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\NamHocHienThiThuLaoLenWebRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoChucDanhTietNghiaVuDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoChucDanhTietNghiaVuRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\QuocTichDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\QuocTichRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\LopChatLuongCaoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\LopChatLuongCaoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\SdhPhanNhomMonHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\SdhPhanNhomMonHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\NamHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\NamHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\PscDotThanhToanCoiThiChamThiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\PscDotThanhToanCoiThiChamThiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\PscExBarCodesDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\PscExBarCodesRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienNghienCuuKhDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienNghienCuuKhRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienHoSoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienHoSoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\NhomChucNangDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\NhomChucNangRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\UteKhoiLuongGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\UteKhoiLuongGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\NgonNguGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\NgonNguGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\LopHocPhanGhepThoiKhoaBieuDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\LopHocPhanGhepThoiKhoaBieuRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\DanhMucHoatDongQuanLyDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\DanhMucHoatDongQuanLyRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThuLaoChamBaiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThuLaoChamBaiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoTroCapTheoKhoaDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoTroCapTheoKhoaRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\LoaiGiangVienDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\LoaiGiangVienRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\TienCongTacPhiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\TienCongTacPhiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\SoTietCoiThiTieuChuanCuaGiangVienDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\SoTietCoiThiTieuChuanCuaGiangVienRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\BangPhuTroiNamHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\BangPhuTroiNamHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KhoiLuongGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KhoiLuongGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThanhToanThinhGiangDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThanhToanThinhGiangRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienChucVuDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienChucVuRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienHoatDongQuanLyDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienHoatDongQuanLyRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThanhTraGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThanhTraGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\TietNghiaVuDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\TietNghiaVuRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThoiGianLamViecCuaNhanVienDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThoiGianLamViecCuaNhanVienRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThuLaoCoiThiVhuDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThuLaoCoiThiVhuRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ChiTietKhoiLuongDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ChiTietKhoiLuongRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\QuyDoiKhoiLuongTamUngDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\QuyDoiKhoiLuongTamUngRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThuLaoCoiThiChamBaiImportDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThuLaoCoiThiChamBaiImportRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienGiamTruDinhMucDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienGiamTruDinhMucRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienChuyenMonDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienChuyenMonRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThamDinhLuanVanThacSyDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThamDinhLuanVanThacSyRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\MonKhongTinhDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\MonKhongTinhRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\XetDuyetDeCuongLuanVanCaoHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\XetDuyetDeCuongLuanVanCaoHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\NhomMonHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\NhomMonHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\LopHocPhanGiangBangTiengNuocNgoaiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\LopHocPhanGiangBangTiengNuocNgoaiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KetQuaDanhGiaVuotGioDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KetQuaDanhGiaVuotGioRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqPhanNhomMonHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqPhanNhomMonHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\PhanCongDoAnTotNghiepDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\PhanCongDoAnTotNghiepRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienMocTangLuongDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienMocTangLuongRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\SdhChotKhoiLuongGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\SdhChotKhoiLuongGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThuLaoCoiThiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThuLaoCoiThiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThoiGianNghiTamThoiCuaGiangVienDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThoiGianNghiTamThoiCuaGiangVienRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\SdhMonHocKhongTinhKhoiLuongDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\SdhMonHocKhongTinhKhoiLuongRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\SdhPhanLoaiHocPhanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\SdhPhanLoaiHocPhanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\CoVanHocTapDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\CoVanHocTapRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\PhuCapHanhChinhDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\PhuCapHanhChinhRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\LopHocPhanClcAufCjlDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\LopHocPhanClcAufCjlRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\TietNoKyTruocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\TietNoKyTruocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\SdhMonPhanCongNhieuGiangVienDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\SdhMonPhanCongNhieuGiangVienRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThongTinGiangDayGiangVienDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThongTinGiangDayGiangVienRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\GiangVienTinhLuongThinhGiangDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\GiangVienTinhLuongThinhGiangRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThuLaoImportDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThuLaoImportRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\SdhNhomMonHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\SdhNhomMonHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\SiSoLopHocPhanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\SiSoLopHocPhanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\DonViTinhDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\DonViTinhRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoThuLaoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoThuLaoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThanhTraCoiThiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThanhTraCoiThiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KetQuaTinhDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KetQuaTinhRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\PscUserConfigApplicationDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\PscUserConfigApplicationRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\LopHocPhanBacDaoTaoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\LopHocPhanBacDaoTaoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\SdhDonGiaDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\SdhDonGiaRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\SdhLoaiKhoiLuongDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\SdhLoaiKhoiLuongRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KhoiLuongKhacDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KhoiLuongKhacRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\VaiTroDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\VaiTroRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\SdhKetQuaThanhToanThuLaoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\SdhKetQuaThanhToanThuLaoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ReportTemplateDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ReportTemplateRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThuLaoGiangDayThucHanhDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThuLaoGiangDayThucHanhRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThuLaoRaDeVhuDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThuLaoRaDeVhuRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KhoanQuyDoiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KhoanQuyDoiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KetQuaCacKhoanChiKhacDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KetQuaCacKhoanChiKhacRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HopDongThinhGiangDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HopDongThinhGiangRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KhoanChiKhacDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KhoanChiKhacRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThuLaoGiangDayDaiHocLopClcDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThuLaoGiangDayDaiHocLopClcRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThucGiangMonThucTeTuHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThucGiangMonThucTeTuHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThoiGianGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThoiGianGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThuLaoHuongDanCuoiKhoaDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThuLaoHuongDanCuoiKhoaRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KhoiLuongCacCongViecKhacDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KhoiLuongCacCongViecKhacRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\UteThanhToanThuLaoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\UteThanhToanThuLaoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\HeSoQuyDoiGioTroiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\HeSoQuyDoiGioTroiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThuLaoRaDeThiVhuexDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThuLaoRaDeThiVhuexRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThanhTraTheoThoiKhoaBieuDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThanhTraTheoThoiKhoaBieuRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\KcqMonThucTapTotNghiepDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\KcqMonThucTapTotNghiepRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\MonTieuLuanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\MonTieuLuanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\ThuLaoChamThiVhuexDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\ThuLaoChamThiVhuexRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\VChiTietKhoiLuongDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\VChiTietKhoiLuongRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\VChiTietKhoiLuongThucDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\VChiTietKhoiLuongThucDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\VChiTietQuyDoiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\VChiTietQuyDoiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\VGiangVienChucVuDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\VGiangVienChucVuRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\VKhoiLuongThucDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\VKhoiLuongThucDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\VLopHocPhanKhongPhanCongDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\VLopHocPhanKhongPhanCongRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\VMonHocTinChiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\VMonHocTinChiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\VThanhToanThuLaoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\VThanhToanThuLaoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\VTongHopKhoiLuongDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\VTongHopKhoiLuongRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\VTongHopQuyDoiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\VTongHopQuyDoiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\VTongHopThuLaoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\VTongHopThuLaoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewBacDaoTaoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewBacDaoTaoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewBacDaoTaoLoaiHinhDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewBacDaoTaoLoaiHinhRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewBangPhuTroiGioDayGiangVienDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewBangPhuTroiGioDayGiangVienRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewBuoiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewBuoiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewCauHinhDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewCauHinhRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewChiTienCoVanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewChiTienCoVanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewChiTietGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewChiTietGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewChiTietHocPhanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewChiTietHocPhanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewChiTietKhoiLuongDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewChiTietKhoiLuongRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewChiTietKhoiLuongGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewChiTietKhoiLuongGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewChiTietKhoiLuongThucDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewChiTietKhoiLuongThucDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewChiTietPhanCongGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewChiTietPhanCongGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewChiTietQuyDoiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewChiTietQuyDoiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewCoSoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewCoSoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewCoVanHocTapDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewCoVanHocTapRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewDanhSachHopDongThinhGiangDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewDanhSachHopDongThinhGiangRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewDanhSachLopPhanCongGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewDanhSachLopPhanCongGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewDanTocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewDanTocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewDoiTuongDonGiaDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewDoiTuongDonGiaRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewDonGiaNgoaiQuyCheDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewDonGiaNgoaiQuyCheRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewDonViDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewDonViRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewGiamTruGioChuanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewGiamTruGioChuanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewGiangVienDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewGiangVienRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewGiangVienKhoaDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewGiangVienKhoaRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewGiangVienLopHocPhanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewGiangVienLopHocPhanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewGiangVienNckhDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewGiangVienNckhRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewGiangVienNghienCuuKhoaHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewGiangVienNghienCuuKhoaHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewHeDaoTaoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewHeDaoTaoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewHeSoLopDongHbuDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewHeSoLopDongHbuRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewHeSoLuongHocHamHocViDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewHeSoLuongHocHamHocViRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewHesoThuLaoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewHesoThuLaoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewHeSoTinChiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewHeSoTinChiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewHinhThucThiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewHinhThucThiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewHinhThucViPhamDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewHinhThucViPhamRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewHocKyDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewHocKyRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewHocPhanMonHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewHocPhanMonHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewHopDongThinhGiangDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewHopDongThinhGiangRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewKcqDonGiaNgoaiQuyCheDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewKcqDonGiaNgoaiQuyCheRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewKcqHopDongThinhGiangDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewKcqHopDongThinhGiangRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewKcqKetQuaThanhToanThuLaoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewKcqKetQuaThanhToanThuLaoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewKcqLietKeKhoiLuongGiangDayChiTiet2DataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewKcqLietKeKhoiLuongGiangDayChiTiet2Repeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewKcqMonThucTapTotNghiepDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewKcqMonThucTapTotNghiepRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewKcqMonTinhTheoQuyCheMoiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewKcqMonTinhTheoQuyCheMoiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewKcqMonXepLichChuNhatKhongTinhHeSoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewKcqMonXepLichChuNhatKhongTinhHeSoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewKcqPhanNhomMonHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewKcqPhanNhomMonHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewKcqPhanNhomMonHocActDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewKcqPhanNhomMonHocActRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewKcqPhuCapHanhChinhDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewKcqPhuCapHanhChinhRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewKcqUteKhoiLuongGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewKcqUteKhoiLuongGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewKcqUteKhoiLuongQuyDoi2DataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewKcqUteKhoiLuongQuyDoi2Repeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewKetQuaCacKhoanChiKhacDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewKetQuaCacKhoanChiKhacRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewKetQuaThanhToanThuLaoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewKetQuaThanhToanThuLaoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewKetQuaTinhDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewKetQuaTinhRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewKhoaDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewKhoaRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewKhoaBoMonDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewKhoaBoMonRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewKhoaHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewKhoaHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewKhoaHocBacHeDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewKhoaHocBacHeRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewKhoiLuongGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewKhoiLuongGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewKhoiLuongGiangDayCanBoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewKhoiLuongGiangDayCanBoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewKhoiLuongThucDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewKhoiLuongThucDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewKhoiLuongCacCongViecKhacDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewKhoiLuongCacCongViecKhacRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewKyThiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewKyThiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewLietKeKhoiLuongGiangDayChiTietDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewLietKeKhoiLuongGiangDayChiTietRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewLietKeKhoiLuongGiangDayChiTietUsshDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewLietKeKhoiLuongGiangDayChiTietUsshRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewLietKeKhoiLuongGiangDayChiTietUsshCdgtvtDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewLietKeKhoiLuongGiangDayChiTietUsshCdgtvtRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewLietKeKhoiLuongGiangDayChiTiet2DataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewLietKeKhoiLuongGiangDayChiTiet2Repeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewLoaiHinhDaoTaoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewLoaiHinhDaoTaoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewLoaiHocPhanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewLoaiHocPhanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewLopDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewLopRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewLopChatLuongCaoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewLopChatLuongCaoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewLopHocPhanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewLopHocPhanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewLopHocPhanClcAufCjlDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewLopHocPhanClcAufCjlRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewLopHocPhanChuyenNganhDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewLopHocPhanChuyenNganhRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewLopHocPhanGiangBangTiengNuocNgoaiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewLopHocPhanGiangBangTiengNuocNgoaiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewLopHocPhanGiangBangTiengNuocNgoaiBuhDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewLopHocPhanGiangBangTiengNuocNgoaiBuhRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewMonGiangMoiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewMonGiangMoiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewMonHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewMonHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewMonHocKhoaDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewMonHocKhoaRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewMonThucTapTotNghiepDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewMonThucTapTotNghiepRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewMonTinhTheoQuyCheMoiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewMonTinhTheoQuyCheMoiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewMonXepLichChuNhatKhongTinhHeSoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewMonXepLichChuNhatKhongTinhHeSoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewNamHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewNamHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewNgachLuongHrmDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewNgachLuongHrmRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewNgayTrongTuanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewNgayTrongTuanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewNhomMonHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewNhomMonHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewPhanCongChuyenMonDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewPhanCongChuyenMonRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewPhanCongCoVanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewPhanCongCoVanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewPhanCongGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewPhanCongGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewPhanLoaiGiangVienDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewPhanLoaiGiangVienRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewPhanNhomMonHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewPhanNhomMonHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewPhanNhomMonHocActDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewPhanNhomMonHocActRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewPhuCapHanhChinhDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewPhuCapHanhChinhRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewQuyDoiHoatDongNgoaiGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewQuyDoiHoatDongNgoaiGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewQuyetDinhDoiHocHamHocViDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewQuyetDinhDoiHocHamHocViRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewSdhLietKeKhoiLuongGiangDayChiTietDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewSdhLietKeKhoiLuongGiangDayChiTietRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewSdhUteKhoiLuongQuyDoiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewSdhUteKhoiLuongQuyDoiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewSinhVienHocPhanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewSinhVienHocPhanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewSinhVienLopDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewSinhVienLopRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewSinhVienLopHocPhanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewSinhVienLopHocPhanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewSinhVienLopHocPhanSgDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewSinhVienLopHocPhanSgRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewSoTietCoiThiTieuChuanCuaGiangVienDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewSoTietCoiThiTieuChuanCuaGiangVienRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewThamDinhLuanVanThacSyDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewThamDinhLuanVanThacSyRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewThanhToanGioDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewThanhToanGioDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewThanhToanThuLaoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewThanhToanThuLaoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewThanhToanTienGiangDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewThanhToanTienGiangRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewThanhTraChamGiangTheoKhoaHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewThanhTraChamGiangTheoKhoaHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewThanhTraCoiThiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewThanhTraCoiThiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewThanhTraGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewThanhTraGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewThanhTraTheoThoiKhoaBieuDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewThanhTraTheoThoiKhoaBieuRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewTheoDoiGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewTheoDoiGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewThoiGianLamViecCuaNhanVienDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewThoiGianLamViecCuaNhanVienRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewThoiGianNghiTamThoiCuaGiangVienDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewThoiGianNghiTamThoiCuaGiangVienRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewThoiKhoaBieuDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewThoiKhoaBieuRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewThongKeChucVuDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewThongKeChucVuRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewThongKeHoSoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewThongKeHoSoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewThongKeHoSoChiTietDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewThongKeHoSoChiTietRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewThongTinChiTietGiangVienDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewThongTinChiTietGiangVienRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewThongTinChiTietGiangVienChoDuyetHoSoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewThongTinChiTietGiangVienChoDuyetHoSoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewThongTinGiangVienDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewThongTinGiangVienRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewThongTinLopHocPhanHeSoCongViecDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewThongTinLopHocPhanHeSoCongViecRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewTietGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewTietGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewTietNghiaVuDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewTietNghiaVuRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewTietNghiaVuTheoNamHocHocKyDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewTietNghiaVuTheoNamHocHocKyRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewTietNoKyTruocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewTietNoKyTruocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewTinhKhoiLuongDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewTinhKhoiLuongRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewTinhKhoiLuongTungTuanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewTinhKhoiLuongTungTuanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewTongHopChiTienCoVanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewTongHopChiTienCoVanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewTonghopGiodayHeDaoTaoLoaiGiangVienNamHocHocKyDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewTonghopGiodayHeDaoTaoLoaiGiangVienNamHocHocKyRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewTongHopQuyDoiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewTongHopQuyDoiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewTongHopGioDayGiangVienDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewTongHopGioDayGiangVienRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewTonGiaoDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewTonGiaoRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewUteKhoiLuongGiangDayDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewUteKhoiLuongGiangDayRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewUteKhoiLuongQuyDoiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewUteKhoiLuongQuyDoiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewUteKhoiLuongQuyDoi2DataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewUteKhoiLuongQuyDoi2Repeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewXetDuyetDeCuongLuanVanCaoHocDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewXetDuyetDeCuongLuanVanCaoHocRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewXuLyQuyDoiDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewXuLyQuyDoiRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="DataSourceControls\Views\ViewXuLyQuyDoiTungTuanDataSource.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\RepeaterControls\Views\ViewXuLyQuyDoiTungTuanRepeater.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\FormUtil.cs">
+			  <SubType>Code</SubType>
+			</Compile>			
+			<Compile Include="UI\FormUtilBase.generated.cs">
+			  <SubType>Code</SubType>
+			  <DependentUpon>FormUtil.cs</DependentUpon>
+			</Compile>			
+			<Compile Include="UI\MultiBindableTemplate.cs">
+			  <SubType>Code</SubType>
+			</Compile>			
+			<Compile Include="UI\MultiFormView.cs">
+			  <SubType>Code</SubType>
+			</Compile>			
+			<Compile Include="UI\EntityGridView.cs">
+			  <SubType>Code</SubType>
+			</Compile>			
+			<Compile Include="UI\EntityDropDownList.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\BoundRadioButtonField.cs">
+			  <SubType>Code</SubType>
+			</Compile>			
+			<Compile Include="UI\BoundEntityDropDownField.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\GridViewSearchPanel.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\GridViewSearchPanelState.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\EntityLabel.cs">
+			  <SubType>Code</SubType>
+			</Compile>
+			<Compile Include="UI\HyperlinkField.cs">
+			  <SubType>Code</SubType>
+			</Compile>			
+			
+		
+		
+		
+		 <AppDesigner Include="Properties\" />
+	</ItemGroup>
+	
+	
+	
+	
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+	<PostBuildEvent>
+	</PostBuildEvent>
+  </PropertyGroup>
+
+</Project>

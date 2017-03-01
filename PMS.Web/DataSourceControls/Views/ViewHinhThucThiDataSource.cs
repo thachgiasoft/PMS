@@ -1,0 +1,159 @@
+﻿#region Using Directives
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.ComponentModel;
+using System.ComponentModel.Design;
+using PMS.Entities;
+using PMS.Data;
+using PMS.Data.Bases;
+using PMS.Services;
+#endregion
+
+namespace PMS.Web.Data
+{
+	/// <summary>
+	/// Represents the DataRepository.ViewHinhThucThiProvider object that provides
+	/// data to data-bound controls in multi-tier Web application architectures.
+	/// </summary>
+	[CLSCompliant(true)]
+	[Designer(typeof(ViewHinhThucThiDataSourceDesigner))]
+	public class ViewHinhThucThiDataSource : ReadOnlyDataSource<ViewHinhThucThi>
+	{
+		#region Constructors
+
+		/// <summary>
+		/// Initializes a new instance of the ViewHinhThucThiDataSource class.
+		/// </summary>
+		public ViewHinhThucThiDataSource() : base(new ViewHinhThucThiService())
+		{
+		}
+
+		#endregion Constructors
+		
+		#region Properties
+		
+		/// <summary>
+		/// Gets a reference to the ViewHinhThucThiDataSourceView used by the ViewHinhThucThiDataSource.
+		/// </summary>
+		protected ViewHinhThucThiDataSourceView ViewHinhThucThiView
+		{
+			get { return ( View as ViewHinhThucThiDataSourceView ); }
+		}
+		
+		#endregion Properties
+		
+		#region Methods
+
+		/// <summary>
+		/// Creates a new instance of the ViewHinhThucThiDataSourceView class that is to be
+		/// used by the ViewHinhThucThiDataSource.
+		/// </summary>
+		/// <returns>An instance of the ViewHinhThucThiDataSourceView class.</returns>
+		protected override BaseDataSourceView<ViewHinhThucThi, Object> GetNewDataSourceView()
+		{
+			return new ViewHinhThucThiDataSourceView(this, DefaultViewName);
+		}
+		
+		/// <summary>
+        /// Creates a cache hashing key based on the startIndex, pageSize and the SelectMethod being used.
+        /// </summary>
+        /// <param name="startIndex">The current start row index.</param>
+        /// <param name="pageSize">The current page size.</param>
+        /// <returns>A string that can be used as a key for caching purposes.</returns>
+		protected override string CacheHashKey(int startIndex, int pageSize)
+        {
+			return String.Format("{0}:{1}:{2}", SelectMethod, startIndex, pageSize);
+        }
+		
+		#endregion Methods
+	}
+	
+	/// <summary>
+	/// Supports the ViewHinhThucThiDataSource control and provides an interface for
+	/// data-bound controls to perform data operations with business and data objects.
+	/// </summary>
+	public class ViewHinhThucThiDataSourceView : ReadOnlyDataSourceView<ViewHinhThucThi>
+	{
+		#region Declarations
+
+		#endregion Declarations
+		
+		#region Constructors
+
+		/// <summary>
+		/// Initializes a new instance of the ViewHinhThucThiDataSourceView class.
+		/// </summary>
+		/// <param name="owner">A reference to the ViewHinhThucThiDataSource which created this instance.</param>
+		/// <param name="viewName">The name of the view.</param>
+		public ViewHinhThucThiDataSourceView(ViewHinhThucThiDataSource owner, String viewName)
+			: base(owner, viewName)
+		{
+		}
+		
+		#endregion Constructors
+		
+		#region Properties
+
+		/// <summary>
+		/// Gets a strongly-typed reference to the Owner property.
+		/// </summary>
+		internal ViewHinhThucThiDataSource ViewHinhThucThiOwner
+		{
+			get { return Owner as ViewHinhThucThiDataSource; }
+		}
+
+		/// <summary>
+		/// Gets a strongly typed reference to the Provider property.
+		/// </summary>
+		internal ViewHinhThucThiService ViewHinhThucThiProvider
+		{
+			get { return Provider as ViewHinhThucThiService; }
+		}
+
+		#endregion Properties
+		
+		#region Methods
+		
+		#endregion Methods
+	}
+
+	#region ViewHinhThucThiDataSourceDesigner
+
+	/// <summary>
+	/// Provides design-time support in a design host for the ViewHinhThucThiDataSource class.
+	/// </summary>
+	public class ViewHinhThucThiDataSourceDesigner : ReadOnlyDataSourceDesigner<ViewHinhThucThi>
+	{
+	}
+
+	#endregion ViewHinhThucThiDataSourceDesigner
+
+	#region ViewHinhThucThiFilter
+
+	/// <summary>
+	/// A strongly-typed instance of the <see cref="SqlFilter&lt;EntityColumn&gt;"/> class
+	/// that is used exclusively with a <see cref="ViewHinhThucThi"/> object.
+	/// </summary>
+	[CLSCompliant(true)]
+	public class ViewHinhThucThiFilter : SqlFilter<ViewHinhThucThiColumn>
+	{
+	}
+
+	#endregion ViewHinhThucThiFilter
+
+	#region ViewHinhThucThiExpressionBuilder
+	
+	/// <summary>
+	/// A strongly-typed instance of the <see cref="SqlExpressionBuilder&lt;EntityColumn&gt;"/> class
+	/// that is used exclusively with a <see cref="ViewHinhThucThi"/> object.
+	/// </summary>
+	[CLSCompliant(true)]
+	public class ViewHinhThucThiExpressionBuilder : SqlExpressionBuilder<ViewHinhThucThiColumn>
+	{
+	}
+	
+	#endregion ViewHinhThucThiExpressionBuilder		
+}
+

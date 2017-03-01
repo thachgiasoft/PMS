@@ -1,0 +1,606 @@
+MaGiangVienQuanLy: 1041; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 1060; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 16
+MaGiangVienQuanLy: 0689; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1039; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 17; MaHocHam: 20; MaHocVi: 13
+MaGiangVienQuanLy: 0493; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1067; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 9925; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1036; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 16
+MaGiangVienQuanLy: 0744; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 23; MaHocVi: 13
+MaGiangVienQuanLy: 1073; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 2200; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 4411; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 17; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 2212; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 2212; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9334; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 0678; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 13
+MaGiangVienQuanLy: 2256; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 17; MaHocHam: 20; MaHocVi: 13
+MaGiangVienQuanLy: 0230; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 17; MaHocHam: 20; MaHocVi: 13
+MaGiangVienQuanLy: 9370; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 17; MaHocHam: 20; MaHocVi: 13
+MaGiangVienQuanLy: 9872; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 2135; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 4721; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 4721; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 9192; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 1019; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 16
+MaGiangVienQuanLy: 4721; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 4721; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 4554; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1021; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 1184; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 2193; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9259; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1218; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 7040; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9192; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 4904; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9993; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 2204; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1218; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1021; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 7040; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0587; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 1266; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 4784; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 4573; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 4046; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 4023; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0587; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 4784; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 4784; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 4046; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 4573; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 4023; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 8982; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 2039; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1187; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 0246; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0283; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0292; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1006; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 9988; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 6000; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 16
+MaGiangVienQuanLy: 6869; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 23; MaHocVi: 12
+MaGiangVienQuanLy: 1006; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 1006; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 9988; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 9988; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 9290; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9290; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1177; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1177; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0181; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0181; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1204; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 16
+MaGiangVienQuanLy: 1204; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 16
+MaGiangVienQuanLy: 9988; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 9290; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1177; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1188; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 1006; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 9202; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9202; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9202; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9988; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 9988; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 1041; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 1124; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 9047; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 2112; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 13
+MaGiangVienQuanLy: 2112; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 13
+MaGiangVienQuanLy: 2112; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 13
+MaGiangVienQuanLy: 2112; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 13
+MaGiangVienQuanLy: 2112; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 13
+MaGiangVienQuanLy: 2112; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 13
+MaGiangVienQuanLy: 1124; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 1124; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 2111; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 2111; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 2111; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 2111; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 2111; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 2111; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 4809; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 23; MaHocVi: 13
+MaGiangVienQuanLy: 4809; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 23; MaHocVi: 13
+MaGiangVienQuanLy: 2111; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 4809; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 23; MaHocVi: 13
+MaGiangVienQuanLy: 4809; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 23; MaHocVi: 13
+MaGiangVienQuanLy: 4809; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 23; MaHocVi: 13
+MaGiangVienQuanLy: 4809; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 23; MaHocVi: 13
+MaGiangVienQuanLy: 0214; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0214; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 2111; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 0214; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0214; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0214; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0214; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1122; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 1122; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 9047; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9047; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1041; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 1041; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 9242; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 4809; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 23; MaHocVi: 13
+MaGiangVienQuanLy: 2112; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 13
+MaGiangVienQuanLy: 2111; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 2112; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 13
+MaGiangVienQuanLy: 2111; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 2111; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 2112; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 13
+MaGiangVienQuanLy: 2112; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 13
+MaGiangVienQuanLy: 0600; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1041; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 9279; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 16
+MaGiangVienQuanLy: 1060; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 16
+MaGiangVienQuanLy: 1039; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 17; MaHocHam: 20; MaHocVi: 13
+MaGiangVienQuanLy: 0719; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 1037; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 4037; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0689; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0689; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1063; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 16
+MaGiangVienQuanLy: 1039; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 17; MaHocHam: 20; MaHocVi: 13
+MaGiangVienQuanLy: 0493; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1067; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 9925; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1036; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 16
+MaGiangVienQuanLy: 0744; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 23; MaHocVi: 13
+MaGiangVienQuanLy: 1073; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 0689; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 2028; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 2028; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 2028; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 2039; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1187; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 0094; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0094; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 2050; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0186; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9984; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 3980; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0085; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9888; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0185; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0186; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0744; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 23; MaHocVi: 13
+MaGiangVienQuanLy: 0690; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 4710; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 4710; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1007; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 1007; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 1007; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 7036; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 7036; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 7036; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 6305; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 6305; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 6305; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 2195; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 2195; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 2195; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0087; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 1007; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 6305; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 9255; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 21; MaHocVi: 13
+MaGiangVienQuanLy: 2110; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 21; MaHocVi: 13
+MaGiangVienQuanLy: 9895; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0880; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 22; MaHocVi: 13
+MaGiangVienQuanLy: 0751; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 0255; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 4122; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 2063; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9932; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 0256; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 6000; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 16
+MaGiangVienQuanLy: 4017; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 0880; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 22; MaHocVi: 13
+MaGiangVienQuanLy: 6869; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 23; MaHocVi: 12
+MaGiangVienQuanLy: 0604; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 0184; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1098; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 21; MaHocVi: 13
+MaGiangVienQuanLy: 2063; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9932; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 9307; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0116; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0184; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 6869; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 23; MaHocVi: 12
+MaGiangVienQuanLy: 1098; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 21; MaHocVi: 13
+MaGiangVienQuanLy: 2204; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 2200; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 4015; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0361; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0597; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 23; MaHocVi: 12
+MaGiangVienQuanLy: 2200; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 2204; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 4015; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 2206; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0361; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9262; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9262; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9262; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9262; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9148; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9148; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9148; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9148; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0390; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 4030; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 0984; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9164; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 9254; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 21; MaHocVi: 13
+MaGiangVienQuanLy: 2080; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 2953; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0206; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9385; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 2206; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0580; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 23; MaHocVi: 13
+MaGiangVienQuanLy: 4016; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 2206; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9164; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 0797; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 17; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1249; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 17; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9334; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 0596; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 17; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 9334; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 0596; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 17; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 0669; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 23; MaHocVi: 12
+MaGiangVienQuanLy: 4121; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 0674; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 17; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 0673; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 17; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1213; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0740; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 17; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0669; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 23; MaHocVi: 12
+MaGiangVienQuanLy: 1231; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0724; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 9787; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 0724; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 4566; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 4576; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0039; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 4576; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 4566; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 9787; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 0724; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 0389; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 0039; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1231; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0712; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 0039; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9787; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 2035; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 13
+MaGiangVienQuanLy: 2035; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 13
+MaGiangVienQuanLy: 0009; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 2025; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 17; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 1050; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 17; MaHocHam: 20; MaHocVi: 12
+MaGiangVienQuanLy: 0389; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 9018; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 21; MaHocVi: 13
+MaGiangVienQuanLy: 0712; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 1231; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9787; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 0724; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 4576; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1230; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 9924; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 9924; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 2035; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 13
+MaGiangVienQuanLy: 0066; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1242; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 16
+MaGiangVienQuanLy: 1241; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 9924; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 2171; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 21; MaHocVi: 13
+MaGiangVienQuanLy: 9786; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 21; MaHocVi: 13
+MaGiangVienQuanLy: 0266; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0266; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 1128; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 17; MaHocHam: 20; MaHocVi: 13
+MaGiangVienQuanLy: 4590; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 4590; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 0489; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0489; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 0266; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 12
+MaGiangVienQuanLy: 4590; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 19; MaHocVi: 13
+MaGiangVienQuanLy: 2188; NamHoc: 2016-2017; HocKy: HK01
+=> MaLoaiGiangVien: 13; MaHocHam: 20; MaHocVi: 12
+=> Save...
+~.o0o.~

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>D:\PupApp\PubPms\|D:\Pms\|publish\</PublishUrlHistory>
+    <InstallUrlHistory>http://192.168.1.6/AutoUpdPms/|http://SERVER-203/AutoUpdPms/|http://SERVER-203-203/AutoUpdPms/|http://server-203/AutoUpdPms/|http://192.168.1.2/AutoUpdPms/</InstallUrlHistory>
+    <SupportUrlHistory>http://www.psctelecom.com.vn</SupportUrlHistory>
+    <UpdateUrlHistory>http://SERVER-203/AutoUpdPms/|http://SERVER-203-203/AutoUpdPms/|http://192.168.1.2/AutoUpdPms/|http://192.168.1.1/AutoUpdPms/|http://172.16.2.10/AutoUpdPms/</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+    <ProjectView>ShowAllFiles</ProjectView>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>

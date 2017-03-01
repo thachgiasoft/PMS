@@ -1,0 +1,3219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>12.0.21005.1</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8996A7B4-57D3-440B-A545-A701844B8C4A}</ProjectGuid>
+    <ProjectType>Local</ProjectType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <OutputType>Library</OutputType>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>PMS.Data.SqlClient</AssemblyName>
+    <AssemblyOriginatorKeyFile>..\PMS.snk</AssemblyOriginatorKeyFile>
+    <SignAssembly>false</SignAssembly>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <RootNamespace>PMS.Data.SqlClient</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>PMS.Data.SqlClient.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>PMS.Data.SqlClient.xml</DocumentationFile>
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'GenerateDebug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>PMS.Data.SqlClient.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CipherLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\CipherLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>4.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <ProjectReference Include="..\PMS.Entities\PMS.Entities.csproj">
+      <Name>PMS.Entities</Name>
+      <Project>{20E43088-4618-4F4A-B8AD-FC31B50D94CD}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\PMS.Data\PMS.Data.csproj">
+      <Name>PMS.Data</Name>
+      <Project>{041C1BBE-0BFB-4D45-8125-9AB0BBC09A92}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <!-- Custom code folder: D:\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\App_Code -->
+  <ItemGroup>
+    <Compile Include="App_Code\**\*.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <!-- Include any user files -->
+  <ItemGroup>
+    <Compile Include="**\*.user.*" Exclude="**\*.csproj.user;**\.svn\**">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Views\SqlVChiTietKhoiLuongProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlVChiTietKhoiLuongProviderBase.generated.cs">
+      <DependentUpon>SqlVChiTietKhoiLuongProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlVChiTietKhoiLuongThucDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlVChiTietKhoiLuongThucDayProviderBase.generated.cs">
+      <DependentUpon>SqlVChiTietKhoiLuongThucDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlVChiTietQuyDoiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlVChiTietQuyDoiProviderBase.generated.cs">
+      <DependentUpon>SqlVChiTietQuyDoiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlVGiangVienChucVuProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlVGiangVienChucVuProviderBase.generated.cs">
+      <DependentUpon>SqlVGiangVienChucVuProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlVKhoiLuongThucDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlVKhoiLuongThucDayProviderBase.generated.cs">
+      <DependentUpon>SqlVKhoiLuongThucDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlVLopHocPhanKhongPhanCongProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlVLopHocPhanKhongPhanCongProviderBase.generated.cs">
+      <DependentUpon>SqlVLopHocPhanKhongPhanCongProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlVMonHocTinChiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlVMonHocTinChiProviderBase.generated.cs">
+      <DependentUpon>SqlVMonHocTinChiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlVThanhToanThuLaoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlVThanhToanThuLaoProviderBase.generated.cs">
+      <DependentUpon>SqlVThanhToanThuLaoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlVTongHopKhoiLuongProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlVTongHopKhoiLuongProviderBase.generated.cs">
+      <DependentUpon>SqlVTongHopKhoiLuongProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlVTongHopQuyDoiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlVTongHopQuyDoiProviderBase.generated.cs">
+      <DependentUpon>SqlVTongHopQuyDoiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlVTongHopThuLaoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlVTongHopThuLaoProviderBase.generated.cs">
+      <DependentUpon>SqlVTongHopThuLaoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewBacDaoTaoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewBacDaoTaoProviderBase.generated.cs">
+      <DependentUpon>SqlViewBacDaoTaoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewBacDaoTaoLoaiHinhProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewBacDaoTaoLoaiHinhProviderBase.generated.cs">
+      <DependentUpon>SqlViewBacDaoTaoLoaiHinhProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewBangPhuTroiGioDayGiangVienProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewBangPhuTroiGioDayGiangVienProviderBase.generated.cs">
+      <DependentUpon>SqlViewBangPhuTroiGioDayGiangVienProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewBuoiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewBuoiProviderBase.generated.cs">
+      <DependentUpon>SqlViewBuoiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewCauHinhProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewCauHinhProviderBase.generated.cs">
+      <DependentUpon>SqlViewCauHinhProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewChiTienCoVanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewChiTienCoVanProviderBase.generated.cs">
+      <DependentUpon>SqlViewChiTienCoVanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewChiTietGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewChiTietGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlViewChiTietGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewChiTietHocPhanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewChiTietHocPhanProviderBase.generated.cs">
+      <DependentUpon>SqlViewChiTietHocPhanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewChiTietKhoiLuongProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewChiTietKhoiLuongProviderBase.generated.cs">
+      <DependentUpon>SqlViewChiTietKhoiLuongProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewChiTietKhoiLuongGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewChiTietKhoiLuongGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlViewChiTietKhoiLuongGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewChiTietKhoiLuongThucDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewChiTietKhoiLuongThucDayProviderBase.generated.cs">
+      <DependentUpon>SqlViewChiTietKhoiLuongThucDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewChiTietPhanCongGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewChiTietPhanCongGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlViewChiTietPhanCongGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewChiTietQuyDoiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewChiTietQuyDoiProviderBase.generated.cs">
+      <DependentUpon>SqlViewChiTietQuyDoiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewCoSoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewCoSoProviderBase.generated.cs">
+      <DependentUpon>SqlViewCoSoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewCoVanHocTapProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewCoVanHocTapProviderBase.generated.cs">
+      <DependentUpon>SqlViewCoVanHocTapProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewDanhSachHopDongThinhGiangProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewDanhSachHopDongThinhGiangProviderBase.generated.cs">
+      <DependentUpon>SqlViewDanhSachHopDongThinhGiangProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewDanhSachLopPhanCongGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewDanhSachLopPhanCongGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlViewDanhSachLopPhanCongGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewDanTocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewDanTocProviderBase.generated.cs">
+      <DependentUpon>SqlViewDanTocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewDoiTuongDonGiaProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewDoiTuongDonGiaProviderBase.generated.cs">
+      <DependentUpon>SqlViewDoiTuongDonGiaProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewDonGiaNgoaiQuyCheProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewDonGiaNgoaiQuyCheProviderBase.generated.cs">
+      <DependentUpon>SqlViewDonGiaNgoaiQuyCheProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewDonViProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewDonViProviderBase.generated.cs">
+      <DependentUpon>SqlViewDonViProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewGiamTruGioChuanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewGiamTruGioChuanProviderBase.generated.cs">
+      <DependentUpon>SqlViewGiamTruGioChuanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewGiangVienProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewGiangVienProviderBase.generated.cs">
+      <DependentUpon>SqlViewGiangVienProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewGiangVienKhoaProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewGiangVienKhoaProviderBase.generated.cs">
+      <DependentUpon>SqlViewGiangVienKhoaProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewGiangVienLopHocPhanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewGiangVienLopHocPhanProviderBase.generated.cs">
+      <DependentUpon>SqlViewGiangVienLopHocPhanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewGiangVienNckhProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewGiangVienNckhProviderBase.generated.cs">
+      <DependentUpon>SqlViewGiangVienNckhProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewGiangVienNghienCuuKhoaHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewGiangVienNghienCuuKhoaHocProviderBase.generated.cs">
+      <DependentUpon>SqlViewGiangVienNghienCuuKhoaHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewHeDaoTaoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewHeDaoTaoProviderBase.generated.cs">
+      <DependentUpon>SqlViewHeDaoTaoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewHeSoLopDongHbuProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewHeSoLopDongHbuProviderBase.generated.cs">
+      <DependentUpon>SqlViewHeSoLopDongHbuProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewHeSoLuongHocHamHocViProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewHeSoLuongHocHamHocViProviderBase.generated.cs">
+      <DependentUpon>SqlViewHeSoLuongHocHamHocViProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewHesoThuLaoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewHesoThuLaoProviderBase.generated.cs">
+      <DependentUpon>SqlViewHesoThuLaoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewHeSoTinChiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewHeSoTinChiProviderBase.generated.cs">
+      <DependentUpon>SqlViewHeSoTinChiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewHinhThucThiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewHinhThucThiProviderBase.generated.cs">
+      <DependentUpon>SqlViewHinhThucThiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewHinhThucViPhamProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewHinhThucViPhamProviderBase.generated.cs">
+      <DependentUpon>SqlViewHinhThucViPhamProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewHocKyProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewHocKyProviderBase.generated.cs">
+      <DependentUpon>SqlViewHocKyProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewHocPhanMonHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewHocPhanMonHocProviderBase.generated.cs">
+      <DependentUpon>SqlViewHocPhanMonHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewHopDongThinhGiangProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewHopDongThinhGiangProviderBase.generated.cs">
+      <DependentUpon>SqlViewHopDongThinhGiangProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKcqDonGiaNgoaiQuyCheProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKcqDonGiaNgoaiQuyCheProviderBase.generated.cs">
+      <DependentUpon>SqlViewKcqDonGiaNgoaiQuyCheProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKcqHopDongThinhGiangProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKcqHopDongThinhGiangProviderBase.generated.cs">
+      <DependentUpon>SqlViewKcqHopDongThinhGiangProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKcqKetQuaThanhToanThuLaoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKcqKetQuaThanhToanThuLaoProviderBase.generated.cs">
+      <DependentUpon>SqlViewKcqKetQuaThanhToanThuLaoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKcqLietKeKhoiLuongGiangDayChiTiet2Provider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKcqLietKeKhoiLuongGiangDayChiTiet2ProviderBase.generated.cs">
+      <DependentUpon>SqlViewKcqLietKeKhoiLuongGiangDayChiTiet2Provider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKcqMonThucTapTotNghiepProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKcqMonThucTapTotNghiepProviderBase.generated.cs">
+      <DependentUpon>SqlViewKcqMonThucTapTotNghiepProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKcqMonTinhTheoQuyCheMoiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKcqMonTinhTheoQuyCheMoiProviderBase.generated.cs">
+      <DependentUpon>SqlViewKcqMonTinhTheoQuyCheMoiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKcqMonXepLichChuNhatKhongTinhHeSoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKcqMonXepLichChuNhatKhongTinhHeSoProviderBase.generated.cs">
+      <DependentUpon>SqlViewKcqMonXepLichChuNhatKhongTinhHeSoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKcqPhanNhomMonHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKcqPhanNhomMonHocProviderBase.generated.cs">
+      <DependentUpon>SqlViewKcqPhanNhomMonHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKcqPhanNhomMonHocActProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKcqPhanNhomMonHocActProviderBase.generated.cs">
+      <DependentUpon>SqlViewKcqPhanNhomMonHocActProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKcqPhuCapHanhChinhProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKcqPhuCapHanhChinhProviderBase.generated.cs">
+      <DependentUpon>SqlViewKcqPhuCapHanhChinhProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKcqUteKhoiLuongGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKcqUteKhoiLuongGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlViewKcqUteKhoiLuongGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKcqUteKhoiLuongQuyDoi2Provider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKcqUteKhoiLuongQuyDoi2ProviderBase.generated.cs">
+      <DependentUpon>SqlViewKcqUteKhoiLuongQuyDoi2Provider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKetQuaCacKhoanChiKhacProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKetQuaCacKhoanChiKhacProviderBase.generated.cs">
+      <DependentUpon>SqlViewKetQuaCacKhoanChiKhacProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKetQuaThanhToanThuLaoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKetQuaThanhToanThuLaoProviderBase.generated.cs">
+      <DependentUpon>SqlViewKetQuaThanhToanThuLaoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKetQuaTinhProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKetQuaTinhProviderBase.generated.cs">
+      <DependentUpon>SqlViewKetQuaTinhProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKhoaProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKhoaProviderBase.generated.cs">
+      <DependentUpon>SqlViewKhoaProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKhoaBoMonProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKhoaBoMonProviderBase.generated.cs">
+      <DependentUpon>SqlViewKhoaBoMonProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKhoaHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKhoaHocProviderBase.generated.cs">
+      <DependentUpon>SqlViewKhoaHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKhoaHocBacHeProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKhoaHocBacHeProviderBase.generated.cs">
+      <DependentUpon>SqlViewKhoaHocBacHeProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKhoiLuongGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKhoiLuongGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlViewKhoiLuongGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKhoiLuongGiangDayCanBoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKhoiLuongGiangDayCanBoProviderBase.generated.cs">
+      <DependentUpon>SqlViewKhoiLuongGiangDayCanBoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKhoiLuongThucDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKhoiLuongThucDayProviderBase.generated.cs">
+      <DependentUpon>SqlViewKhoiLuongThucDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKhoiLuongCacCongViecKhacProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKhoiLuongCacCongViecKhacProviderBase.generated.cs">
+      <DependentUpon>SqlViewKhoiLuongCacCongViecKhacProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKyThiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewKyThiProviderBase.generated.cs">
+      <DependentUpon>SqlViewKyThiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewLietKeKhoiLuongGiangDayChiTietProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewLietKeKhoiLuongGiangDayChiTietProviderBase.generated.cs">
+      <DependentUpon>SqlViewLietKeKhoiLuongGiangDayChiTietProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewLietKeKhoiLuongGiangDayChiTietUsshProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewLietKeKhoiLuongGiangDayChiTietUsshProviderBase.generated.cs">
+      <DependentUpon>SqlViewLietKeKhoiLuongGiangDayChiTietUsshProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewLietKeKhoiLuongGiangDayChiTietUsshCdgtvtProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewLietKeKhoiLuongGiangDayChiTietUsshCdgtvtProviderBase.generated.cs">
+      <DependentUpon>SqlViewLietKeKhoiLuongGiangDayChiTietUsshCdgtvtProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewLietKeKhoiLuongGiangDayChiTiet2Provider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewLietKeKhoiLuongGiangDayChiTiet2ProviderBase.generated.cs">
+      <DependentUpon>SqlViewLietKeKhoiLuongGiangDayChiTiet2Provider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewLoaiHinhDaoTaoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewLoaiHinhDaoTaoProviderBase.generated.cs">
+      <DependentUpon>SqlViewLoaiHinhDaoTaoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewLoaiHocPhanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewLoaiHocPhanProviderBase.generated.cs">
+      <DependentUpon>SqlViewLoaiHocPhanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewLopProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewLopProviderBase.generated.cs">
+      <DependentUpon>SqlViewLopProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewLopChatLuongCaoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewLopChatLuongCaoProviderBase.generated.cs">
+      <DependentUpon>SqlViewLopChatLuongCaoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewLopHocPhanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewLopHocPhanProviderBase.generated.cs">
+      <DependentUpon>SqlViewLopHocPhanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewLopHocPhanClcAufCjlProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewLopHocPhanClcAufCjlProviderBase.generated.cs">
+      <DependentUpon>SqlViewLopHocPhanClcAufCjlProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewLopHocPhanChuyenNganhProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewLopHocPhanChuyenNganhProviderBase.generated.cs">
+      <DependentUpon>SqlViewLopHocPhanChuyenNganhProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewLopHocPhanGiangBangTiengNuocNgoaiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewLopHocPhanGiangBangTiengNuocNgoaiProviderBase.generated.cs">
+      <DependentUpon>SqlViewLopHocPhanGiangBangTiengNuocNgoaiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewLopHocPhanGiangBangTiengNuocNgoaiBuhProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewLopHocPhanGiangBangTiengNuocNgoaiBuhProviderBase.generated.cs">
+      <DependentUpon>SqlViewLopHocPhanGiangBangTiengNuocNgoaiBuhProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewMonGiangMoiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewMonGiangMoiProviderBase.generated.cs">
+      <DependentUpon>SqlViewMonGiangMoiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewMonHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewMonHocProviderBase.generated.cs">
+      <DependentUpon>SqlViewMonHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewMonHocKhoaProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewMonHocKhoaProviderBase.generated.cs">
+      <DependentUpon>SqlViewMonHocKhoaProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewMonThucTapTotNghiepProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewMonThucTapTotNghiepProviderBase.generated.cs">
+      <DependentUpon>SqlViewMonThucTapTotNghiepProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewMonTinhTheoQuyCheMoiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewMonTinhTheoQuyCheMoiProviderBase.generated.cs">
+      <DependentUpon>SqlViewMonTinhTheoQuyCheMoiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewMonXepLichChuNhatKhongTinhHeSoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewMonXepLichChuNhatKhongTinhHeSoProviderBase.generated.cs">
+      <DependentUpon>SqlViewMonXepLichChuNhatKhongTinhHeSoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewNamHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewNamHocProviderBase.generated.cs">
+      <DependentUpon>SqlViewNamHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewNgachLuongHrmProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewNgachLuongHrmProviderBase.generated.cs">
+      <DependentUpon>SqlViewNgachLuongHrmProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewNgayTrongTuanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewNgayTrongTuanProviderBase.generated.cs">
+      <DependentUpon>SqlViewNgayTrongTuanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewNhomMonHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewNhomMonHocProviderBase.generated.cs">
+      <DependentUpon>SqlViewNhomMonHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewPhanCongChuyenMonProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewPhanCongChuyenMonProviderBase.generated.cs">
+      <DependentUpon>SqlViewPhanCongChuyenMonProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewPhanCongCoVanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewPhanCongCoVanProviderBase.generated.cs">
+      <DependentUpon>SqlViewPhanCongCoVanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewPhanCongGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewPhanCongGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlViewPhanCongGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewPhanLoaiGiangVienProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewPhanLoaiGiangVienProviderBase.generated.cs">
+      <DependentUpon>SqlViewPhanLoaiGiangVienProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewPhanNhomMonHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewPhanNhomMonHocProviderBase.generated.cs">
+      <DependentUpon>SqlViewPhanNhomMonHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewPhanNhomMonHocActProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewPhanNhomMonHocActProviderBase.generated.cs">
+      <DependentUpon>SqlViewPhanNhomMonHocActProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewPhuCapHanhChinhProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewPhuCapHanhChinhProviderBase.generated.cs">
+      <DependentUpon>SqlViewPhuCapHanhChinhProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewQuyDoiHoatDongNgoaiGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewQuyDoiHoatDongNgoaiGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlViewQuyDoiHoatDongNgoaiGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewQuyetDinhDoiHocHamHocViProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewQuyetDinhDoiHocHamHocViProviderBase.generated.cs">
+      <DependentUpon>SqlViewQuyetDinhDoiHocHamHocViProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewSdhLietKeKhoiLuongGiangDayChiTietProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewSdhLietKeKhoiLuongGiangDayChiTietProviderBase.generated.cs">
+      <DependentUpon>SqlViewSdhLietKeKhoiLuongGiangDayChiTietProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewSdhUteKhoiLuongQuyDoiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewSdhUteKhoiLuongQuyDoiProviderBase.generated.cs">
+      <DependentUpon>SqlViewSdhUteKhoiLuongQuyDoiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewSinhVienHocPhanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewSinhVienHocPhanProviderBase.generated.cs">
+      <DependentUpon>SqlViewSinhVienHocPhanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewSinhVienLopProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewSinhVienLopProviderBase.generated.cs">
+      <DependentUpon>SqlViewSinhVienLopProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewSinhVienLopHocPhanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewSinhVienLopHocPhanProviderBase.generated.cs">
+      <DependentUpon>SqlViewSinhVienLopHocPhanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewSinhVienLopHocPhanSgProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewSinhVienLopHocPhanSgProviderBase.generated.cs">
+      <DependentUpon>SqlViewSinhVienLopHocPhanSgProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewSoTietCoiThiTieuChuanCuaGiangVienProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewSoTietCoiThiTieuChuanCuaGiangVienProviderBase.generated.cs">
+      <DependentUpon>SqlViewSoTietCoiThiTieuChuanCuaGiangVienProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThamDinhLuanVanThacSyProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThamDinhLuanVanThacSyProviderBase.generated.cs">
+      <DependentUpon>SqlViewThamDinhLuanVanThacSyProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThanhToanGioDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThanhToanGioDayProviderBase.generated.cs">
+      <DependentUpon>SqlViewThanhToanGioDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThanhToanThuLaoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThanhToanThuLaoProviderBase.generated.cs">
+      <DependentUpon>SqlViewThanhToanThuLaoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThanhToanTienGiangProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThanhToanTienGiangProviderBase.generated.cs">
+      <DependentUpon>SqlViewThanhToanTienGiangProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThanhTraChamGiangTheoKhoaHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThanhTraChamGiangTheoKhoaHocProviderBase.generated.cs">
+      <DependentUpon>SqlViewThanhTraChamGiangTheoKhoaHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThanhTraCoiThiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThanhTraCoiThiProviderBase.generated.cs">
+      <DependentUpon>SqlViewThanhTraCoiThiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThanhTraGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThanhTraGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlViewThanhTraGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThanhTraTheoThoiKhoaBieuProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThanhTraTheoThoiKhoaBieuProviderBase.generated.cs">
+      <DependentUpon>SqlViewThanhTraTheoThoiKhoaBieuProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewTheoDoiGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewTheoDoiGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlViewTheoDoiGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThoiGianLamViecCuaNhanVienProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThoiGianLamViecCuaNhanVienProviderBase.generated.cs">
+      <DependentUpon>SqlViewThoiGianLamViecCuaNhanVienProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThoiGianNghiTamThoiCuaGiangVienProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThoiGianNghiTamThoiCuaGiangVienProviderBase.generated.cs">
+      <DependentUpon>SqlViewThoiGianNghiTamThoiCuaGiangVienProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThoiKhoaBieuProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThoiKhoaBieuProviderBase.generated.cs">
+      <DependentUpon>SqlViewThoiKhoaBieuProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThongKeChucVuProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThongKeChucVuProviderBase.generated.cs">
+      <DependentUpon>SqlViewThongKeChucVuProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThongKeHoSoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThongKeHoSoProviderBase.generated.cs">
+      <DependentUpon>SqlViewThongKeHoSoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThongKeHoSoChiTietProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThongKeHoSoChiTietProviderBase.generated.cs">
+      <DependentUpon>SqlViewThongKeHoSoChiTietProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThongTinChiTietGiangVienProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThongTinChiTietGiangVienProviderBase.generated.cs">
+      <DependentUpon>SqlViewThongTinChiTietGiangVienProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThongTinChiTietGiangVienChoDuyetHoSoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThongTinChiTietGiangVienChoDuyetHoSoProviderBase.generated.cs">
+      <DependentUpon>SqlViewThongTinChiTietGiangVienChoDuyetHoSoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThongTinGiangVienProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThongTinGiangVienProviderBase.generated.cs">
+      <DependentUpon>SqlViewThongTinGiangVienProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThongTinLopHocPhanHeSoCongViecProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewThongTinLopHocPhanHeSoCongViecProviderBase.generated.cs">
+      <DependentUpon>SqlViewThongTinLopHocPhanHeSoCongViecProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewTietGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewTietGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlViewTietGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewTietNghiaVuProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewTietNghiaVuProviderBase.generated.cs">
+      <DependentUpon>SqlViewTietNghiaVuProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewTietNghiaVuTheoNamHocHocKyProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewTietNghiaVuTheoNamHocHocKyProviderBase.generated.cs">
+      <DependentUpon>SqlViewTietNghiaVuTheoNamHocHocKyProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewTietNoKyTruocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewTietNoKyTruocProviderBase.generated.cs">
+      <DependentUpon>SqlViewTietNoKyTruocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewTinhKhoiLuongProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewTinhKhoiLuongProviderBase.generated.cs">
+      <DependentUpon>SqlViewTinhKhoiLuongProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewTinhKhoiLuongTungTuanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewTinhKhoiLuongTungTuanProviderBase.generated.cs">
+      <DependentUpon>SqlViewTinhKhoiLuongTungTuanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewTongHopChiTienCoVanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewTongHopChiTienCoVanProviderBase.generated.cs">
+      <DependentUpon>SqlViewTongHopChiTienCoVanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewTonghopGiodayHeDaoTaoLoaiGiangVienNamHocHocKyProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewTonghopGiodayHeDaoTaoLoaiGiangVienNamHocHocKyProviderBase.generated.cs">
+      <DependentUpon>SqlViewTonghopGiodayHeDaoTaoLoaiGiangVienNamHocHocKyProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewTongHopQuyDoiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewTongHopQuyDoiProviderBase.generated.cs">
+      <DependentUpon>SqlViewTongHopQuyDoiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewTongHopGioDayGiangVienProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewTongHopGioDayGiangVienProviderBase.generated.cs">
+      <DependentUpon>SqlViewTongHopGioDayGiangVienProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewTonGiaoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewTonGiaoProviderBase.generated.cs">
+      <DependentUpon>SqlViewTonGiaoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewUteKhoiLuongGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewUteKhoiLuongGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlViewUteKhoiLuongGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewUteKhoiLuongQuyDoiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewUteKhoiLuongQuyDoiProviderBase.generated.cs">
+      <DependentUpon>SqlViewUteKhoiLuongQuyDoiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewUteKhoiLuongQuyDoi2Provider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewUteKhoiLuongQuyDoi2ProviderBase.generated.cs">
+      <DependentUpon>SqlViewUteKhoiLuongQuyDoi2Provider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewXetDuyetDeCuongLuanVanCaoHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewXetDuyetDeCuongLuanVanCaoHocProviderBase.generated.cs">
+      <DependentUpon>SqlViewXetDuyetDeCuongLuanVanCaoHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewXuLyQuyDoiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewXuLyQuyDoiProviderBase.generated.cs">
+      <DependentUpon>SqlViewXuLyQuyDoiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewXuLyQuyDoiTungTuanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\SqlViewXuLyQuyDoiTungTuanProviderBase.generated.cs">
+      <DependentUpon>SqlViewXuLyQuyDoiTungTuanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlBangPhuTroiGioDayGiangVienProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlBangPhuTroiGioDayGiangVienProviderBase.generated.cs">
+      <DependentUpon>SqlBangPhuTroiGioDayGiangVienProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDanhMucGioGiangProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDanhMucGioGiangProviderBase.generated.cs">
+      <DependentUpon>SqlDanhMucGioGiangProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlTcbKetQuaQuyDoiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlTcbKetQuaQuyDoiProviderBase.generated.cs">
+      <DependentUpon>SqlTcbKetQuaQuyDoiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlMucDoHoanThanhNckhProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlMucDoHoanThanhNckhProviderBase.generated.cs">
+      <DependentUpon>SqlMucDoHoanThanhNckhProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlMonKhongTinhProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlMonKhongTinhProviderBase.generated.cs">
+      <DependentUpon>SqlMonKhongTinhProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlQuyDinhTienCanTrenProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlQuyDinhTienCanTrenProviderBase.generated.cs">
+      <DependentUpon>SqlQuyDinhTienCanTrenProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNamHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNamHocProviderBase.generated.cs">
+      <DependentUpon>SqlNamHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNgonNguGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNgonNguGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlNgonNguGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlMonHocKhongTinhKhoiLuongProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlMonHocKhongTinhKhoiLuongProviderBase.generated.cs">
+      <DependentUpon>SqlMonHocKhongTinhKhoiLuongProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNghienCuuKhoaHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNghienCuuKhoaHocProviderBase.generated.cs">
+      <DependentUpon>SqlNghienCuuKhoaHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlPhanLoaiGiangVienProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlPhanLoaiGiangVienProviderBase.generated.cs">
+      <DependentUpon>SqlPhanLoaiGiangVienProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNhomChucNangProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNhomChucNangProviderBase.generated.cs">
+      <DependentUpon>SqlNhomChucNangProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlMonHocCoNganHangDeThiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlMonHocCoNganHangDeThiProviderBase.generated.cs">
+      <DependentUpon>SqlMonHocCoNganHangDeThiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNhomKhoiLuongProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNhomKhoiLuongProviderBase.generated.cs">
+      <DependentUpon>SqlNhomKhoiLuongProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlMonThucTapTotNghiepProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlMonThucTapTotNghiepProviderBase.generated.cs">
+      <DependentUpon>SqlMonThucTapTotNghiepProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNhomHoatDongNgoaiGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNhomHoatDongNgoaiGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlNhomHoatDongNgoaiGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNamHocHienThiThuLaoLenWebProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNamHocHienThiThuLaoLenWebProviderBase.generated.cs">
+      <DependentUpon>SqlNamHocHienThiThuLaoLenWebProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlMonXepLichChuNhatKhongTinhHeSoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlMonXepLichChuNhatKhongTinhHeSoProviderBase.generated.cs">
+      <DependentUpon>SqlMonXepLichChuNhatKhongTinhHeSoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlPhuCapHanhChinhProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlPhuCapHanhChinhProviderBase.generated.cs">
+      <DependentUpon>SqlPhuCapHanhChinhProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlPhanCongDoAnTotNghiepProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlPhanCongDoAnTotNghiepProviderBase.generated.cs">
+      <DependentUpon>SqlPhanCongDoAnTotNghiepProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNoiDungDanhGiaProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNoiDungDanhGiaProviderBase.generated.cs">
+      <DependentUpon>SqlNoiDungDanhGiaProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNhomQuyenProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNhomQuyenProviderBase.generated.cs">
+      <DependentUpon>SqlNhomQuyenProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoRaDeThiVhuexProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoRaDeThiVhuexProviderBase.generated.cs">
+      <DependentUpon>SqlThuLaoRaDeThiVhuexProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlTrinhDoChinhTriProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlTrinhDoChinhTriProviderBase.generated.cs">
+      <DependentUpon>SqlTrinhDoChinhTriProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNhomMonHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNhomMonHocProviderBase.generated.cs">
+      <DependentUpon>SqlNhomMonHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlPscUserConfigApplicationProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlPscUserConfigApplicationProviderBase.generated.cs">
+      <DependentUpon>SqlPscUserConfigApplicationProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlTrinhDoNgoaiNguProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlTrinhDoNgoaiNguProviderBase.generated.cs">
+      <DependentUpon>SqlTrinhDoNgoaiNguProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlPscDotThanhToanCoiThiChamThiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlPscDotThanhToanCoiThiChamThiProviderBase.generated.cs">
+      <DependentUpon>SqlPscDotThanhToanCoiThiChamThiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlMonHocTinhHeSoKhoiNganhProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlMonHocTinhHeSoKhoiNganhProviderBase.generated.cs">
+      <DependentUpon>SqlMonHocTinhHeSoKhoiNganhProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlQuocTichProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlQuocTichProviderBase.generated.cs">
+      <DependentUpon>SqlQuocTichProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlPscExBarCodesProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlPscExBarCodesProviderBase.generated.cs">
+      <DependentUpon>SqlPscExBarCodesProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoCoiThiVhuexProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoCoiThiVhuexProviderBase.generated.cs">
+      <DependentUpon>SqlThuLaoCoiThiVhuexProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlPhanBienLuanAnProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlPhanBienLuanAnProviderBase.generated.cs">
+      <DependentUpon>SqlPhanBienLuanAnProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlPhanNhomMonHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlPhanNhomMonHocProviderBase.generated.cs">
+      <DependentUpon>SqlPhanNhomMonHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlMonTieuLuanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlMonTieuLuanProviderBase.generated.cs">
+      <DependentUpon>SqlMonTieuLuanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNoiDungCongViecQuanLyProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNoiDungCongViecQuanLyProviderBase.generated.cs">
+      <DependentUpon>SqlNoiDungCongViecQuanLyProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoiLuongGiangDayChiTietProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoiLuongGiangDayChiTietProviderBase.generated.cs">
+      <DependentUpon>SqlKhoiLuongGiangDayChiTietProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlLoaiKhoiLuongProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlLoaiKhoiLuongProviderBase.generated.cs">
+      <DependentUpon>SqlLoaiKhoiLuongProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlMonTinhTheoQuyCheMoiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlMonTinhTheoQuyCheMoiProviderBase.generated.cs">
+      <DependentUpon>SqlMonTinhTheoQuyCheMoiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlMonGiangMoiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlMonGiangMoiProviderBase.generated.cs">
+      <DependentUpon>SqlMonGiangMoiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoiLuongHuongDanThucTapProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoiLuongHuongDanThucTapProviderBase.generated.cs">
+      <DependentUpon>SqlKhoiLuongHuongDanThucTapProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlLoaiNghienCuuKhoaHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlLoaiNghienCuuKhoaHocProviderBase.generated.cs">
+      <DependentUpon>SqlLoaiNghienCuuKhoaHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoiLuongQuyDoiCaoDangProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoiLuongQuyDoiCaoDangProviderBase.generated.cs">
+      <DependentUpon>SqlKhoiLuongQuyDoiCaoDangProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoiLuongTamUngProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoiLuongTamUngProviderBase.generated.cs">
+      <DependentUpon>SqlKhoiLuongTamUngProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoiLuongGiangDayTungTuanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoiLuongGiangDayTungTuanProviderBase.generated.cs">
+      <DependentUpon>SqlKhoiLuongGiangDayTungTuanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoiLuongQuyDoiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoiLuongQuyDoiProviderBase.generated.cs">
+      <DependentUpon>SqlKhoiLuongQuyDoiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlLopHocPhanChuyenNganhProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlLopHocPhanChuyenNganhProviderBase.generated.cs">
+      <DependentUpon>SqlLopHocPhanChuyenNganhProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoiLuongGiangDayDoAnTotNghiepProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoiLuongGiangDayDoAnTotNghiepProviderBase.generated.cs">
+      <DependentUpon>SqlKhoiLuongGiangDayDoAnTotNghiepProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThangHeProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThangHeProviderBase.generated.cs">
+      <DependentUpon>SqlThangHeProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKyTinhLuongProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKyTinhLuongProviderBase.generated.cs">
+      <DependentUpon>SqlKyTinhLuongProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKetQuaDanhGiaVuotGioProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKetQuaDanhGiaVuotGioProviderBase.generated.cs">
+      <DependentUpon>SqlKetQuaDanhGiaVuotGioProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoiLuongDoAnTotNghiepChiTietProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoiLuongDoAnTotNghiepChiTietProviderBase.generated.cs">
+      <DependentUpon>SqlKhoiLuongDoAnTotNghiepChiTietProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlMonPhanCongNhieuGiangVienProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlMonPhanCongNhieuGiangVienProviderBase.generated.cs">
+      <DependentUpon>SqlMonPhanCongNhieuGiangVienProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKetQuaTinhTheoTuanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKetQuaTinhTheoTuanProviderBase.generated.cs">
+      <DependentUpon>SqlKetQuaTinhTheoTuanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlLopHocPhanBacDaoTaoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlLopHocPhanBacDaoTaoProviderBase.generated.cs">
+      <DependentUpon>SqlLopHocPhanBacDaoTaoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKyThiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKyThiProviderBase.generated.cs">
+      <DependentUpon>SqlKyThiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlLyDoTamNghiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlLyDoTamNghiProviderBase.generated.cs">
+      <DependentUpon>SqlLyDoTamNghiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlLopHocPhanKhongTinhGioGiangProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlLopHocPhanKhongTinhGioGiangProviderBase.generated.cs">
+      <DependentUpon>SqlLopHocPhanKhongTinhGioGiangProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlLopChatLuongCaoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlLopChatLuongCaoProviderBase.generated.cs">
+      <DependentUpon>SqlLopChatLuongCaoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoiLuongGiangDayCaoDangProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoiLuongGiangDayCaoDangProviderBase.generated.cs">
+      <DependentUpon>SqlKhoiLuongGiangDayCaoDangProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlPhanLoaiHocPhanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlPhanLoaiHocPhanProviderBase.generated.cs">
+      <DependentUpon>SqlPhanLoaiHocPhanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoiLuongGiangDayDoAnProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoiLuongGiangDayDoAnProviderBase.generated.cs">
+      <DependentUpon>SqlKhoiLuongGiangDayDoAnProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlLopHocPhanGiangBangTiengNuocNgoaiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlLopHocPhanGiangBangTiengNuocNgoaiProviderBase.generated.cs">
+      <DependentUpon>SqlLopHocPhanGiangBangTiengNuocNgoaiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlLoaiLopProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlLoaiLopProviderBase.generated.cs">
+      <DependentUpon>SqlLoaiLopProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlReportManagermentsProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlReportManagermentsProviderBase.generated.cs">
+      <DependentUpon>SqlReportManagermentsProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlLopHocPhanGhepThoiKhoaBieuProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlLopHocPhanGhepThoiKhoaBieuProviderBase.generated.cs">
+      <DependentUpon>SqlLopHocPhanGhepThoiKhoaBieuProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlLopHocPhanClcAufCjlProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlLopHocPhanClcAufCjlProviderBase.generated.cs">
+      <DependentUpon>SqlLopHocPhanClcAufCjlProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlQuyUocDatTenLopHocPhanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlQuyUocDatTenLopHocPhanProviderBase.generated.cs">
+      <DependentUpon>SqlQuyUocDatTenLopHocPhanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlLoaiNhanVienProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlLoaiNhanVienProviderBase.generated.cs">
+      <DependentUpon>SqlLoaiNhanVienProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlLoaiGiangVienProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlLoaiGiangVienProviderBase.generated.cs">
+      <DependentUpon>SqlLoaiGiangVienProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlPhanQuyenControlTrenFormProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlPhanQuyenControlTrenFormProviderBase.generated.cs">
+      <DependentUpon>SqlPhanQuyenControlTrenFormProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlQuyDoiGioChuanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlQuyDoiGioChuanProviderBase.generated.cs">
+      <DependentUpon>SqlQuyDoiGioChuanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlUteKhoiLuongGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlUteKhoiLuongGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlUteKhoiLuongGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSoTietCoiThiTieuChuanCuaGiangVienProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSoTietCoiThiTieuChuanCuaGiangVienProviderBase.generated.cs">
+      <DependentUpon>SqlSoTietCoiThiTieuChuanCuaGiangVienProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoCoiThiChamBaiImportProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoCoiThiChamBaiImportProviderBase.generated.cs">
+      <DependentUpon>SqlThuLaoCoiThiChamBaiImportProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlTrinhDoQuanLyNhaNuocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlTrinhDoQuanLyNhaNuocProviderBase.generated.cs">
+      <DependentUpon>SqlTrinhDoQuanLyNhaNuocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlQuyDoiKhoiLuongTamUngProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlQuyDoiKhoiLuongTamUngProviderBase.generated.cs">
+      <DependentUpon>SqlQuyDoiKhoiLuongTamUngProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlTinhTrangProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlTinhTrangProviderBase.generated.cs">
+      <DependentUpon>SqlTinhTrangProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlTrinhDoSuPhamProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlTrinhDoSuPhamProviderBase.generated.cs">
+      <DependentUpon>SqlTrinhDoSuPhamProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoCoiThiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoCoiThiProviderBase.generated.cs">
+      <DependentUpon>SqlThuLaoCoiThiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoCoiThiVhuProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoCoiThiVhuProviderBase.generated.cs">
+      <DependentUpon>SqlThuLaoCoiThiVhuProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoImportProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoImportProviderBase.generated.cs">
+      <DependentUpon>SqlThuLaoImportProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuMoiGiangHopDongThinhGiangProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuMoiGiangHopDongThinhGiangProviderBase.generated.cs">
+      <DependentUpon>SqlThuMoiGiangHopDongThinhGiangProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlTrinhDoTinHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlTrinhDoTinHocProviderBase.generated.cs">
+      <DependentUpon>SqlTrinhDoTinHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoRaDeVhuProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoRaDeVhuProviderBase.generated.cs">
+      <DependentUpon>SqlThuLaoRaDeVhuProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDonViTinhProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDonViTinhProviderBase.generated.cs">
+      <DependentUpon>SqlDonViTinhProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoChamThiVhuexProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoChamThiVhuexProviderBase.generated.cs">
+      <DependentUpon>SqlThuLaoChamThiVhuexProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoHuongDanCuoiKhoaProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoHuongDanCuoiKhoaProviderBase.generated.cs">
+      <DependentUpon>SqlThuLaoHuongDanCuoiKhoaProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKetQuaTinhProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKetQuaTinhProviderBase.generated.cs">
+      <DependentUpon>SqlKetQuaTinhProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlTienCongTacPhiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlTienCongTacPhiProviderBase.generated.cs">
+      <DependentUpon>SqlTienCongTacPhiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoGiangDayDaiHocLopClcProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoGiangDayDaiHocLopClcProviderBase.generated.cs">
+      <DependentUpon>SqlThuLaoGiangDayDaiHocLopClcProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlVaiTroProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlVaiTroProviderBase.generated.cs">
+      <DependentUpon>SqlVaiTroProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoiLuongGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoiLuongGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlKhoiLuongGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoiLuongKhacProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoiLuongKhacProviderBase.generated.cs">
+      <DependentUpon>SqlKhoiLuongKhacProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoThuLaoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoThuLaoProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoThuLaoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoTroCapTheoKhoaProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoTroCapTheoKhoaProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoTroCapTheoKhoaProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlTinhTrangTheoNamHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlTinhTrangTheoNamHocProviderBase.generated.cs">
+      <DependentUpon>SqlTinhTrangTheoNamHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlUteKhoiLuongQuyDoiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlUteKhoiLuongQuyDoiProviderBase.generated.cs">
+      <DependentUpon>SqlUteKhoiLuongQuyDoiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoanChiKhacProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoanChiKhacProviderBase.generated.cs">
+      <DependentUpon>SqlKhoanChiKhacProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlTietNghiaVuProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlTietNghiaVuProviderBase.generated.cs">
+      <DependentUpon>SqlTietNghiaVuProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlTongTienLuongTrongNamCuaGiangVienProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlTongTienLuongTrongNamCuaGiangVienProviderBase.generated.cs">
+      <DependentUpon>SqlTongTienLuongTrongNamCuaGiangVienProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlUteKhoiLuongKhacProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlUteKhoiLuongKhacProviderBase.generated.cs">
+      <DependentUpon>SqlUteKhoiLuongKhacProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoiLuongCacCongViecKhacProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoiLuongCacCongViecKhacProviderBase.generated.cs">
+      <DependentUpon>SqlKhoiLuongCacCongViecKhacProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoanQuyDoiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKhoanQuyDoiProviderBase.generated.cs">
+      <DependentUpon>SqlKhoanQuyDoiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlTietNoKyTruocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlTietNoKyTruocProviderBase.generated.cs">
+      <DependentUpon>SqlTietNoKyTruocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlQuyDoiHoatDongNgoaiGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlQuyDoiHoatDongNgoaiGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlQuyDoiHoatDongNgoaiGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoChamBaiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoChamBaiProviderBase.generated.cs">
+      <DependentUpon>SqlThuLaoChamBaiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThucGiangMonThucTeTuHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThucGiangMonThucTeTuHocProviderBase.generated.cs">
+      <DependentUpon>SqlThucGiangMonThucTeTuHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThueThuNhapCaNhanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThueThuNhapCaNhanProviderBase.generated.cs">
+      <DependentUpon>SqlThueThuNhapCaNhanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThongTinGiangDayGiangVienProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThongTinGiangDayGiangVienProviderBase.generated.cs">
+      <DependentUpon>SqlThongTinGiangDayGiangVienProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoChamBaiVhuProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoChamBaiVhuProviderBase.generated.cs">
+      <DependentUpon>SqlThuLaoChamBaiVhuProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhPhanNhomMonHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhPhanNhomMonHocProviderBase.generated.cs">
+      <DependentUpon>SqlSdhPhanNhomMonHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhNhomMonHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhNhomMonHocProviderBase.generated.cs">
+      <DependentUpon>SqlSdhNhomMonHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhDonGiaProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhDonGiaProviderBase.generated.cs">
+      <DependentUpon>SqlSdhDonGiaProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhKetQuaThanhToanThuLaoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhKetQuaThanhToanThuLaoProviderBase.generated.cs">
+      <DependentUpon>SqlSdhKetQuaThanhToanThuLaoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhPhanLoaiHocPhanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhPhanLoaiHocPhanProviderBase.generated.cs">
+      <DependentUpon>SqlSdhPhanLoaiHocPhanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSoTietNckhChuyenSangNamSauProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSoTietNckhChuyenSangNamSauProviderBase.generated.cs">
+      <DependentUpon>SqlSoTietNckhChuyenSangNamSauProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhMonHocKhongTinhKhoiLuongProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhMonHocKhongTinhKhoiLuongProviderBase.generated.cs">
+      <DependentUpon>SqlSdhMonHocKhongTinhKhoiLuongProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhHeSoDiaDiemProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhHeSoDiaDiemProviderBase.generated.cs">
+      <DependentUpon>SqlSdhHeSoDiaDiemProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhChotKhoiLuongGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhChotKhoiLuongGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlSdhChotKhoiLuongGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoGiangDayThucHanhProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoGiangDayThucHanhProviderBase.generated.cs">
+      <DependentUpon>SqlThuLaoGiangDayThucHanhProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlReportTemplateProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlReportTemplateProviderBase.generated.cs">
+      <DependentUpon>SqlReportTemplateProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhUteKhoiLuongGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhUteKhoiLuongGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlSdhUteKhoiLuongGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhUteKhoiLuongQuyDoiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhUteKhoiLuongQuyDoiProviderBase.generated.cs">
+      <DependentUpon>SqlSdhUteKhoiLuongQuyDoiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlQuyMoKhoaProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlQuyMoKhoaProviderBase.generated.cs">
+      <DependentUpon>SqlQuyMoKhoaProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhMonPhanCongNhieuGiangVienProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhMonPhanCongNhieuGiangVienProviderBase.generated.cs">
+      <DependentUpon>SqlSdhMonPhanCongNhieuGiangVienProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhUteThanhToanThuLaoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhUteThanhToanThuLaoProviderBase.generated.cs">
+      <DependentUpon>SqlSdhUteThanhToanThuLaoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThanhTraGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThanhTraGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlThanhTraGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThoiGianGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThoiGianGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlThoiGianGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThanhTraCoiThiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThanhTraCoiThiProviderBase.generated.cs">
+      <DependentUpon>SqlThanhTraCoiThiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThanhTraChamGiangTheoKhoaHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThanhTraChamGiangTheoKhoaHocProviderBase.generated.cs">
+      <DependentUpon>SqlThanhTraChamGiangTheoKhoaHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhHeSoLopDongProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhHeSoLopDongProviderBase.generated.cs">
+      <DependentUpon>SqlSdhHeSoLopDongProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlTaiKhoanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlTaiKhoanProviderBase.generated.cs">
+      <DependentUpon>SqlTaiKhoanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThoiGianNghiTamThoiCuaGiangVienProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThoiGianNghiTamThoiCuaGiangVienProviderBase.generated.cs">
+      <DependentUpon>SqlThoiGianNghiTamThoiCuaGiangVienProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThueThanhToanBoSungProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThueThanhToanBoSungProviderBase.generated.cs">
+      <DependentUpon>SqlThueThanhToanBoSungProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThoiGianLamViecCuaNhanVienProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThoiGianLamViecCuaNhanVienProviderBase.generated.cs">
+      <DependentUpon>SqlThoiGianLamViecCuaNhanVienProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSiSoLopHocPhanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSiSoLopHocPhanProviderBase.generated.cs">
+      <DependentUpon>SqlSiSoLopHocPhanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlBangPhuTroiNamHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlBangPhuTroiNamHocProviderBase.generated.cs">
+      <DependentUpon>SqlBangPhuTroiNamHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhLoaiKhoiLuongProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlSdhLoaiKhoiLuongProviderBase.generated.cs">
+      <DependentUpon>SqlSdhLoaiKhoiLuongProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThanhToanThinhGiangProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThanhToanThinhGiangProviderBase.generated.cs">
+      <DependentUpon>SqlThanhToanThinhGiangProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKetQuaCacKhoanChiKhacProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKetQuaCacKhoanChiKhacProviderBase.generated.cs">
+      <DependentUpon>SqlKetQuaCacKhoanChiKhacProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThanhTraTheoThoiKhoaBieuProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThanhTraTheoThoiKhoaBieuProviderBase.generated.cs">
+      <DependentUpon>SqlThanhTraTheoThoiKhoaBieuProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqUteKhoiLuongGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqUteKhoiLuongGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlKcqUteKhoiLuongGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThamDinhLuanVanThacSyProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThamDinhLuanVanThacSyProviderBase.generated.cs">
+      <DependentUpon>SqlThamDinhLuanVanThacSyProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangDaySauDaiHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangDaySauDaiHocProviderBase.generated.cs">
+      <DependentUpon>SqlGiangDaySauDaiHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqUteKhoiLuongKhacProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqUteKhoiLuongKhacProviderBase.generated.cs">
+      <DependentUpon>SqlKcqUteKhoiLuongKhacProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqPhanCongDoAnTotNghiepProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqPhanCongDoAnTotNghiepProviderBase.generated.cs">
+      <DependentUpon>SqlKcqPhanCongDoAnTotNghiepProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDuTruGioGiangKhiCoLopHocPhanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDuTruGioGiangKhiCoLopHocPhanProviderBase.generated.cs">
+      <DependentUpon>SqlDuTruGioGiangKhiCoLopHocPhanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDanhMucHoatDongQuanLyProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDanhMucHoatDongQuanLyProviderBase.generated.cs">
+      <DependentUpon>SqlDanhMucHoatDongQuanLyProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqQuyDoiGioChuanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqQuyDoiGioChuanProviderBase.generated.cs">
+      <DependentUpon>SqlKcqQuyDoiGioChuanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHocHamProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHocHamProviderBase.generated.cs">
+      <DependentUpon>SqlHocHamProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienChuyenMonProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienChuyenMonProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienChuyenMonProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienChucVuProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienChucVuProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienChucVuProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienThanhToanQuaNganHangProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienThanhToanQuaNganHangProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienThanhToanQuaNganHangProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienMocTangLuongProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienMocTangLuongProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienMocTangLuongProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangDayChatLuongCaoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangDayChatLuongCaoProviderBase.generated.cs">
+      <DependentUpon>SqlGiangDayChatLuongCaoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienKhongTinhGioGiangProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienKhongTinhGioGiangProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienKhongTinhGioGiangProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGhiChuThanhToanBoSungProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGhiChuThanhToanBoSungProviderBase.generated.cs">
+      <DependentUpon>SqlGhiChuThanhToanBoSungProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienDinhMucKhauTruProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienDinhMucKhauTruProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienDinhMucKhauTruProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienHoatDongNgoaiGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienHoatDongNgoaiGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienHoatDongNgoaiGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiamTruDinhMucProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiamTruDinhMucProviderBase.generated.cs">
+      <DependentUpon>SqlGiamTruDinhMucProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienLopHocPhanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienLopHocPhanProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienLopHocPhanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienThayDoiHocHamProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienThayDoiHocHamProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienThayDoiHocHamProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienChoDuyetHoSoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienChoDuyetHoSoProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienChoDuyetHoSoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienBiChanTienProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienBiChanTienProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienBiChanTienProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienTinhGioChuanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienTinhGioChuanProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienTinhGioChuanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNgachCongChucProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNgachCongChucProviderBase.generated.cs">
+      <DependentUpon>SqlNgachCongChucProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDinhMucGioChuanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDinhMucGioChuanProviderBase.generated.cs">
+      <DependentUpon>SqlDinhMucGioChuanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienTamUngChiTietProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienTamUngChiTietProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienTamUngChiTietProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHocViProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHocViProviderBase.generated.cs">
+      <DependentUpon>SqlHocViProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienThayDoiLoaiGiangVienProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienThayDoiLoaiGiangVienProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienThayDoiLoaiGiangVienProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienGiamTruDinhMucProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienGiamTruDinhMucProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienGiamTruDinhMucProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienCamKetKhongTruThueProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienCamKetKhongTruThueProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienCamKetKhongTruThueProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienPhanHoiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienPhanHoiProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienPhanHoiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDuTruGioGiangTruocLopHocPhanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDuTruGioGiangTruocLopHocPhanProviderBase.generated.cs">
+      <DependentUpon>SqlDuTruGioGiangTruocLopHocPhanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienTinhLuongThinhGiangProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienTinhLuongThinhGiangProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienTinhLuongThinhGiangProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDinhMucNghienCuuKhoaHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDinhMucNghienCuuKhoaHocProviderBase.generated.cs">
+      <DependentUpon>SqlDinhMucNghienCuuKhoaHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienNghienCuuKhProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienNghienCuuKhProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienNghienCuuKhProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienHoSoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienHoSoProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienHoSoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienThayDoiChucVuProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienThayDoiChucVuProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienThayDoiChucVuProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienHoatDongQuanLyProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienHoatDongQuanLyProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienHoatDongQuanLyProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDinhMucHuongDanKhoaLuanThucTapProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDinhMucHuongDanKhoaLuanThucTapProviderBase.generated.cs">
+      <DependentUpon>SqlDinhMucHuongDanKhoaLuanThucTapProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiamTruGioChuanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiamTruGioChuanProviderBase.generated.cs">
+      <DependentUpon>SqlGiamTruGioChuanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlChotCoVanHocTapProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlChotCoVanHocTapProviderBase.generated.cs">
+      <DependentUpon>SqlChotCoVanHocTapProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlChotKhoiLuongGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlChotKhoiLuongGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlChotKhoiLuongGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlChucVuProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlChucVuProviderBase.generated.cs">
+      <DependentUpon>SqlChucVuProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDonGiaProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDonGiaProviderBase.generated.cs">
+      <DependentUpon>SqlDonGiaProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlCoVanHocTapProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlCoVanHocTapProviderBase.generated.cs">
+      <DependentUpon>SqlCoVanHocTapProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlChiTietKhoiLuongProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlChiTietKhoiLuongProviderBase.generated.cs">
+      <DependentUpon>SqlChiTietKhoiLuongProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlCauHinhChungProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlCauHinhChungProviderBase.generated.cs">
+      <DependentUpon>SqlCauHinhChungProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDanhGiaCoVanHocTapProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDanhGiaCoVanHocTapProviderBase.generated.cs">
+      <DependentUpon>SqlDanhGiaCoVanHocTapProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlChucNangProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlChucNangProviderBase.generated.cs">
+      <DependentUpon>SqlChucNangProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNghienCuuKhoaHocTongHopProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNghienCuuKhoaHocTongHopProviderBase.generated.cs">
+      <DependentUpon>SqlNghienCuuKhoaHocTongHopProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlCauHinhProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlCauHinhProviderBase.generated.cs">
+      <DependentUpon>SqlCauHinhProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDonGiaChatLuongCaoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDonGiaChatLuongCaoProviderBase.generated.cs">
+      <DependentUpon>SqlDonGiaChatLuongCaoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlCauHinhChotGioProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlCauHinhChotGioProviderBase.generated.cs">
+      <DependentUpon>SqlCauHinhChotGioProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlCauHinhGiangVienPhanHoiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlCauHinhGiangVienPhanHoiProviderBase.generated.cs">
+      <DependentUpon>SqlCauHinhGiangVienPhanHoiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlBacLuongProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlBacLuongProviderBase.generated.cs">
+      <DependentUpon>SqlBacLuongProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDonGiaChamBaiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDonGiaChamBaiProviderBase.generated.cs">
+      <DependentUpon>SqlDonGiaChamBaiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDanhMucNghienCuuKhoaHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDanhMucNghienCuuKhoaHocProviderBase.generated.cs">
+      <DependentUpon>SqlDanhMucNghienCuuKhoaHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDonGiaTcbProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDonGiaTcbProviderBase.generated.cs">
+      <DependentUpon>SqlDonGiaTcbProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDotChiTraProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDotChiTraProviderBase.generated.cs">
+      <DependentUpon>SqlDotChiTraProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDonGiaMotTietProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDonGiaMotTietProviderBase.generated.cs">
+      <DependentUpon>SqlDonGiaMotTietProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienThayDoiHocViProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienThayDoiHocViProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienThayDoiHocViProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDonGiaNgoaiQuyCheProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDonGiaNgoaiQuyCheProviderBase.generated.cs">
+      <DependentUpon>SqlDonGiaNgoaiQuyCheProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDanhSachHopDongThinhGiangProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDanhSachHopDongThinhGiangProviderBase.generated.cs">
+      <DependentUpon>SqlDanhSachHopDongThinhGiangProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienChuyenDoiGioGiangProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienChuyenDoiGioGiangProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienChuyenDoiGioGiangProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDanhMucViPhamProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDanhMucViPhamProviderBase.generated.cs">
+      <DependentUpon>SqlDanhMucViPhamProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienTamUngProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienTamUngProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienTamUngProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDonGiaCoiThiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDonGiaCoiThiProviderBase.generated.cs">
+      <DependentUpon>SqlDonGiaCoiThiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlChietTinhBoiDuongGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlChietTinhBoiDuongGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlChietTinhBoiDuongGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlChiTienThuLaoGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlChiTienThuLaoGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlChiTienThuLaoGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlCongThucProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlCongThucProviderBase.generated.cs">
+      <DependentUpon>SqlCongThucProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqUteThanhToanThuLaoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqUteThanhToanThuLaoProviderBase.generated.cs">
+      <DependentUpon>SqlKcqUteThanhToanThuLaoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDuTruGioGiangTruocThoiKhoaBieuProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDuTruGioGiangTruocThoiKhoaBieuProviderBase.generated.cs">
+      <DependentUpon>SqlDuTruGioGiangTruocThoiKhoaBieuProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDanhMucQuyMoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDanhMucQuyMoProviderBase.generated.cs">
+      <DependentUpon>SqlDanhMucQuyMoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqKhoiLuongGiangDayChiTietProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqKhoiLuongGiangDayChiTietProviderBase.generated.cs">
+      <DependentUpon>SqlKcqKhoiLuongGiangDayChiTietProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoChucDanhChuyenMonProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoChucDanhChuyenMonProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoChucDanhChuyenMonProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoCongViecProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoCongViecProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoCongViecProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqKhoiLuongThucTapCuoiKhoaProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqKhoiLuongThucTapCuoiKhoaProviderBase.generated.cs">
+      <DependentUpon>SqlKcqKhoiLuongThucTapCuoiKhoaProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqKhoiLuongDoAnTotNghiepChiTietProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqKhoiLuongDoAnTotNghiepChiTietProviderBase.generated.cs">
+      <DependentUpon>SqlKcqKhoiLuongDoAnTotNghiepChiTietProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqKhoiLuongGiangDayDoAnTotNghiepProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqKhoiLuongGiangDayDoAnTotNghiepProviderBase.generated.cs">
+      <DependentUpon>SqlKcqKhoiLuongGiangDayDoAnTotNghiepProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDinhMucGioChuanToiThieuTheoChucVuProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlDinhMucGioChuanToiThieuTheoChucVuProviderBase.generated.cs">
+      <DependentUpon>SqlDinhMucGioChuanToiThieuTheoChucVuProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqKhoanQuyDoiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqKhoanQuyDoiProviderBase.generated.cs">
+      <DependentUpon>SqlKcqKhoanQuyDoiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqHeSoCoSoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqHeSoCoSoProviderBase.generated.cs">
+      <DependentUpon>SqlKcqHeSoCoSoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqMonXepLichChuNhatKhongTinhHeSoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqMonXepLichChuNhatKhongTinhHeSoProviderBase.generated.cs">
+      <DependentUpon>SqlKcqMonXepLichChuNhatKhongTinhHeSoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqKhoiLuongKhacProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqKhoiLuongKhacProviderBase.generated.cs">
+      <DependentUpon>SqlKcqKhoiLuongKhacProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqHeSoDiaDiemProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqHeSoDiaDiemProviderBase.generated.cs">
+      <DependentUpon>SqlKcqHeSoDiaDiemProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqPhanBienLuanAnProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqPhanBienLuanAnProviderBase.generated.cs">
+      <DependentUpon>SqlKcqPhanBienLuanAnProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqDonGiaNgoaiQuyCheProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqDonGiaNgoaiQuyCheProviderBase.generated.cs">
+      <DependentUpon>SqlKcqDonGiaNgoaiQuyCheProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqChotKhoiLuongGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqChotKhoiLuongGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlKcqChotKhoiLuongGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqKhoiLuongGiangDayDoAnProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqKhoiLuongGiangDayDoAnProviderBase.generated.cs">
+      <DependentUpon>SqlKcqKhoiLuongGiangDayDoAnProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqKetQuaThanhToanThuLaoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqKetQuaThanhToanThuLaoProviderBase.generated.cs">
+      <DependentUpon>SqlKcqKetQuaThanhToanThuLaoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoBacDaoTaoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoBacDaoTaoProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoBacDaoTaoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqUteKhoiLuongQuyDoiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqUteKhoiLuongQuyDoiProviderBase.generated.cs">
+      <DependentUpon>SqlKcqUteKhoiLuongQuyDoiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqMonPhanCongNhieuGiangVienProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqMonPhanCongNhieuGiangVienProviderBase.generated.cs">
+      <DependentUpon>SqlKcqMonPhanCongNhieuGiangVienProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqMonTieuLuanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqMonTieuLuanProviderBase.generated.cs">
+      <DependentUpon>SqlKcqMonTieuLuanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqPhuCapHanhChinhProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqPhuCapHanhChinhProviderBase.generated.cs">
+      <DependentUpon>SqlKcqPhuCapHanhChinhProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienGiangDayGdtcQpProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlGiangVienGiangDayGdtcQpProviderBase.generated.cs">
+      <DependentUpon>SqlGiangVienGiangDayGdtcQpProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqHeSoHocKyProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqHeSoHocKyProviderBase.generated.cs">
+      <DependentUpon>SqlKcqHeSoHocKyProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqPhanNhomMonHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqPhanNhomMonHocProviderBase.generated.cs">
+      <DependentUpon>SqlKcqPhanNhomMonHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKetQuaThanhToanThuLaoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKetQuaThanhToanThuLaoProviderBase.generated.cs">
+      <DependentUpon>SqlKetQuaThanhToanThuLaoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqNhomMonHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqNhomMonHocProviderBase.generated.cs">
+      <DependentUpon>SqlKcqNhomMonHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqMonTinhTheoQuyCheMoiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqMonTinhTheoQuyCheMoiProviderBase.generated.cs">
+      <DependentUpon>SqlKcqMonTinhTheoQuyCheMoiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqCauHinhChotGioProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqCauHinhChotGioProviderBase.generated.cs">
+      <DependentUpon>SqlKcqCauHinhChotGioProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqPhanLoaiHocPhanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqPhanLoaiHocPhanProviderBase.generated.cs">
+      <DependentUpon>SqlKcqPhanLoaiHocPhanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqMonThucTapTotNghiepProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqMonThucTapTotNghiepProviderBase.generated.cs">
+      <DependentUpon>SqlKcqMonThucTapTotNghiepProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqMonHocKhongTinhKhoiLuongProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqMonHocKhongTinhKhoiLuongProviderBase.generated.cs">
+      <DependentUpon>SqlKcqMonHocKhongTinhKhoiLuongProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqHeSoQuyDoiTinChiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqHeSoQuyDoiTinChiProviderBase.generated.cs">
+      <DependentUpon>SqlKcqHeSoQuyDoiTinChiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqDonGiaProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqDonGiaProviderBase.generated.cs">
+      <DependentUpon>SqlKcqDonGiaProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqLoaiKhoiLuongProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqLoaiKhoiLuongProviderBase.generated.cs">
+      <DependentUpon>SqlKcqLoaiKhoiLuongProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoNhomMonProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoNhomMonProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoNhomMonProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHoatDongNgoaiGiangDayClcProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHoatDongNgoaiGiangDayClcProviderBase.generated.cs">
+      <DependentUpon>SqlHoatDongNgoaiGiangDayClcProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeThongProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeThongProviderBase.generated.cs">
+      <DependentUpon>SqlHeThongProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoCoSoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoCoSoProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoCoSoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoNgayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoNgayProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoNgayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoKhoiLuongCongThemProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoKhoiLuongCongThemProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoKhoiLuongCongThemProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHoatDongNgoaiGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHoatDongNgoaiGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlHoatDongNgoaiGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoLuongProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoLuongProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoLuongProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoCoVanHocTapProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoCoVanHocTapProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoCoVanHocTapProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoHocKyProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoHocKyProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoHocKyProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoNgoaiGioProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoNgoaiGioProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoNgoaiGioProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoNhomThucHanhProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoNhomThucHanhProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoNhomThucHanhProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqNhomKhoiLuongProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqNhomKhoiLuongProviderBase.generated.cs">
+      <DependentUpon>SqlKcqNhomKhoiLuongProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoChucDanhKhoiLuongKhacProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoChucDanhKhoiLuongKhacProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoChucDanhKhoiLuongKhacProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoChucDanhTietNghiaVuProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoChucDanhTietNghiaVuProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoChucDanhTietNghiaVuProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoKhoiNganhProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoKhoiNganhProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoKhoiNganhProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoNgonNguProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoNgonNguProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoNgonNguProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHoSoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHoSoProviderBase.generated.cs">
+      <DependentUpon>SqlHoSoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHopDongThinhGiangProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHopDongThinhGiangProviderBase.generated.cs">
+      <DependentUpon>SqlHopDongThinhGiangProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoThamNienProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoThamNienProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoThamNienProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoThoiGianGiangDayProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoThoiGianGiangDayProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoThoiGianGiangDayProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHuongDanKhoaLuanThucTapProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHuongDanKhoaLuanThucTapProviderBase.generated.cs">
+      <DependentUpon>SqlHuongDanKhoaLuanThucTapProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHoatDongChuyenMonKhacProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHoatDongChuyenMonKhacProviderBase.generated.cs">
+      <DependentUpon>SqlHoatDongChuyenMonKhacProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoLopDongProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoLopDongProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoLopDongProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoQuyDoiGioChuanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoQuyDoiGioChuanProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoQuyDoiGioChuanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHistoryProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHistoryProviderBase.generated.cs">
+      <DependentUpon>SqlHistoryProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqHopDongThinhGiangProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlKcqHopDongThinhGiangProviderBase.generated.cs">
+      <DependentUpon>SqlKcqHopDongThinhGiangProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoTinChiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoTinChiProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoTinChiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoThucTapProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoThucTapProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoThucTapProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlXetDuyetDeCuongLuanVanCaoHocProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlXetDuyetDeCuongLuanVanCaoHocProviderBase.generated.cs">
+      <DependentUpon>SqlXetDuyetDeCuongLuanVanCaoHocProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHinhThucDaoTaoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHinhThucDaoTaoProviderBase.generated.cs">
+      <DependentUpon>SqlHinhThucDaoTaoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoThanhToanGioChuanVuotMucProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoThanhToanGioChuanVuotMucProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoThanhToanGioChuanVuotMucProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoQuyDoiTinChiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoQuyDoiTinChiProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoQuyDoiTinChiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoThoaThuanProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlThuLaoThoaThuanProviderBase.generated.cs">
+      <DependentUpon>SqlThuLaoThoaThuanProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlUteThanhToanThuLaoProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlUteThanhToanThuLaoProviderBase.generated.cs">
+      <DependentUpon>SqlUteThanhToanThuLaoProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoQuyDoiGioTroiProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlHeSoQuyDoiGioTroiProviderBase.generated.cs">
+      <DependentUpon>SqlHeSoQuyDoiGioTroiProvider.cs</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SqlNetTiersProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <!--<Compile Include="SqlDataRepository.cs">
+			  <SubType>Code</SubType>
+			</Compile>-->
+    <EmbeddedResource Include="Procedures.xml">
+      <SubType>EmbeddedResource</SubType>
+    </EmbeddedResource>
+    <Compile Include="StoredProcedureProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Code\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

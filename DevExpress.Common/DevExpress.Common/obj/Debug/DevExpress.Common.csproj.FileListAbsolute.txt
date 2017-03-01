@@ -1,0 +1,587 @@
+E:\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.dll
+E:\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.pdb
+E:\DevExpress.Common\DevExpress.Common\obj\Debug\ResolveAssemblyReference.cache
+E:\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.CustomDesignForm.resources
+E:\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.MainFeaturesControl.resources
+E:\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.ModuleControl.resources
+E:\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.PreviewControl.resources
+E:\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.Properties.Resources.resources
+E:\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.csproj.GenerateResource.Cache
+E:\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.dll
+E:\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.pdb
+E:\Project\NetTiers\CMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.dll
+E:\Project\NetTiers\CMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.pdb
+E:\Project\NetTiers\CMS\DevExpress.Common\DevExpress.Common\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\NetTiers\CMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.CustomDesignForm.resources
+E:\Project\NetTiers\CMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.MainFeaturesControl.resources
+E:\Project\NetTiers\CMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.ModuleControl.resources
+E:\Project\NetTiers\CMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.PreviewControl.resources
+E:\Project\NetTiers\CMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.Properties.Resources.resources
+E:\Project\NetTiers\CMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Project\NetTiers\CMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Project\NetTiers\CMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.dll
+E:\Project\NetTiers\CMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.pdb
+E:\Project\NetTiers\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.dll
+E:\Project\NetTiers\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.pdb
+E:\Project\NetTiers\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\NetTiers\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.CustomDesignForm.resources
+E:\Project\NetTiers\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.MainFeaturesControl.resources
+E:\Project\NetTiers\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.ModuleControl.resources
+E:\Project\NetTiers\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.PreviewControl.resources
+E:\Project\NetTiers\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.Properties.Resources.resources
+E:\Project\NetTiers\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Project\NetTiers\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Project\NetTiers\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.dll
+E:\Project\NetTiers\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.pdb
+D:\GiangVienSPKT\PMS\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.dll
+D:\GiangVienSPKT\PMS\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.pdb
+D:\GiangVienSPKT\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\GiangVienSPKT\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.CustomDesignForm.resources
+D:\GiangVienSPKT\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.MainFeaturesControl.resources
+D:\GiangVienSPKT\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.ModuleControl.resources
+D:\GiangVienSPKT\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.PreviewControl.resources
+D:\GiangVienSPKT\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.Properties.Resources.resources
+D:\GiangVienSPKT\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\GiangVienSPKT\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\GiangVienSPKT\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.dll
+D:\GiangVienSPKT\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.pdb
+D:\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.dll
+D:\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.pdb
+D:\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.CustomDesignForm.resources
+D:\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.MainFeaturesControl.resources
+D:\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.ModuleControl.resources
+D:\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.PreviewControl.resources
+D:\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.Properties.Resources.resources
+D:\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.dll
+D:\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.pdb
+D:\Khanh\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Khanh\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Khanh\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Khanh\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.dll
+D:\Khanh\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.pdb
+D:\Khanh\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.dll
+D:\Khanh\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.pdb
+D:\Khanh\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.CustomDesignForm.resources
+D:\Khanh\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.MainFeaturesControl.resources
+D:\Khanh\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.ModuleControl.resources
+D:\Khanh\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.PreviewControl.resources
+D:\Khanh\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.Properties.Resources.resources
+D:\Khanh\PMS23112011\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.dll
+D:\Khanh\PMS23112011\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.pdb
+D:\Khanh\PMS23112011\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Khanh\PMS23112011\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.CustomDesignForm.resources
+D:\Khanh\PMS23112011\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.MainFeaturesControl.resources
+D:\Khanh\PMS23112011\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.ModuleControl.resources
+D:\Khanh\PMS23112011\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.PreviewControl.resources
+D:\Khanh\PMS23112011\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.Properties.Resources.resources
+D:\Khanh\PMS23112011\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Khanh\PMS23112011\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Khanh\PMS23112011\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.dll
+D:\Khanh\PMS23112011\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.pdb
+D:\Khanh\PMS\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.dll
+D:\Khanh\PMS\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.pdb
+D:\Khanh\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Khanh\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.CustomDesignForm.resources
+D:\Khanh\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.MainFeaturesControl.resources
+D:\Khanh\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.ModuleControl.resources
+D:\Khanh\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.PreviewControl.resources
+D:\Khanh\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.Properties.Resources.resources
+D:\Khanh\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Khanh\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Khanh\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.dll
+D:\Khanh\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.pdb
+D:\Khanh\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.dll
+D:\Khanh\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.pdb
+D:\Khanh\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Khanh\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.CustomDesignForm.resources
+D:\Khanh\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.MainFeaturesControl.resources
+D:\Khanh\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.ModuleControl.resources
+D:\Khanh\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.PreviewControl.resources
+D:\Khanh\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.Properties.Resources.resources
+D:\Khanh\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Khanh\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Khanh\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.dll
+D:\Khanh\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.pdb
+D:\Khanh\PMS3122011\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.dll
+D:\Khanh\PMS3122011\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.pdb
+D:\Khanh\PMS3122011\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Khanh\PMS3122011\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.CustomDesignForm.resources
+D:\Khanh\PMS3122011\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.MainFeaturesControl.resources
+D:\Khanh\PMS3122011\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.ModuleControl.resources
+D:\Khanh\PMS3122011\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.PreviewControl.resources
+D:\Khanh\PMS3122011\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.Properties.Resources.resources
+D:\Khanh\PMS3122011\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Khanh\PMS3122011\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Khanh\PMS3122011\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.dll
+D:\Khanh\PMS3122011\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.pdb
+D:\Khanh\PMS10122011\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.dll
+D:\Khanh\PMS10122011\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.pdb
+D:\Khanh\PMS10122011\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Khanh\PMS10122011\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.CustomDesignForm.resources
+D:\Khanh\PMS10122011\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.MainFeaturesControl.resources
+D:\Khanh\PMS10122011\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.ModuleControl.resources
+D:\Khanh\PMS10122011\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.PreviewControl.resources
+D:\Khanh\PMS10122011\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.Properties.Resources.resources
+D:\Khanh\PMS10122011\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Khanh\PMS10122011\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Khanh\PMS10122011\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.dll
+D:\Khanh\PMS10122011\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.pdb
+D:\Working\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.dll
+D:\Working\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.pdb
+D:\Working\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Working\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.CustomDesignForm.resources
+D:\Working\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.MainFeaturesControl.resources
+D:\Working\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.ModuleControl.resources
+D:\Working\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.PreviewControl.resources
+D:\Working\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.Properties.Resources.resources
+D:\Working\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Working\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Working\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.dll
+D:\Working\PMS\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.pdb
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.dll
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.pdb
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.CustomDesignForm.resources
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.MainFeaturesControl.resources
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.ModuleControl.resources
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.PreviewControl.resources
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.Properties.Resources.resources
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.dll
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.pdb
+D:\PSC\PMS\Source\PMS\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.dll
+D:\PSC\PMS\Source\PMS\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.pdb
+D:\PSC\PMS\Source\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\PSC\PMS\Source\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.CustomDesignForm.resources
+D:\PSC\PMS\Source\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.MainFeaturesControl.resources
+D:\PSC\PMS\Source\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.ModuleControl.resources
+D:\PSC\PMS\Source\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.PreviewControl.resources
+D:\PSC\PMS\Source\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.Properties.Resources.resources
+D:\PSC\PMS\Source\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\PSC\PMS\Source\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\PSC\PMS\Source\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.dll
+D:\PSC\PMS\Source\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.pdb
+D:\PMS\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.dll
+D:\PMS\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.pdb
+D:\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.CustomDesignForm.resources
+D:\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.MainFeaturesControl.resources
+D:\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.ModuleControl.resources
+D:\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.PreviewControl.resources
+D:\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.Properties.Resources.resources
+D:\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.dll
+D:\PMS\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.pdb
+D:\PSC\PMS\Source\PMS_LAW\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.dll
+D:\PSC\PMS\Source\PMS_LAW\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.pdb
+D:\PSC\PMS\Source\PMS_LAW\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\PSC\PMS\Source\PMS_LAW\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.CustomDesignForm.resources
+D:\PSC\PMS\Source\PMS_LAW\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.MainFeaturesControl.resources
+D:\PSC\PMS\Source\PMS_LAW\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.ModuleControl.resources
+D:\PSC\PMS\Source\PMS_LAW\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.PreviewControl.resources
+D:\PSC\PMS\Source\PMS_LAW\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.Properties.Resources.resources
+D:\PSC\PMS\Source\PMS_LAW\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\PSC\PMS\Source\PMS_LAW\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\PSC\PMS\Source\PMS_LAW\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.dll
+D:\PSC\PMS\Source\PMS_LAW\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.pdb
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.dll
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.pdb
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.CustomDesignForm.resources
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.MainFeaturesControl.resources
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.ModuleControl.resources
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.PreviewControl.resources
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.Properties.Resources.resources
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.dll
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.pdb
+D:\Source\PMS_CHUNG_Moi\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.dll
+D:\Source\PMS_CHUNG_Moi\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.pdb
+D:\Source\PMS_CHUNG_Moi\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Source\PMS_CHUNG_Moi\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.CustomDesignForm.resources
+D:\Source\PMS_CHUNG_Moi\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.MainFeaturesControl.resources
+D:\Source\PMS_CHUNG_Moi\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.ModuleControl.resources
+D:\Source\PMS_CHUNG_Moi\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.PreviewControl.resources
+D:\Source\PMS_CHUNG_Moi\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.Properties.Resources.resources
+D:\Source\PMS_CHUNG_Moi\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\ResGen.read.1.tlog
+D:\Source\PMS_CHUNG_Moi\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\ResGen.write.1.tlog
+D:\Source\PMS_CHUNG_Moi\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.dll
+D:\Source\PMS_CHUNG_Moi\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.pdb
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.dll
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.pdb
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.CustomDesignForm.resources
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.MainFeaturesControl.resources
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.ModuleControl.resources
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.PreviewControl.resources
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.Properties.Resources.resources
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\ResGen.read.1.tlog
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\ResGen.write.1.tlog
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.dll
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.pdb
+D:\Source\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.dll
+D:\Source\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.pdb
+D:\Source\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\CipherLib.dll
+D:\Source\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Source\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.CustomDesignForm.resources
+D:\Source\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.MainFeaturesControl.resources
+D:\Source\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.ModuleControl.resources
+D:\Source\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.PreviewControl.resources
+D:\Source\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.Properties.Resources.resources
+D:\Source\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource.read.1.tlog
+D:\Source\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\GenerateResource.write.1.tlog
+D:\Source\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.dll
+D:\Source\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.pdb
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.pdb
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\CipherLib.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Charts.v15.1.Core.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Data.v15.1.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.PivotGrid.v15.1.Core.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Printing.v15.1.Core.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Sparkline.v15.1.Core.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Tutorials.v15.1.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Utils.v15.1.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Utils.v15.1.UI.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraBars.v15.1.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraCharts.v15.1.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraCharts.v15.1.Wizard.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraEditors.v15.1.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraGrid.v15.1.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraPivotGrid.v15.1.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraPrinting.v15.1.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraReports.v15.1.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraReports.v15.1.Extensions.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraTreeList.v15.1.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.RichEdit.v15.1.Core.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraNavBar.v15.1.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.CodeParser.v15.1.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraLayout.v15.1.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraRichEdit.v15.1.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Office.v15.1.Core.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.DemoData.v15.1.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraVerticalGrid.v15.1.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraGauges.v15.1.Core.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.DataAccess.v15.1.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraCharts.v15.1.Extensions.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.DataAccess.v15.1.UI.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.DemoData.v15.1.Core.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Xpo.v15.1.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Printing.v15.1.Core.xml
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Data.v15.1.xml
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Utils.v15.1.xml
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraBars.v15.1.xml
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraEditors.v15.1.xml
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraGrid.v15.1.xml
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.PivotGrid.v15.1.Core.xml
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraPivotGrid.v15.1.xml
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraPrinting.v15.1.xml
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraCharts.v15.1.Wizard.xml
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraCharts.v15.1.xml
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Sparkline.v15.1.Core.xml
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Utils.v15.1.UI.xml
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraReports.v15.1.xml
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraReports.v15.1.Extensions.xml
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraTreeList.v15.1.xml
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.RichEdit.v15.1.Core.xml
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraNavBar.v15.1.xml
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraLayout.v15.1.xml
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraRichEdit.v15.1.xml
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Office.v15.1.Core.xml
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraVerticalGrid.v15.1.xml
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraGauges.v15.1.Core.xml
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.DataAccess.v15.1.xml
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.DataAccess.v15.1.UI.xml
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Xpo.v15.1.xml
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.Printing.v15.1.Core.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.Printing.v15.1.Core.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.Printing.v15.1.Core.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.Printing.v15.1.Core.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.Data.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.Data.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.Data.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.Data.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.Utils.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.Utils.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.Utils.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.Utils.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraBars.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraBars.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraBars.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraBars.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraEditors.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraEditors.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraEditors.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraEditors.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraGrid.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraGrid.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraGrid.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraGrid.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.PivotGrid.v15.1.Core.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.PivotGrid.v15.1.Core.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.PivotGrid.v15.1.Core.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.PivotGrid.v15.1.Core.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraPivotGrid.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraPivotGrid.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraPivotGrid.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraPivotGrid.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraPrinting.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraPrinting.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraPrinting.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraPrinting.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraCharts.v15.1.Wizard.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraCharts.v15.1.Wizard.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraCharts.v15.1.Wizard.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraCharts.v15.1.Wizard.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraCharts.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraCharts.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraCharts.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraCharts.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.Sparkline.v15.1.Core.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.Sparkline.v15.1.Core.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.Sparkline.v15.1.Core.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.Sparkline.v15.1.Core.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.Utils.v15.1.UI.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.Utils.v15.1.UI.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.Utils.v15.1.UI.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.Utils.v15.1.UI.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraReports.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraReports.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraReports.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraReports.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraReports.v15.1.Extensions.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraReports.v15.1.Extensions.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraReports.v15.1.Extensions.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraReports.v15.1.Extensions.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraTreeList.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraTreeList.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraTreeList.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraTreeList.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.RichEdit.v15.1.Core.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.RichEdit.v15.1.Core.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.RichEdit.v15.1.Core.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.RichEdit.v15.1.Core.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraNavBar.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraNavBar.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraNavBar.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraNavBar.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraLayout.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraLayout.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraLayout.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraLayout.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraRichEdit.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraRichEdit.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraRichEdit.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraRichEdit.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.Office.v15.1.Core.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.Office.v15.1.Core.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.Office.v15.1.Core.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.Office.v15.1.Core.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraVerticalGrid.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraVerticalGrid.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraVerticalGrid.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraVerticalGrid.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraGauges.v15.1.Core.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraGauges.v15.1.Core.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraGauges.v15.1.Core.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraGauges.v15.1.Core.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.DataAccess.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.DataAccess.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.DataAccess.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.DataAccess.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.DataAccess.v15.1.UI.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.DataAccess.v15.1.UI.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.DataAccess.v15.1.UI.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.DataAccess.v15.1.UI.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.Xpo.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.Xpo.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.Xpo.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.Xpo.v15.1.resources.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.CustomDesignForm.resources
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.MainFeaturesControl.resources
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.ModuleControl.resources
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.PreviewControl.resources
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.Properties.Resources.resources
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.csproj.GenerateResource.Cache
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.dll
+D:\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.pdb
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Common.pdb
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\CipherLib.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Charts.v15.1.Core.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Data.v15.1.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.PivotGrid.v15.1.Core.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Printing.v15.1.Core.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Sparkline.v15.1.Core.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Tutorials.v15.1.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Utils.v15.1.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Utils.v15.1.UI.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraBars.v15.1.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraCharts.v15.1.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraCharts.v15.1.Wizard.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraEditors.v15.1.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraGrid.v15.1.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraPivotGrid.v15.1.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraPrinting.v15.1.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraReports.v15.1.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraReports.v15.1.Extensions.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraTreeList.v15.1.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.RichEdit.v15.1.Core.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraNavBar.v15.1.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.CodeParser.v15.1.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraLayout.v15.1.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraRichEdit.v15.1.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Office.v15.1.Core.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.DemoData.v15.1.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraVerticalGrid.v15.1.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraGauges.v15.1.Core.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.DataAccess.v15.1.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraCharts.v15.1.Extensions.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.DataAccess.v15.1.UI.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.DemoData.v15.1.Core.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Xpo.v15.1.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Printing.v15.1.Core.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Data.v15.1.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Utils.v15.1.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraBars.v15.1.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraEditors.v15.1.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraGrid.v15.1.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.PivotGrid.v15.1.Core.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraPivotGrid.v15.1.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraPrinting.v15.1.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraCharts.v15.1.Wizard.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraCharts.v15.1.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Sparkline.v15.1.Core.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Utils.v15.1.UI.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraReports.v15.1.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraReports.v15.1.Extensions.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraTreeList.v15.1.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.RichEdit.v15.1.Core.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraNavBar.v15.1.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraLayout.v15.1.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraRichEdit.v15.1.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Office.v15.1.Core.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraVerticalGrid.v15.1.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.XtraGauges.v15.1.Core.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.DataAccess.v15.1.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.DataAccess.v15.1.UI.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\DevExpress.Xpo.v15.1.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.Data.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.Data.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.Data.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.Data.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.Utils.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.Utils.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.Utils.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.Utils.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraBars.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraBars.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraBars.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraBars.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraEditors.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraEditors.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraEditors.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraEditors.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraGrid.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraGrid.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraGrid.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraGrid.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.PivotGrid.v15.1.Core.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.PivotGrid.v15.1.Core.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.PivotGrid.v15.1.Core.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.PivotGrid.v15.1.Core.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraPivotGrid.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraPivotGrid.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraPivotGrid.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraPivotGrid.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraPrinting.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraPrinting.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraPrinting.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraPrinting.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraCharts.v15.1.Wizard.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraCharts.v15.1.Wizard.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraCharts.v15.1.Wizard.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraCharts.v15.1.Wizard.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraCharts.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraCharts.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraCharts.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraCharts.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.Sparkline.v15.1.Core.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.Sparkline.v15.1.Core.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.Sparkline.v15.1.Core.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.Sparkline.v15.1.Core.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.Utils.v15.1.UI.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.Utils.v15.1.UI.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.Utils.v15.1.UI.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.Utils.v15.1.UI.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraReports.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraReports.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraReports.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraReports.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraReports.v15.1.Extensions.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraReports.v15.1.Extensions.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraReports.v15.1.Extensions.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraReports.v15.1.Extensions.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraTreeList.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraTreeList.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraTreeList.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraTreeList.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraNavBar.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraNavBar.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraNavBar.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraNavBar.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraLayout.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraLayout.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraLayout.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraLayout.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraRichEdit.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraRichEdit.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraRichEdit.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraRichEdit.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraVerticalGrid.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraVerticalGrid.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraVerticalGrid.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraVerticalGrid.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.XtraGauges.v15.1.Core.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.XtraGauges.v15.1.Core.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.XtraGauges.v15.1.Core.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.XtraGauges.v15.1.Core.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.DataAccess.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.DataAccess.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.DataAccess.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.DataAccess.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.DataAccess.v15.1.UI.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.DataAccess.v15.1.UI.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.DataAccess.v15.1.UI.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.DataAccess.v15.1.UI.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\de\DevExpress.Xpo.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\es\DevExpress.Xpo.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ja\DevExpress.Xpo.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\bin\Debug\ru\DevExpress.Xpo.v15.1.resources.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.CustomDesignForm.resources
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.MainFeaturesControl.resources
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.ModuleControl.resources
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\XtraReportsDemos.PreviewControl.resources
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.Properties.Resources.resources
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.csproj.GenerateResource.Cache
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.pdb
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\DevExpress.Common\DevExpress.Common\obj\Debug\DevExpress.Common.csprojResolveAssemblyReference.cache

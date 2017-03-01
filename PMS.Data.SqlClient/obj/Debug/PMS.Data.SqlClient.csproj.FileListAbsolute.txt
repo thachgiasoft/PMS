@@ -1,0 +1,351 @@
+D:\GiangVienSPKT\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.dll
+D:\GiangVienSPKT\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.pdb
+D:\GiangVienSPKT\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.xml
+D:\GiangVienSPKT\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\GiangVienSPKT\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\GiangVienSPKT\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\GiangVienSPKT\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.dll
+D:\GiangVienSPKT\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.dll
+D:\GiangVienSPKT\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\GiangVienSPKT\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+D:\GiangVienSPKT\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\GiangVienSPKT\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.pdb
+D:\GiangVienSPKT\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.xml
+D:\GiangVienSPKT\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.pdb
+D:\GiangVienSPKT\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.xml
+D:\GiangVienSPKT\PMS\PMS\PMS.Data.SqlClient\obj\Debug\ResolveAssemblyReference.cache
+D:\GiangVienSPKT\PMS\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.dll
+D:\GiangVienSPKT\PMS\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.pdb
+D:\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.dll
+D:\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.pdb
+D:\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.xml
+D:\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.dll
+D:\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.dll
+D:\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+D:\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.pdb
+D:\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.xml
+D:\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.pdb
+D:\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.xml
+D:\PMS\PMS.Data.SqlClient\obj\Debug\ResolveAssemblyReference.cache
+D:\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.dll
+D:\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.pdb
+D:\Khanh\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.dll
+D:\Khanh\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.pdb
+D:\Khanh\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.xml
+D:\Khanh\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Khanh\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Khanh\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Khanh\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.dll
+D:\Khanh\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.dll
+D:\Khanh\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Khanh\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+D:\Khanh\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Khanh\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.pdb
+D:\Khanh\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.xml
+D:\Khanh\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.pdb
+D:\Khanh\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.xml
+D:\Khanh\PMS\PMS.Data.SqlClient\obj\Debug\ResolveAssemblyReference.cache
+D:\Khanh\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.dll
+D:\Khanh\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.pdb
+D:\Khanh\PMS23112011\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.dll
+D:\Khanh\PMS23112011\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.pdb
+D:\Khanh\PMS23112011\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.xml
+D:\Khanh\PMS23112011\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Khanh\PMS23112011\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Khanh\PMS23112011\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Khanh\PMS23112011\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.dll
+D:\Khanh\PMS23112011\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.dll
+D:\Khanh\PMS23112011\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Khanh\PMS23112011\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+D:\Khanh\PMS23112011\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Khanh\PMS23112011\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.pdb
+D:\Khanh\PMS23112011\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.xml
+D:\Khanh\PMS23112011\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.pdb
+D:\Khanh\PMS23112011\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.xml
+D:\Khanh\PMS23112011\PMS\PMS.Data.SqlClient\obj\Debug\ResolveAssemblyReference.cache
+D:\Khanh\PMS23112011\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.dll
+D:\Khanh\PMS23112011\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.pdb
+D:\Khanh\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.dll
+D:\Khanh\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.pdb
+D:\Khanh\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.xml
+D:\Khanh\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Khanh\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Khanh\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Khanh\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.dll
+D:\Khanh\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.dll
+D:\Khanh\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Khanh\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+D:\Khanh\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Khanh\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.pdb
+D:\Khanh\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.xml
+D:\Khanh\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.pdb
+D:\Khanh\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.xml
+D:\Khanh\PMS\PMS\PMS.Data.SqlClient\obj\Debug\ResolveAssemblyReference.cache
+D:\Khanh\PMS\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.dll
+D:\Khanh\PMS\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.pdb
+D:\Khanh\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.dll
+D:\Khanh\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.pdb
+D:\Khanh\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.xml
+D:\Khanh\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Khanh\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Khanh\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Khanh\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.dll
+D:\Khanh\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.dll
+D:\Khanh\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Khanh\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+D:\Khanh\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Khanh\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.pdb
+D:\Khanh\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.xml
+D:\Khanh\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.pdb
+D:\Khanh\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.xml
+D:\Khanh\PMS\PMS\PMS\PMS.Data.SqlClient\obj\Debug\ResolveAssemblyReference.cache
+D:\Khanh\PMS\PMS\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.dll
+D:\Khanh\PMS\PMS\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.pdb
+D:\Khanh\PMS3122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.dll
+D:\Khanh\PMS3122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.pdb
+D:\Khanh\PMS3122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.xml
+D:\Khanh\PMS3122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Khanh\PMS3122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Khanh\PMS3122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Khanh\PMS3122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.dll
+D:\Khanh\PMS3122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.dll
+D:\Khanh\PMS3122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Khanh\PMS3122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+D:\Khanh\PMS3122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Khanh\PMS3122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.pdb
+D:\Khanh\PMS3122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.xml
+D:\Khanh\PMS3122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.pdb
+D:\Khanh\PMS3122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.xml
+D:\Khanh\PMS3122011\PMS\PMS\PMS\PMS.Data.SqlClient\obj\Debug\ResolveAssemblyReference.cache
+D:\Khanh\PMS3122011\PMS\PMS\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.dll
+D:\Khanh\PMS3122011\PMS\PMS\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.pdb
+D:\Khanh\PMS10122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.dll
+D:\Khanh\PMS10122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.pdb
+D:\Khanh\PMS10122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.xml
+D:\Khanh\PMS10122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Khanh\PMS10122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Khanh\PMS10122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Khanh\PMS10122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.dll
+D:\Khanh\PMS10122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.dll
+D:\Khanh\PMS10122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Khanh\PMS10122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+D:\Khanh\PMS10122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Khanh\PMS10122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.pdb
+D:\Khanh\PMS10122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.xml
+D:\Khanh\PMS10122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.pdb
+D:\Khanh\PMS10122011\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.xml
+D:\Khanh\PMS10122011\PMS\PMS\PMS\PMS.Data.SqlClient\obj\Debug\ResolveAssemblyReference.cache
+D:\Khanh\PMS10122011\PMS\PMS\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.dll
+D:\Khanh\PMS10122011\PMS\PMS\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.pdb
+D:\Working\PMS\PMS\PMS\PMS.Data.SqlClient\obj\Debug\ResolveAssemblyReference.cache
+D:\Working\PMS\PMS\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.dll
+D:\Working\PMS\PMS\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.pdb
+D:\Working\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.dll
+D:\Working\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.pdb
+D:\Working\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.xml
+D:\Working\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Working\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Working\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Working\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.dll
+D:\Working\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.dll
+D:\Working\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Working\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+D:\Working\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Working\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.pdb
+D:\Working\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.xml
+D:\Working\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.pdb
+D:\Working\PMS\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.xml
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.dll
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.pdb
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.xml
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.dll
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.dll
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.pdb
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.xml
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.pdb
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.xml
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\PMS.Data.SqlClient\obj\Debug\ResolveAssemblyReference.cache
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.dll
+D:\Working\Source\LAW - Dai Hoc Luat\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.pdb
+D:\PSC\PMS\Source\PMS\PMS\PMS.Data.SqlClient\obj\Debug\ResolveAssemblyReference.cache
+D:\PSC\PMS\Source\PMS\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.dll
+D:\PSC\PMS\Source\PMS\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.pdb
+D:\PSC\PMS\Source\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.dll
+D:\PSC\PMS\Source\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.pdb
+D:\PSC\PMS\Source\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.xml
+D:\PSC\PMS\Source\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\PSC\PMS\Source\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\PSC\PMS\Source\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\PSC\PMS\Source\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.dll
+D:\PSC\PMS\Source\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.dll
+D:\PSC\PMS\Source\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\PSC\PMS\Source\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+D:\PSC\PMS\Source\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\PSC\PMS\Source\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.pdb
+D:\PSC\PMS\Source\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.xml
+D:\PSC\PMS\Source\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.pdb
+D:\PSC\PMS\Source\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.xml
+D:\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.dll
+D:\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.pdb
+D:\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.xml
+D:\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.dll
+D:\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.dll
+D:\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+D:\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.pdb
+D:\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.xml
+D:\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.pdb
+D:\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.xml
+D:\PMS\PMS\PMS.Data.SqlClient\obj\Debug\ResolveAssemblyReference.cache
+D:\PMS\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.dll
+D:\PMS\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.pdb
+\\UISSERVER\Chep vao day ne cung oi\Hop\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.dll
+\\UISSERVER\Chep vao day ne cung oi\Hop\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.pdb
+\\UISSERVER\Chep vao day ne cung oi\Hop\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.xml
+\\UISSERVER\Chep vao day ne cung oi\Hop\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+\\UISSERVER\Chep vao day ne cung oi\Hop\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+\\UISSERVER\Chep vao day ne cung oi\Hop\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+\\UISSERVER\Chep vao day ne cung oi\Hop\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.dll
+\\UISSERVER\Chep vao day ne cung oi\Hop\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.dll
+\\UISSERVER\Chep vao day ne cung oi\Hop\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+\\UISSERVER\Chep vao day ne cung oi\Hop\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+\\UISSERVER\Chep vao day ne cung oi\Hop\PMS\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+\\UISSERVER\Chep vao day ne cung oi\Hop\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.pdb
+\\UISSERVER\Chep vao day ne cung oi\Hop\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.xml
+\\UISSERVER\Chep vao day ne cung oi\Hop\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.pdb
+\\UISSERVER\Chep vao day ne cung oi\Hop\PMS\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.xml
+\\UISSERVER\Chep vao day ne cung oi\Hop\PMS\PMS\PMS.Data.SqlClient\obj\Debug\ResolveAssemblyReference.cache
+\\UISSERVER\Chep vao day ne cung oi\Hop\PMS\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.dll
+\\UISSERVER\Chep vao day ne cung oi\Hop\PMS\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.pdb
+D:\PSC\PMS\Source\PMS_LAW\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.dll
+D:\PSC\PMS\Source\PMS_LAW\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.pdb
+D:\PSC\PMS\Source\PMS_LAW\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.xml
+D:\PSC\PMS\Source\PMS_LAW\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\PSC\PMS\Source\PMS_LAW\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\PSC\PMS\Source\PMS_LAW\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\PSC\PMS\Source\PMS_LAW\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.dll
+D:\PSC\PMS\Source\PMS_LAW\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.dll
+D:\PSC\PMS\Source\PMS_LAW\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\PSC\PMS\Source\PMS_LAW\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+D:\PSC\PMS\Source\PMS_LAW\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\PSC\PMS\Source\PMS_LAW\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.pdb
+D:\PSC\PMS\Source\PMS_LAW\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.xml
+D:\PSC\PMS\Source\PMS_LAW\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.pdb
+D:\PSC\PMS\Source\PMS_LAW\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.xml
+D:\PSC\PMS\Source\PMS_LAW\PMS\PMS.Data.SqlClient\obj\Debug\ResolveAssemblyReference.cache
+D:\PSC\PMS\Source\PMS_LAW\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.dll
+D:\PSC\PMS\Source\PMS_LAW\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.pdb
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.dll
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.pdb
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.xml
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.dll
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.dll
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.pdb
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.xml
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.pdb
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.xml
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\PMS.Data.SqlClient\obj\Debug\ResolveAssemblyReference.cache
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.dll
+D:\PSC\PMS\Source\PMS_MTU_MOI_TLAW\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.pdb
+D:\Source\PMS_CHUNG_Moi\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.dll
+D:\Source\PMS_CHUNG_Moi\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.pdb
+D:\Source\PMS_CHUNG_Moi\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.xml
+D:\Source\PMS_CHUNG_Moi\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Source\PMS_CHUNG_Moi\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Source\PMS_CHUNG_Moi\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Source\PMS_CHUNG_Moi\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.dll
+D:\Source\PMS_CHUNG_Moi\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.dll
+D:\Source\PMS_CHUNG_Moi\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Source\PMS_CHUNG_Moi\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+D:\Source\PMS_CHUNG_Moi\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Source\PMS_CHUNG_Moi\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.pdb
+D:\Source\PMS_CHUNG_Moi\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.xml
+D:\Source\PMS_CHUNG_Moi\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.pdb
+D:\Source\PMS_CHUNG_Moi\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.xml
+D:\Source\PMS_CHUNG_Moi\PMS\PMS.Data.SqlClient\obj\Debug\ResolveAssemblyReference.cache
+D:\Source\PMS_CHUNG_Moi\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.dll
+D:\Source\PMS_CHUNG_Moi\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.pdb
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.dll
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.pdb
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.xml
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.dll
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.dll
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.pdb
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.xml
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.pdb
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.xml
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\PMS.Data.SqlClient\obj\Debug\ResolveAssemblyReference.cache
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.dll
+D:\Source\BACKUP SOURCE\PMS_CHUNG_01102013.BAK\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.pdb
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.dll
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.pdb
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.xml
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\CipherLib.dll
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.dll
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.dll
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\EnvDTE80.dll
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\EnvDTE.dll
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\stdole.dll
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.pdb
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.xml
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.pdb
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.xml
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.csprojResolveAssemblyReference.cache
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.dll
+D:\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.pdb
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.pdb
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.SqlClient.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\CipherLib.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.pdb
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Entities.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.pdb
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\bin\Debug\PMS.Data.xml
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.csprojResolveAssemblyReference.cache
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.dll
+C:\Users\K\Documents\MEGA\PSC\Source\Source PMS\PMS_CHUNG\PMS\PMS.Data.SqlClient\obj\Debug\PMS.Data.SqlClient.pdb

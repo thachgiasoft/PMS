@@ -1,0 +1,531 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Web.UI;
+using System.ComponentModel;
+using System.Web.UI.Design.WebControls;
+using System.Web.UI.Design;
+using System.Web.UI.WebControls;
+
+namespace PMS.Web.UI
+{
+    /// <summary>
+    /// A designer class for a strongly typed repeater <c>ViewChiTietPhanCongGiangDayRepeater</c>
+    /// </summary>
+	public class ViewChiTietPhanCongGiangDayRepeaterDesigner : System.Web.UI.Design.ControlDesigner
+	{
+	    /// <summary>
+        /// Initializes a new instance of the <see cref="T:ViewChiTietPhanCongGiangDayRepeaterDesigner"/> class.
+        /// </summary>
+		public ViewChiTietPhanCongGiangDayRepeaterDesigner()
+		{
+		}
+
+        /// <summary>
+        /// Initializes the control designer and loads the specified component.
+        /// </summary>
+        /// <param name="component">The control being designed.</param>
+		public override void Initialize(IComponent component)
+		{
+			if (!(component is ViewChiTietPhanCongGiangDayRepeater))
+			{ 
+				throw new ArgumentException("Component is not a ViewChiTietPhanCongGiangDayRepeater."); 
+			} 
+			base.Initialize(component); 
+			base.SetViewFlags(ViewFlags.TemplateEditing, true); 
+		}
+
+
+		/// <summary>
+		/// Generate HTML for the designer
+		/// </summary>
+		/// <returns>a string of design time HTML</returns>
+		public override string GetDesignTimeHtml()
+		{
+
+			// Get the instance this designer applies to
+			//
+			ViewChiTietPhanCongGiangDayRepeater z = (ViewChiTietPhanCongGiangDayRepeater)Component;
+			z.DataBind();
+
+			return base.GetDesignTimeHtml();
+		}
+	}
+
+    /// <summary>
+    /// A strongly typed repeater control for the <see cref="ViewChiTietPhanCongGiangDayRepeater"/> Type.
+    /// </summary>
+	[Designer(typeof(ViewChiTietPhanCongGiangDayRepeaterDesigner))]
+	[ParseChildren(true)]
+	[ToolboxData("<{0}:ViewChiTietPhanCongGiangDayRepeater runat=\"server\"></{0}:ViewChiTietPhanCongGiangDayRepeater>")]
+	public class ViewChiTietPhanCongGiangDayRepeater : CompositeDataBoundControl, System.Web.UI.INamingContainer
+	{
+	    /// <summary>
+        /// Initializes a new instance of the <see cref="T:ViewChiTietPhanCongGiangDayRepeater"/> class.
+        /// </summary>
+		public ViewChiTietPhanCongGiangDayRepeater()
+		{
+		}
+
+		/// <summary>
+        /// Gets a <see cref="T:System.Web.UI.ControlCollection"></see> object that represents the child controls for a specified server control in the UI hierarchy.
+        /// </summary>
+        /// <value></value>
+        /// <returns>The collection of child controls for the specified server control.</returns>
+		public override ControlCollection Controls
+		{
+			get
+			{
+				this.EnsureChildControls();
+				return base.Controls;
+			}
+		}
+
+		private ITemplate m_headerTemplate;
+		/// <summary>
+        /// Gets or sets the header template.
+        /// </summary>
+        /// <value>The header template.</value>
+		[Browsable(false)]
+		[TemplateContainer(typeof(ViewChiTietPhanCongGiangDayItem))]
+		[PersistenceMode(PersistenceMode.InnerDefaultProperty)]
+		public ITemplate HeaderTemplate
+		{
+			get { return m_headerTemplate; }
+			set { m_headerTemplate = value; }
+		}
+
+		private ITemplate m_itemTemplate;
+		/// <summary>
+        /// Gets or sets the item template.
+        /// </summary>
+        /// <value>The item template.</value>
+		[Browsable(false)]
+		[TemplateContainer(typeof(ViewChiTietPhanCongGiangDayItem))]
+		[PersistenceMode(PersistenceMode.InnerDefaultProperty)]
+		public ITemplate ItemTemplate
+		{
+			get { return m_itemTemplate; }
+			set { m_itemTemplate = value; }
+		}
+
+		private ITemplate m_seperatorTemplate;
+		/// <summary>
+        /// Gets or sets the Seperator Template
+        /// </summary>
+        [Browsable(false)]
+        [TemplateContainer(typeof(ViewChiTietPhanCongGiangDayItem))]
+        [PersistenceMode(PersistenceMode.InnerDefaultProperty)]
+        public ITemplate SeperatorTemplate
+        {
+            get { return m_seperatorTemplate; }
+            set { m_seperatorTemplate = value; }
+        }
+
+		private ITemplate m_altenateItemTemplate;
+        /// <summary>
+        /// Gets or sets the alternating item template.
+        /// </summary>
+        /// <value>The alternating item template.</value>
+		[Browsable(false)]
+		[TemplateContainer(typeof(ViewChiTietPhanCongGiangDayItem))]
+		[PersistenceMode(PersistenceMode.InnerDefaultProperty)]
+		public ITemplate AlternatingItemTemplate
+		{
+			get { return m_altenateItemTemplate; }
+			set { m_altenateItemTemplate = value; }
+		}
+
+		private ITemplate m_footerTemplate;
+        /// <summary>
+        /// Gets or sets the footer template.
+        /// </summary>
+        /// <value>The footer template.</value>
+		[Browsable(false)]
+		[TemplateContainer(typeof(ViewChiTietPhanCongGiangDayItem))]
+		[PersistenceMode(PersistenceMode.InnerDefaultProperty)]
+		public ITemplate FooterTemplate
+		{
+			get { return m_footerTemplate; }
+			set { m_footerTemplate = value; }
+		}
+		
+		
+		/// <summary>
+        /// Overridden and Empty so that span tags are not written
+        /// </summary>
+        /// <param name="writer"></param>
+        public override void RenderBeginTag(HtmlTextWriter writer)
+        {
+            
+        }
+
+        /// <summary>
+        /// Overridden and Empty so that span tags are not written
+        /// </summary>
+        /// <param name="writer"></param>
+        public override void RenderEndTag(HtmlTextWriter writer)
+        {
+                
+        }		
+
+//      /// <summary>
+//      /// Called by the ASP.NET page framework to notify server controls that use composition-based implementation to create any child controls they contain in preparation for posting back or rendering.
+//      /// </summary>
+//		protected override void CreateChildControls()
+//		{
+//			if (ChildControlsCreated)
+//			{
+//				return;
+//			}
+//			Controls.Clear();
+//
+//			if (m_headerTemplate != null)
+//			{
+//				Control headerItem = new Control();
+//				m_headerTemplate.InstantiateIn(headerItem);
+//				Controls.Add(headerItem);
+//			}
+//
+//			
+//			if (m_footerTemplate != null)
+//			{
+//				Control footerItem = new Control();
+//				m_footerTemplate.InstantiateIn(footerItem);
+//				Controls.Add(footerItem);
+//			}
+//			ChildControlsCreated = true;
+//		}
+		
+		/// <summary>
+      /// Called by the ASP.NET page framework to notify server controls that use composition-based implementation to create any child controls they contain in preparation for posting back or rendering.
+      /// </summary>
+		protected override int CreateChildControls(System.Collections.IEnumerable dataSource, bool dataBinding)
+      {
+         int pos = 0;
+
+         if (dataBinding)
+         {
+            //Instantiate the Header template (if exists)
+            if (m_headerTemplate != null)
+            {
+                Control headerItem = new Control();
+                m_headerTemplate.InstantiateIn(headerItem);
+                Controls.Add(headerItem);
+            }
+			if (dataSource != null)
+			{
+				foreach (object o in dataSource)
+				{
+						PMS.Entities.ViewChiTietPhanCongGiangDay entity = o as PMS.Entities.ViewChiTietPhanCongGiangDay;
+						ViewChiTietPhanCongGiangDayItem container = new ViewChiTietPhanCongGiangDayItem(entity);
+	
+						if (m_itemTemplate != null && (pos % 2) == 0)
+						{
+							m_itemTemplate.InstantiateIn(container);
+							
+							if (m_seperatorTemplate != null)
+							{
+								m_seperatorTemplate.InstantiateIn(container);
+							}
+						}
+						else
+						{
+							if (m_altenateItemTemplate != null)
+							{
+								m_altenateItemTemplate.InstantiateIn(container);
+								if (m_seperatorTemplate != null)
+								{
+									m_seperatorTemplate.InstantiateIn(container);
+								}
+
+							}
+							else if (m_itemTemplate != null)
+							{
+								m_itemTemplate.InstantiateIn(container);
+								if (m_seperatorTemplate != null)
+								{
+									m_seperatorTemplate.InstantiateIn(container);
+								}
+
+							}
+							else
+							{
+								// no template !!!
+							}
+						}
+						Controls.Add(container);
+						
+						container.DataBind();
+						
+						pos++;
+				}
+			}            
+			//Instantiate the Footer template (if exists)
+            if (m_footerTemplate != null)
+            {
+                Control footerItem = new Control();
+                m_footerTemplate.InstantiateIn(footerItem);
+                Controls.Add(footerItem);
+            }				
+		 }
+			
+			return pos;
+		}
+		
+      /// <summary>
+      /// Raises the <see cref="E:System.Web.UI.Control.PreRender"></see> event.
+      /// </summary>
+      /// <param name="e">An <see cref="T:System.EventArgs"></see> object that contains the event data.</param>
+		protected override void OnPreRender(EventArgs e)
+		{
+			base.DataBind();
+		}
+
+		#region Design time
+        /// <summary>
+        /// Renders at design time.
+        /// </summary>
+        /// <returns>a  string of the Designed HTML</returns>
+		internal string RenderAtDesignTime()
+		{			
+			return "Designer currently not implemented"; 
+		}
+
+		#endregion
+	}
+
+    /// <summary>
+    /// A wrapper type for the entity
+    /// </summary>
+	[System.ComponentModel.ToolboxItem(false)]
+	public class ViewChiTietPhanCongGiangDayItem : System.Web.UI.Control, System.Web.UI.INamingContainer
+	{
+		private PMS.Entities.ViewChiTietPhanCongGiangDay _entity;
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="T:ViewChiTietPhanCongGiangDayItem"/> class.
+        /// </summary>
+		public ViewChiTietPhanCongGiangDayItem()
+			: base()
+		{ }
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="T:ViewChiTietPhanCongGiangDayItem"/> class.
+        /// </summary>
+		public ViewChiTietPhanCongGiangDayItem(PMS.Entities.ViewChiTietPhanCongGiangDay entity)
+			: base()
+		{
+			_entity = entity;
+		}
+		
+        /// <summary>
+        /// Gets the MaLhpGoc
+        /// </summary>
+        /// <value>The MaLhpGoc.</value>
+		[System.ComponentModel.Bindable(true)]
+		public System.String MaLhpGoc
+		{
+			get { return _entity.MaLhpGoc; }
+		}
+        /// <summary>
+        /// Gets the MaLhp
+        /// </summary>
+        /// <value>The MaLhp.</value>
+		[System.ComponentModel.Bindable(true)]
+		public System.String MaLhp
+		{
+			get { return _entity.MaLhp; }
+		}
+        /// <summary>
+        /// Gets the MaHp
+        /// </summary>
+        /// <value>The MaHp.</value>
+		[System.ComponentModel.Bindable(true)]
+		public System.String MaHp
+		{
+			get { return _entity.MaHp; }
+		}
+        /// <summary>
+        /// Gets the TenLhp
+        /// </summary>
+        /// <value>The TenLhp.</value>
+		[System.ComponentModel.Bindable(true)]
+		public System.String TenLhp
+		{
+			get { return _entity.TenLhp; }
+		}
+        /// <summary>
+        /// Gets the MaMonHoc
+        /// </summary>
+        /// <value>The MaMonHoc.</value>
+		[System.ComponentModel.Bindable(true)]
+		public System.String MaMonHoc
+		{
+			get { return _entity.MaMonHoc; }
+		}
+        /// <summary>
+        /// Gets the MaNhom
+        /// </summary>
+        /// <value>The MaNhom.</value>
+		[System.ComponentModel.Bindable(true)]
+		public System.String MaNhom
+		{
+			get { return _entity.MaNhom; }
+		}
+        /// <summary>
+        /// Gets the TenNhom
+        /// </summary>
+        /// <value>The TenNhom.</value>
+		[System.ComponentModel.Bindable(true)]
+		public System.String TenNhom
+		{
+			get { return _entity.TenNhom; }
+		}
+        /// <summary>
+        /// Gets the TenLoaiHp
+        /// </summary>
+        /// <value>The TenLoaiHp.</value>
+		[System.ComponentModel.Bindable(true)]
+		public System.String TenLoaiHp
+		{
+			get { return _entity.TenLoaiHp; }
+		}
+        /// <summary>
+        /// Gets the MaLich
+        /// </summary>
+        /// <value>The MaLich.</value>
+		[System.ComponentModel.Bindable(true)]
+		public System.Int32 MaLich
+		{
+			get { return _entity.MaLich; }
+		}
+        /// <summary>
+        /// Gets the Nam
+        /// </summary>
+        /// <value>The Nam.</value>
+		[System.ComponentModel.Bindable(true)]
+		public System.Int32? Nam
+		{
+			get { return _entity.Nam; }
+		}
+        /// <summary>
+        /// Gets the Tuan
+        /// </summary>
+        /// <value>The Tuan.</value>
+		[System.ComponentModel.Bindable(true)]
+		public System.Int32? Tuan
+		{
+			get { return _entity.Tuan; }
+		}
+        /// <summary>
+        /// Gets the TuanHienThi
+        /// </summary>
+        /// <value>The TuanHienThi.</value>
+		[System.ComponentModel.Bindable(true)]
+		public System.Int32 TuanHienThi
+		{
+			get { return _entity.TuanHienThi; }
+		}
+        /// <summary>
+        /// Gets the MaNgayTrongTuan
+        /// </summary>
+        /// <value>The MaNgayTrongTuan.</value>
+		[System.ComponentModel.Bindable(true)]
+		public System.Int32? MaNgayTrongTuan
+		{
+			get { return _entity.MaNgayTrongTuan; }
+		}
+        /// <summary>
+        /// Gets the NgayTrongTuan
+        /// </summary>
+        /// <value>The NgayTrongTuan.</value>
+		[System.ComponentModel.Bindable(true)]
+		public System.String NgayTrongTuan
+		{
+			get { return _entity.NgayTrongTuan; }
+		}
+        /// <summary>
+        /// Gets the MaTiet
+        /// </summary>
+        /// <value>The MaTiet.</value>
+		[System.ComponentModel.Bindable(true)]
+		public System.Int32? MaTiet
+		{
+			get { return _entity.MaTiet; }
+		}
+        /// <summary>
+        /// Gets the KhoanTiet
+        /// </summary>
+        /// <value>The KhoanTiet.</value>
+		[System.ComponentModel.Bindable(true)]
+		public System.String KhoanTiet
+		{
+			get { return _entity.KhoanTiet; }
+		}
+        /// <summary>
+        /// Gets the SoTiet
+        /// </summary>
+        /// <value>The SoTiet.</value>
+		[System.ComponentModel.Bindable(true)]
+		public System.Int32? SoTiet
+		{
+			get { return _entity.SoTiet; }
+		}
+        /// <summary>
+        /// Gets the MaPhong
+        /// </summary>
+        /// <value>The MaPhong.</value>
+		[System.ComponentModel.Bindable(true)]
+		public System.String MaPhong
+		{
+			get { return _entity.MaPhong; }
+		}
+        /// <summary>
+        /// Gets the TenPhong
+        /// </summary>
+        /// <value>The TenPhong.</value>
+		[System.ComponentModel.Bindable(true)]
+		public System.String TenPhong
+		{
+			get { return _entity.TenPhong; }
+		}
+        /// <summary>
+        /// Gets the NgayDay
+        /// </summary>
+        /// <value>The NgayDay.</value>
+		[System.ComponentModel.Bindable(true)]
+		public System.String NgayDay
+		{
+			get { return _entity.NgayDay; }
+		}
+        /// <summary>
+        /// Gets the MaGiangVien
+        /// </summary>
+        /// <value>The MaGiangVien.</value>
+		[System.ComponentModel.Bindable(true)]
+		public System.String MaGiangVien
+		{
+			get { return _entity.MaGiangVien; }
+		}
+        /// <summary>
+        /// Gets the HoTen
+        /// </summary>
+        /// <value>The HoTen.</value>
+		[System.ComponentModel.Bindable(true)]
+		public System.String HoTen
+		{
+			get { return _entity.HoTen; }
+		}
+        /// <summary>
+        /// Gets the DanhSachLop
+        /// </summary>
+        /// <value>The DanhSachLop.</value>
+		[System.ComponentModel.Bindable(true)]
+		public System.String DanhSachLop
+		{
+			get { return _entity.DanhSachLop; }
+		}
+
+	}
+}

@@ -1,0 +1,67 @@
+using System;
+using System.Drawing;
+using System.Collections;
+using System.ComponentModel;
+using DevExpress.XtraReports.UI;
+using System.Data;
+
+namespace PMS.UserReports
+{
+    public partial class rptDanhSachThanhToanThuLaoTheoNam_HBU : DevExpress.XtraReports.UI.XtraReport
+    {
+        int _sttBoMon = 0;
+        string _maQuanLy = "";
+        public rptDanhSachThanhToanThuLaoTheoNam_HBU()
+        {
+            InitializeComponent();
+        }
+        public void InitData(string tenTruong, string namHoc, string hocKy, string phongToChucCanBo, string phongDaoTao, string nguoiLapBieu, DataTable data)
+        {
+            pTruong.Value = tenTruong.ToUpper();
+            pNamHoc.Value = namHoc;
+            pHocKy.Value = hocKy;
+            pPhongToChucCanBo.Value = phongToChucCanBo;
+            pPhongDaoTao.Value = phongDaoTao;
+            pNguoiLapBieu.Value = nguoiLapBieu;
+            _maQuanLy = "";
+            foreach (DataColumn column in data.Columns)
+            {
+                column.ReadOnly = false;
+            }
+            decimal thucLanh = 0;
+            foreach (DataRow row in data.Rows)
+            {
+                thucLanh += (decimal)row["ThucLanh"];
+            }
+            foreach (DataRow row in data.Rows)
+            {
+                row["TienBangSo"] = thucLanh;
+                row["TienBangChu"] = PMS.Common.Globals.DocTien(thucLanh);
+            }
+            bindingSourceThongKe.DataSource = data;
+        }
+
+        private void GroupHeader3_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+           
+        }
+
+        private void GroupHeader2_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+            _sttBoMon = 0;
+        }
+
+        private void xrTableCell34_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+            if (_maQuanLy == xrTableCell19.Text)
+            {
+                xrTableCell34.Borders = DevExpress.XtraPrinting.BorderSide.Right | DevExpress.XtraPrinting.BorderSide.Left;
+            }
+            else
+            {
+                xrTableCell34.Borders = DevExpress.XtraPrinting.BorderSide.Right | DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top;
+            }
+            _maQuanLy = xrTableCell19.Text;
+        }
+    }
+}
